@@ -7,7 +7,7 @@ slices: >-
   [{"slice_type":"animated_text_hero","primary":{"title_prefix":"Profesjonalna","title_suffix":"w
   Białej
   Podlaskiej","rotating_words":[{"word":"rehabilitacja"},{"word":"fizjoterapia"},{"word":"terapia
-  manualna"},{"word":"opieka zdrowotna"}],"subtitle":"100% Kompleksowa opieka
+  manualna"},{"word":"opieka zdrowotna"}],"subtitle":"100%%% Kompleksowa opieka
   rehabilitacyjna z ponad 15-letnim doświadczeniem. Indywidualne podejście,
   nowoczesne metody, sprawdzona skuteczność.","cta_text":"Umów
   wizytę","cta_link":{"url":"/kontakt"},"secondary_cta_text":"Poznaj nasze
