@@ -2,6 +2,8 @@
 title: 'Regulamin'
 status: 'published'
 publishedAt: '2024-01-01T00:00:00.000Z'
+path: '/regulamin'
+pageType: 'richtext'
 metaTitle: 'Regulamin - ExuraOrtho'
 metaDescription: 'Regulamin świadczenia usług fizjoterapii i rehabilitacji przez ExuraOrtho.'
 ---

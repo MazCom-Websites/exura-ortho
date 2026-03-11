@@ -2,6 +2,8 @@
 title: 'Polityka Prywatności'
 status: 'published'
 publishedAt: '2024-01-01T00:00:00.000Z'
+path: '/polityka-prywatnosci'
+pageType: 'richtext'
 metaTitle: 'Polityka Prywatności - ExuraOrtho'
 metaDescription: 'Polityka prywatności ExuraOrtho. Dowiedz się, jak przetwarzamy i chronimy Twoje dane osobowe.'
 ---

@@ -3,6 +3,8 @@ title: Strona główna
 status: published
 publishedAt: '2024-01-01T00:00:00.000Z'
 description: ExuraOrtho - Centrum Rehabilitacji i Sprzętu Medycznego
+path: /
+contextType: services
 slices: >-
   [{"slice_type":"animated_text_hero","primary":{"title_prefix":"Profesjonalna","title_suffix":"w
   Białej
