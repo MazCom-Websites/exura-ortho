@@ -34,12 +34,12 @@ slices: >-
   szablonowych
   rozwiązań."},{"size":"small","bg_color":"white","icon":"Clock","title":"Elastyczne
   terminy","description":"Wizyty dopasowane do Twojego
-  grafiku"},{"size":"small","bg_color":"white","icon":"Shield","title":"Bezpieczeństwo","description":"Certyfikowani
+  grafiku","image":{"url":"","alt":""}},{"size":"small","bg_color":"white","icon":"Shield","title":"Bezpieczeństwo","description":"Certyfikowani
   specjaliści z
   ubezpieczeniem"},{"size":"medium","bg_color":"dark","title":"Nowoczesny
   gabinet","description":"Profesjonalny sprzęt rehabilitacyjny i komfortowe
   warunki terapii w naszej siedzibie przy ul.
-  Wroczyńskiego.","image":{"url":"/images/gabinet.jpg","alt":"Gabinet
+  Wroczyńskiego.","image":{"url":"https://res.cloudinary.com/djyf1kk36/image/upload/v1773319142/exuraortho/wmnhekjuujjzr7lcpheu.png","alt":"Gabinet
   rehabilitacyjny
   ExuraOrtho"}},{"size":"small","bg_color":"primary","icon":"Truck","title":"Dojeżdżamy
   do Ciebie","description":"Rehabilitacja domowa w promieniu 30
@@ -127,7 +127,7 @@ slices: >-
   zdrowie jest w dobrych rękach","subtitle":"Ponad 500 pacjentów zaufało naszemu
   doświadczeniu. Dołącz do nich i przekonaj się, że profesjonalna rehabilitacja
   zmienia
-  życie.","background_image":{"url":"/images/parallax-rehab.jpg","alt":"Rehabilitacja
+  życie.","background_image":{"url":"https://res.cloudinary.com/djyf1kk36/image/upload/v1773319140/exuraortho/g87o6sbvocvjljwg4tmr.png","alt":"Rehabilitacja
   w ExuraOrtho"},"cta_text":"Umów bezpłatną
   konsultację","cta_link":{"url":"/kontakt"}}},{"slice_type":"testimonials_carousel","primary":{"title":"Opinie
   naszych pacjentów","subtitle":"Przeczytaj, co mówią osoby, którym pomogliśmy
@@ -168,8 +168,8 @@ slices: >-
   medycznych","icon":{"url":"/images/icons/specialties.svg"}},{"number":"98%","label":"Skuteczność
   terapii","icon":{"url":"/images/icons/success.svg"}}]}},{"slice_type":"accordion_with_media","primary":{"title":"Najczęstsze
   pytania
-  pacjentów","media":{"url":"/images/faq-consultation.jpg","alt":"Konsultacja z
-  fizjoterapeutą"},"items":[{"question":"Czy potrzebuję skierowania od
+  pacjentów","media":{"url":"https://res.cloudinary.com/djyf1kk36/image/upload/v1773319139/exuraortho/itqmfke1mxymxy7mp9ik.png","alt":"Konsultacja
+  z fizjoterapeutą"},"items":[{"question":"Czy potrzebuję skierowania od
   lekarza?","answer":"Nie, nasze usługi są prywatne i nie wymagają skierowania.
   Możesz umówić się bezpośrednio. Jeśli planujesz korzystać z dofinansowania NFZ
   na sprzęt, pomożemy Ci w uzyskaniu odpowiednich dokumentów."},{"question":"Ile
