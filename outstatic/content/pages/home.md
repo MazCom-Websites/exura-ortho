@@ -205,10 +205,5 @@ slices: >-
   Twoje życie. Oferujemy bezpłatną 15-minutową konsultację
   telefoniczną.","phone_number":"+48503401451","cta_text":"Umów wizytę
   online","cta_link":{"text":"Umów wizytę","url":"/kontakt"}}}]
-metaTitle: ExuraOrtho - Centrum Rehabilitacji i Sprzętu Medycznego w Białej Podlaskiej
-metaDescription: >-
-  Profesjonalna rehabilitacja, fizjoterapia i sprzęt medyczny w Białej
-  Podlaskiej. 15+ lat doświadczenia, 500+ pacjentów, rehabilitacja domowa. Umów
-  bezpłatną konsultację!
 ---
 

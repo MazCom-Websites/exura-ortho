@@ -230,10 +230,5 @@ slices: >-
   wizytę","primary_button_link":{"text":"Umów
   wizytę","url":"/kontakt"},"secondary_button_text":"Zadzwoń: 503 401
   451","secondary_button_link":{"text":"Zadzwoń","url":"tel:+48503401451"}}}]
-metaTitle: O nas - ExuraOrtho | Centrum Rehabilitacji w Białej Podlaskiej
-metaDescription: >-
-  Poznaj zespół ExuraOrtho. 6 certyfikowanych specjalistów, 15+ lat
-  doświadczenia, 500+ zadowolonych pacjentów. Fizjoterapia, rehabilitacja
-  domowa, sprzęt medyczny w Białej Podlaskiej.
 ---
 
