@@ -3,6 +3,12 @@ title: O nas
 status: published
 publishedAt: '2024-01-01T00:00:00.000Z'
 description: Poznaj zespół ExuraOrtho - Centrum Rehabilitacji w Białej Podlaskiej
+path: '/o-nas'
+metaTitle: O nas - ExuraOrtho | Centrum Rehabilitacji w Białej Podlaskiej
+metaDescription: >-
+  Poznaj zespół ExuraOrtho. 6 certyfikowanych specjalistów, 15+ lat
+  doświadczenia, 500+ zadowolonych pacjentów. Fizjoterapia, rehabilitacja
+  domowa, sprzęt medyczny w Białej Podlaskiej.
 slices: >-
   [{"slice_type":"split_hero","primary":{"badge":"O nas","title":"Poznaj
   ExuraOrtho - Twoje Centrum Rehabilitacji","subtitle":"Od 2009 roku pomagamy
