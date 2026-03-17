@@ -1,0 +1,335 @@
+{
+  "title": "Piotr Lewandowski",
+  "slug": "piotr-lewandowski",
+  "publishedAt": "2024-01-01T00:00:00.000Z",
+  "status": "published",
+  "name": "Piotr Lewandowski",
+  "position": "Kierownik Centrum — Fizjoterapia Ogólna i Ortopedyczna",
+  "shortBio": "Założyciel i kierownik ExuraOrtho. Certyfikowany terapeuta manualny z ponad 15-letnim doświadczeniem w fizjoterapii ortopedycznej i rehabilitacji pourazowej.",
+  "bio": "Absolwent AWF Warszawa z ponad 15-letnim doświadczeniem w fizjoterapii i rehabilitacji ortopedycznej. Założyciel ExuraOrtho. Specjalizuje się w terapii manualnej, rehabilitacji pourazowej i pooperacyjnej. Certyfikowany terapeuta manualny wg koncepcji Kaltenborna-Evjentha.",
+  "photo": "/images/team/piotr-lewandowski.jpg",
+  "email": "piotr@exuraortho.pl",
+  "phone": "+48 503 401 451",
+  "experienceYears": 15,
+  "specializations": [
+    "Terapia manualna",
+    "Rehabilitacja pourazowa",
+    "Rehabilitacja pooperacyjna",
+    "Fizjoterapia ortopedyczna"
+  ],
+  "education": [
+    {
+      "type": "education",
+      "year": "2008",
+      "title": "Magistr Fizjoterapii",
+      "institution": "AWF Warszawa"
+    },
+    {
+      "type": "certification",
+      "year": "2012",
+      "title": "Certyfikowany terapeuta manualny — koncepcja Kaltenborna-Evjentha",
+      "institution": "Instytut Fizjoterapii"
+    },
+    {
+      "type": "course",
+      "year": "2018",
+      "title": "Zaawansowana fizjoterapia ortopedyczna",
+      "institution": "Polskie Towarzystwo Fizjoterapii"
+    }
+  ],
+  "certifications": [
+    "Terapia manualna wg koncepcji Kaltenborna-Evjentha",
+    "Fizjoterapia ortopedyczna — poziom zaawansowany",
+    "Rehabilitacja pourazowa i pooperacyjna"
+  ],
+  "relatedServices": [
+    "fizjoterapia",
+    "terapia-manualna",
+    "rehabilitacja-domowa"
+  ],
+  "slices": [
+    {
+      "slice_type": "employee_hero",
+      "primary": {
+        "name": "Piotr Lewandowski",
+        "position": "Kierownik Centrum — Fizjoterapia Ogólna i Ortopedyczna",
+        "photo": {
+          "url": "/images/team/piotr-lewandowski.jpg",
+          "alt": "Piotr Lewandowski"
+        },
+        "experience_years": "15",
+        "bio": "Absolwent AWF Warszawa z ponad 15-letnim doświadczeniem w fizjoterapii i rehabilitacji ortopedycznej. Założyciel ExuraOrtho. Specjalizuje się w terapii manualnej, rehabilitacji pourazowej i pooperacyjnej.",
+        "email": "piotr@exuraortho.pl",
+        "phone": "+48 503 401 451",
+        "cta_link": {
+          "url": "/rezerwacja"
+        },
+        "cta_text": "Umów wizytę u Piotra"
+      },
+      "items": [
+        {
+          "tag": "Terapia manualna"
+        },
+        {
+          "tag": "Rehabilitacja pourazowa"
+        },
+        {
+          "tag": "Rehabilitacja pooperacyjna"
+        },
+        {
+          "tag": "Fizjoterapia ortopedyczna"
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_stats",
+      "primary": {
+        "dark_bg": false
+      },
+      "items": [
+        {
+          "icon": "Calendar",
+          "number": "15",
+          "suffix": "+",
+          "label": "Lat doświadczenia"
+        },
+        {
+          "icon": "Users",
+          "number": "300",
+          "suffix": "+",
+          "label": "Pacjentów pod opieką"
+        },
+        {
+          "icon": "Award",
+          "number": "3",
+          "suffix": "",
+          "label": "Certyfikaty specjalistyczne"
+        },
+        {
+          "icon": "Home",
+          "number": "30",
+          "suffix": "km",
+          "label": "Zasięg wizyt domowych"
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_expertise",
+      "primary": {
+        "title": "Obszary specjalizacji",
+        "description": "Kompleksowe podejście do fizjoterapii ortopedycznej i terapii manualnej"
+      },
+      "items": [
+        {
+          "icon": "Bone",
+          "area_title": "Terapia manualna",
+          "area_description": "Mobilizacje i manipulacje stawowe wg koncepcji Kaltenborna-Evjentha. Skuteczne w bólach kręgosłupa i dysfunkcjach stawowych."
+        },
+        {
+          "icon": "Activity",
+          "area_title": "Rehabilitacja pourazowa",
+          "area_description": "Kompleksowe leczenie po urazach sportowych, wypadkach i kontuzjach. Powrót do pełnej sprawności w jak najkrótszym czasie."
+        },
+        {
+          "icon": "Stethoscope",
+          "area_title": "Rehabilitacja pooperacyjna",
+          "area_description": "Specjalistyczna terapia po operacjach ortopedycznych, artroskopii, endoprotezoplastyce i innych zabiegach chirurgicznych."
+        },
+        {
+          "icon": "ArrowUp",
+          "area_title": "Fizjoterapia ogólna",
+          "area_description": "Diagnostyka i leczenie schorzeń narządu ruchu, bólów kręgosłupa i dysfunkcji ortopedycznych."
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_approach",
+      "primary": {
+        "title": "Moje podejście do terapii",
+        "quote": "Każdy pacjent jest dla mnie wyjątkowy. Zanim zacznę leczyć, staram się naprawdę zrozumieć problem — bo tylko wtedy mogę pomóc skutecznie.",
+        "image": {
+          "url": "/images/team/piotr-lewandowski.jpg",
+          "alt": "Piotr Lewandowski podczas terapii"
+        },
+        "image_position": "right"
+      },
+      "items": [
+        {
+          "principle_title": "Dokładna diagnoza przed terapią",
+          "principle_description": "Zawsze zaczynam od szczegółowego wywiadu i badania funkcjonalnego, bo precyzyjna diagnoza to fundament skutecznego leczenia."
+        },
+        {
+          "principle_title": "Indywidualny plan dla każdego",
+          "principle_description": "Nie ma dwóch takich samych pacjentów. Każdy plan terapii tworzę od podstaw, uwzględniając stan zdrowia, styl życia i cele pacjenta."
+        },
+        {
+          "principle_title": "Edukacja i prewencja",
+          "principle_description": "Nie tylko leczę — uczę pacjentów, jak dbać o siebie na co dzień, żeby problem nie wrócił."
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_certifications",
+      "primary": {
+        "title": "Wykształcenie i certyfikaty",
+        "description": "Ciągłe doskonalenie zawodowe to dla mnie priorytet"
+      },
+      "items": [
+        {
+          "type": "education",
+          "year": "2008",
+          "title": "Magistr Fizjoterapii",
+          "institution": "AWF Warszawa"
+        },
+        {
+          "type": "certification",
+          "year": "2012",
+          "title": "Terapeuta manualny — koncepcja Kaltenborna-Evjentha",
+          "institution": "Instytut Fizjoterapii"
+        },
+        {
+          "type": "course",
+          "year": "2018",
+          "title": "Zaawansowana fizjoterapia ortopedyczna",
+          "institution": "Polskie Towarzystwo Fizjoterapii"
+        },
+        {
+          "type": "course",
+          "year": "2021",
+          "title": "Terapia bólu przewlekłego",
+          "institution": "Centrum Kształcenia Fizjoterapeutów"
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_schedule",
+      "primary": {
+        "title": "Godziny przyjęć",
+        "note": "Wizyty domowe możliwe w promieniu 30 km od Białej Podlaskiej",
+        "phone": "+48 503 401 451",
+        "cta_text": "Umów wizytę",
+        "cta_link": {
+          "url": "/rezerwacja"
+        },
+        "accepts_home_visits": true
+      },
+      "items": [
+        {
+          "day": "Poniedziałek",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Wtorek",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Środa",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Czwartek",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Piątek",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Sobota",
+          "hours": "Na umówienie",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Niedziela",
+          "hours": "",
+          "is_closed": true,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "slice_type": "team_related",
+      "primary": {
+        "title": "Poznaj pozostałych specjalistów",
+        "all_team_link": {
+          "url": "/pracownicy"
+        }
+      },
+      "items": [
+        {
+          "name": "Anna Kowalska",
+          "position": "Fizjoterapia Sportowa",
+          "photo": {
+            "url": "/images/team/anna-kowalska.jpg",
+            "alt": "Anna Kowalska"
+          },
+          "profile_url": "/pracownicy/anna-kowalska"
+        },
+        {
+          "name": "Marek Wiśniewski",
+          "position": "Rehabilitacja Neurologiczna",
+          "photo": {
+            "url": "/images/team/marek-wisniewski.jpg",
+            "alt": "Marek Wiśniewski"
+          },
+          "profile_url": "/pracownicy/marek-wisniewski"
+        },
+        {
+          "name": "Katarzyna Nowak",
+          "position": "Rehabilitacja Geriatryczna",
+          "photo": {
+            "url": "/images/team/katarzyna-nowak.jpg",
+            "alt": "Katarzyna Nowak"
+          },
+          "profile_url": "/pracownicy/katarzyna-nowak"
+        },
+        {
+          "name": "Tomasz Zieliński",
+          "position": "Sprzęt Medyczny",
+          "photo": {
+            "url": "/images/team/tomasz-zielinski.jpg",
+            "alt": "Tomasz Zieliński"
+          },
+          "profile_url": "/pracownicy/tomasz-zielinski"
+        },
+        {
+          "name": "Magdalena Kaczmarek",
+          "position": "Terapia Manualna",
+          "photo": {
+            "url": "/images/team/magdalena-kaczmarek.jpg",
+            "alt": "Magdalena Kaczmarek"
+          },
+          "profile_url": "/pracownicy/magdalena-kaczmarek"
+        }
+      ]
+    },
+    {
+      "slice_type": "cta_section",
+      "primary": {
+        "title": "Umów wizytę u Piotra",
+        "description": "Zadzwoń lub wypełnij formularz — odpiszemy w ciągu 24 godzin",
+        "primary_button_text": "Umów wizytę",
+        "primary_button_link": {
+          "url": "/rezerwacja"
+        },
+        "secondary_button_text": "Zadzwoń: 503 401 451",
+        "secondary_button_link": {
+          "url": "tel:+48503401451"
+        }
+      }
+    }
+  ],
+  "metaTitle": "Piotr Lewandowski — Fizjoterapia i Terapia Manualna | ExuraOrtho",
+  "metaDescription": "Piotr Lewandowski — założyciel ExuraOrtho, certyfikowany terapeuta manualny z 15+ latami doświadczenia. Fizjoterapia ortopedyczna, rehabilitacja pourazowa w Białej Podlaskiej."
+}

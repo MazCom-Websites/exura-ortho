@@ -1,0 +1,330 @@
+{
+  "title": "Marek Wiśniewski",
+  "slug": "marek-wisniewski",
+  "publishedAt": "2024-01-01T00:00:00.000Z",
+  "status": "published",
+  "name": "Marek Wiśniewski",
+  "position": "Fizjoterapeuta — Rehabilitacja Neurologiczna",
+  "shortBio": "Ekspert rehabilitacji neurologicznej z 12-letnim stażem. Specjalizuje się w pracy z pacjentami po udarach mózgu, z chorobą Parkinsona i SM.",
+  "bio": "Ekspert w zakresie rehabilitacji neurologicznej z 12-letnim stażem. Specjalizuje się w pracy z pacjentami po udarach mózgu, z chorobą Parkinsona i stwardnieniem rozsianym. Stosuje metody PNF i Bobath.",
+  "photo": "/images/team/marek-wisniewski.jpg",
+  "email": "marek@exuraortho.pl",
+  "phone": "",
+  "experienceYears": 12,
+  "specializations": [
+    "Rehabilitacja neurologiczna",
+    "Metoda PNF",
+    "Metoda Bobath",
+    "Rehabilitacja po udarze"
+  ],
+  "education": [
+    {
+      "type": "education",
+      "year": "2011",
+      "title": "Magistr Fizjoterapii",
+      "institution": "Akademia Medyczna w Warszawie"
+    },
+    {
+      "type": "certification",
+      "year": "2014",
+      "title": "Certyfikat PNF — poziom zaawansowany",
+      "institution": "PNF International"
+    },
+    {
+      "type": "certification",
+      "year": "2016",
+      "title": "Certyfikat Bobath dla dorosłych",
+      "institution": "IBITA"
+    }
+  ],
+  "certifications": [
+    "PNF — poziom zaawansowany",
+    "Bobath dla dorosłych (IBITA)",
+    "Rehabilitacja neurologiczna po udarze"
+  ],
+  "relatedServices": [
+    "fizjoterapia",
+    "rehabilitacja-domowa"
+  ],
+  "slices": [
+    {
+      "slice_type": "employee_hero",
+      "primary": {
+        "name": "Marek Wiśniewski",
+        "position": "Fizjoterapeuta — Rehabilitacja Neurologiczna",
+        "photo": {
+          "url": "/images/team/marek-wisniewski.jpg",
+          "alt": "Marek Wiśniewski"
+        },
+        "experience_years": "12",
+        "bio": "Ekspert w zakresie rehabilitacji neurologicznej z 12-letnim stażem. Specjalizuje się w pracy z pacjentami po udarach mózgu, z chorobą Parkinsona i stwardnieniem rozsianym. Stosuje metody PNF i Bobath.",
+        "email": "marek@exuraortho.pl",
+        "phone": "",
+        "cta_link": {
+          "url": "/rezerwacja"
+        },
+        "cta_text": "Umów wizytę u Marka"
+      },
+      "items": [
+        {
+          "tag": "Rehabilitacja neurologiczna"
+        },
+        {
+          "tag": "Metoda PNF"
+        },
+        {
+          "tag": "Metoda Bobath"
+        },
+        {
+          "tag": "Rehabilitacja po udarze"
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_stats",
+      "primary": {
+        "dark_bg": false
+      },
+      "items": [
+        {
+          "icon": "Calendar",
+          "number": "12",
+          "suffix": "+",
+          "label": "Lat doświadczenia"
+        },
+        {
+          "icon": "Brain",
+          "number": "100",
+          "suffix": "+",
+          "label": "Pacjentów po udarze"
+        },
+        {
+          "icon": "Award",
+          "number": "2",
+          "suffix": "",
+          "label": "Certyfikaty międzynarodowe"
+        },
+        {
+          "icon": "Heart",
+          "number": "98",
+          "suffix": "%",
+          "label": "Zadowolonych pacjentów"
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_expertise",
+      "primary": {
+        "title": "Obszary specjalizacji",
+        "description": "Specjalistyczna rehabilitacja neurologiczna dla pacjentów z różnymi schorzeniami układu nerwowego"
+      },
+      "items": [
+        {
+          "icon": "Brain",
+          "area_title": "Rehabilitacja po udarze",
+          "area_description": "Kompleksowa terapia odbudowująca funkcje motoryczne i kognitywne po udarze mózgu. Indywidualny program ćwiczeń przywracający samodzielność."
+        },
+        {
+          "icon": "Activity",
+          "area_title": "Choroba Parkinsona",
+          "area_description": "Terapia spowalniająca postęp choroby, poprawiająca równowagę, chód i czynności dnia codziennego u pacjentów z chorobą Parkinsona."
+        },
+        {
+          "icon": "Zap",
+          "area_title": "Stwardnienie rozsiane",
+          "area_description": "Specjalistyczne ćwiczenia poprawiające mobilność, zmniejszające spastyczność i zwiększające wytrzymałość u pacjentów z SM."
+        },
+        {
+          "icon": "Shield",
+          "area_title": "Metody PNF i Bobath",
+          "area_description": "Zastosowanie metod PNF i Bobath — uznanych na świecie technik rehabilitacji neurologicznej opartych na badaniach naukowych."
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_approach",
+      "primary": {
+        "title": "Moje podejście do terapii",
+        "quote": "Praca z pacjentem neurologicznym to nie tylko ćwiczenia. To odbudowywanie nadziei, wiary w siebie i powrót do życia, które kiedyś było normalne.",
+        "image": {
+          "url": "/images/team/marek-wisniewski.jpg",
+          "alt": "Marek Wiśniewski podczas terapii"
+        },
+        "image_position": "right"
+      },
+      "items": [
+        {
+          "principle_title": "Cierpliwość i konsekwencja",
+          "principle_description": "Rehabilitacja neurologiczna to maraton, nie sprint. Małe codzienne postępy prowadzą do wielkich zmian. Nie śpieszymy się — idziemy pewnie do celu."
+        },
+        {
+          "principle_title": "Współpraca z rodziną",
+          "principle_description": "Angażuję rodzinę pacjenta w proces rehabilitacji. Bliscy są ważnym elementem terapii — uczę ich, jak wspierać i motywować."
+        },
+        {
+          "principle_title": "Podejście holistyczne",
+          "principle_description": "Patrzę na pacjenta całościowo — nie tylko na niedowład czy zaburzenia ruchu, ale na jego samopoczucie, motywację i jakość życia."
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_certifications",
+      "primary": {
+        "title": "Wykształcenie i certyfikaty",
+        "description": "Międzynarodowe kwalifikacje w rehabilitacji neurologicznej"
+      },
+      "items": [
+        {
+          "type": "education",
+          "year": "2011",
+          "title": "Magistr Fizjoterapii",
+          "institution": "Akademia Medyczna w Warszawie"
+        },
+        {
+          "type": "certification",
+          "year": "2014",
+          "title": "Certyfikat PNF — poziom zaawansowany",
+          "institution": "PNF International"
+        },
+        {
+          "type": "certification",
+          "year": "2016",
+          "title": "Certyfikat Bobath dla dorosłych",
+          "institution": "IBITA"
+        },
+        {
+          "type": "course",
+          "year": "2020",
+          "title": "Rehabilitacja po udarze mózgu — protokół najnowszy",
+          "institution": "Polskie Stowarzyszenie Fizjoterapeutów"
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_schedule",
+      "primary": {
+        "title": "Godziny przyjęć",
+        "note": "Specjalizacja: pacjenci neurologiczni, rehabilitacja domowa dla osób z ograniczoną mobilnością",
+        "phone": "",
+        "cta_text": "Umów wizytę",
+        "cta_link": {
+          "url": "/rezerwacja"
+        },
+        "accepts_home_visits": true
+      },
+      "items": [
+        {
+          "day": "Poniedziałek",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Wtorek",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Środa",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Czwartek",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Piątek",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": "Wizyty domowe"
+        },
+        {
+          "day": "Sobota",
+          "hours": "Na umówienie",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Niedziela",
+          "hours": "",
+          "is_closed": true,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "slice_type": "team_related",
+      "primary": {
+        "title": "Poznaj pozostałych specjalistów",
+        "all_team_link": {
+          "url": "/pracownicy"
+        }
+      },
+      "items": [
+        {
+          "name": "Piotr Lewandowski",
+          "position": "Fizjoterapia Ortopedyczna",
+          "photo": {
+            "url": "/images/team/piotr-lewandowski.jpg",
+            "alt": "Piotr Lewandowski"
+          },
+          "profile_url": "/pracownicy/piotr-lewandowski"
+        },
+        {
+          "name": "Anna Kowalska",
+          "position": "Fizjoterapia Sportowa",
+          "photo": {
+            "url": "/images/team/anna-kowalska.jpg",
+            "alt": "Anna Kowalska"
+          },
+          "profile_url": "/pracownicy/anna-kowalska"
+        },
+        {
+          "name": "Katarzyna Nowak",
+          "position": "Rehabilitacja Geriatryczna",
+          "photo": {
+            "url": "/images/team/katarzyna-nowak.jpg",
+            "alt": "Katarzyna Nowak"
+          },
+          "profile_url": "/pracownicy/katarzyna-nowak"
+        },
+        {
+          "name": "Tomasz Zieliński",
+          "position": "Sprzęt Medyczny",
+          "photo": {
+            "url": "/images/team/tomasz-zielinski.jpg",
+            "alt": "Tomasz Zieliński"
+          },
+          "profile_url": "/pracownicy/tomasz-zielinski"
+        },
+        {
+          "name": "Magdalena Kaczmarek",
+          "position": "Terapia Manualna",
+          "photo": {
+            "url": "/images/team/magdalena-kaczmarek.jpg",
+            "alt": "Magdalena Kaczmarek"
+          },
+          "profile_url": "/pracownicy/magdalena-kaczmarek"
+        }
+      ]
+    },
+    {
+      "slice_type": "cta_section",
+      "primary": {
+        "title": "Rehabilitacja neurologiczna z Markiem",
+        "description": "Specjalistyczna opieka po udarze, przy chorobie Parkinsona i SM",
+        "primary_button_text": "Umów wizytę",
+        "primary_button_link": {
+          "url": "/rezerwacja"
+        }
+      }
+    }
+  ],
+  "metaTitle": "Marek Wiśniewski — Rehabilitacja Neurologiczna | ExuraOrtho",
+  "metaDescription": "Marek Wiśniewski — ekspert rehabilitacji neurologicznej, certyfikowany terapeuta PNF i Bobath. Specjalizacja: udar mózgu, Parkinson, SM. ExuraOrtho Biała Podlaska."
+}
