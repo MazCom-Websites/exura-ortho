@@ -1,0 +1,134 @@
+{
+  "title": "Diagnostyka funkcjonalna",
+  "slug": "diagnostyka-funkcjonalna",
+  "publishedAt": "2026-03-18T22:17:32.836Z",
+  "status": "published",
+  "name": "Diagnostyka funkcjonalna",
+  "shortDescription": "Kompleksowa ocena funkcjonalna ciała. Badanie zakresu ruchu, siły mięśniowej, postawy i wzorców ruchowych jako podstawa skutecznej terapii.",
+  "icon": "Search",
+  "mainImage": "",
+  "category": "Diagnostyka",
+  "duration": 60,
+  "price": 200,
+  "priceFrom": false,
+  "popular": false,
+  "indications": [
+    {
+      "indication": "Przewlekłe bóle narządu ruchu",
+      "icon": "Check"
+    },
+    {
+      "indication": "Ocena przed rozpoczęciem rehabilitacji",
+      "icon": "ClipboardList"
+    },
+    {
+      "indication": "Powtarzające się kontuzje",
+      "icon": "Activity"
+    },
+    {
+      "indication": "Zaburzenia postawy ciała",
+      "icon": "User"
+    },
+    {
+      "indication": "Ocena gotowości do powrotu do sportu",
+      "icon": "Trophy"
+    }
+  ],
+  "contraindications": [
+    {
+      "contraindication": "Ostre stany zapalne z gorączką"
+    },
+    {
+      "contraindication": "Świeże urazy wymagające unieruchomienia"
+    }
+  ],
+  "processSteps": [
+    {
+      "title": "Wywiad zdrowotny",
+      "description": "Szczegółowy wywiad dotyczący historii choroby, stylu życia i celów pacjenta."
+    },
+    {
+      "title": "Badanie funkcjonalne",
+      "description": "Ocena zakresu ruchu, siły mięśniowej, stabilności i wzorców ruchowych."
+    },
+    {
+      "title": "Testy specjalistyczne",
+      "description": "Dedykowane testy ortopedyczne i neurologiczne w zależności od problemu."
+    },
+    {
+      "title": "Raport i plan",
+      "description": "Omówienie wyników, postawienie diagnozy fizjoterapeutycznej i zaplanowanie terapii."
+    }
+  ],
+  "pricingVariants": [
+    {
+      "name": "Diagnostyka podstawowa",
+      "duration": "45",
+      "price": "150",
+      "description": "Badanie wybranego odcinka ciała"
+    },
+    {
+      "name": "Diagnostyka kompleksowa",
+      "duration": "60",
+      "price": "200",
+      "description": "Pełna ocena funkcjonalna całego ciała"
+    }
+  ],
+  "relatedServices": [
+    "fizjoterapia",
+    "terapia-manualna",
+    "kinezyterapia"
+  ],
+  "content": "Diagnostyka funkcjonalna to fundament skutecznej rehabilitacji. Pozwala precyzyjnie określić przyczynę dolegliwości i zaplanować optymalną terapię.",
+  "slices": [
+    {
+      "slice_type": "service_hero",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_description",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_indications",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_contraindications",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_process",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_pricing",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_related",
+      "primary": {}
+    },
+    {
+      "slice_type": "cta_section",
+      "primary": {
+        "title": "Gotowy na pierwszy krok do zdrowia?",
+        "description": "Umów wizytę już dziś i poczuj różnicę",
+        "primary_button_text": "Umów wizytę",
+        "primary_button_link": {
+          "url": "/rezerwacja"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "",
+    "metaDescription": "",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  },
+  "parentPath": "/uslugi"
+}

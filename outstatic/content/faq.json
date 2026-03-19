@@ -1,0 +1,251 @@
+{
+  "title": "FAQ",
+  "status": "published",
+  "publishedAt": "2024-01-01T00:00:00.000Z",
+  "description": "Często zadawane pytania",
+  "path": "/faq",
+  "slices": [
+    {
+      "slice_type": "split_hero",
+      "primary": {
+        "badge": "FAQ",
+        "title": "Odpowiedzi na Twoje pytania",
+        "subtitle": "Zebraliśmy najczęściej zadawane pytania dotyczące naszych usług, procesu rehabilitacji i organizacji wizyt. Jeśli nie znajdziesz odpowiedzi - skontaktuj się z nami!",
+        "image": {
+          "url": "https://res.cloudinary.com/djyf1kk36/image/upload/v1773319139/exuraortho/yn1gcwxtv1lbegdum5qf.png",
+          "alt": "Konsultacja pacjenta"
+        },
+        "primary_cta_text": "Umów konsultację",
+        "primary_cta_link": {
+          "url": "/kontakt"
+        },
+        "secondary_cta_text": "Zadzwoń: 503 401 451",
+        "secondary_cta_link": {
+          "url": "tel:+48503401451"
+        }
+      }
+    },
+    {
+      "slice_type": "icon_card_grid",
+      "primary": {
+        "title": "Kategorie pytań",
+        "description": "Kliknij kategorię, aby przejść do odpowiednich pytań",
+        "cards": [
+          {
+            "icon": "CalendarCheck",
+            "card_title": "Wizyty i rejestracja",
+            "card_description": "Jak umówić wizytę, co zabrać, odwoływanie terminów, godziny otwarcia"
+          },
+          {
+            "icon": "Stethoscope",
+            "card_title": "Usługi i terapie",
+            "card_description": "Rodzaje terapii, czas trwania, czego się spodziewać podczas sesji"
+          },
+          {
+            "icon": "Wallet",
+            "card_title": "Ceny i płatności",
+            "card_description": "Cennik usług, pakiety, metody płatności, dofinansowanie NFZ"
+          },
+          {
+            "icon": "Home",
+            "card_title": "Rehabilitacja domowa",
+            "card_description": "Zasięg, wyposażenie, koszt, dla kogo jest przeznaczona"
+          },
+          {
+            "icon": "ShoppingCart",
+            "card_title": "Sprzęt medyczny",
+            "card_description": "Dobór sprzętu, dofinansowanie NFZ, wynajem vs zakup"
+          },
+          {
+            "icon": "HelpCircle",
+            "card_title": "Ogólne pytania",
+            "card_description": "Skierowania, bezpieczeństwo, efekty terapii, czas rehabilitacji"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "faq_accordion",
+      "primary": {
+        "title": "Najczęściej zadawane pytania",
+        "subtitle": "Pełna lista pytań i odpowiedzi dotyczących naszych usług rehabilitacyjnych",
+        "faqs": [
+          {
+            "question": "Czy potrzebuję skierowania od lekarza?",
+            "answer": "Nie, nasze usługi są prywatne i nie wymagają skierowania od lekarza. Możesz umówić się bezpośrednio, dzwoniąc pod numer 503 401 451 lub pisząc na biuro@exuraortho.pl. Skierowanie może być potrzebne jedynie przy procedurze dofinansowania NFZ na sprzęt rehabilitacyjny - w tym przypadku nasz specjalista pomoże Ci w jego uzyskaniu."
+          },
+          {
+            "question": "Ile trwa typowa sesja fizjoterapii?",
+            "answer": "Standardowa sesja fizjoterapii trwa 50 minut. Pierwsza wizyta diagnostyczna jest dłuższa - do 90 minut - ponieważ obejmuje szczegółowy wywiad medyczny, badanie funkcjonalne i stworzenie indywidualnego planu terapii. Sesja masażu trwa 45-60 minut w zależności od rodzaju. Rehabilitacja domowa trwa 60 minut."
+          },
+          {
+            "question": "Ile kosztują Wasze usługi?",
+            "answer": "Fizjoterapia: 150 zł/sesja (50 min), pakiet 10 sesji: 1350 zł. Terapia manualna: 180 zł/sesja (50 min), pakiet 10: 1620 zł. Masaż klasyczny: 120 zł (45 min), tkanek głębokich: 160 zł (60 min), sportowy: 140 zł (45 min). Rehabilitacja domowa: 200 zł/wizyta (60 min), pakiet 10: 1800 zł. Doradztwo sprzętowe: bezpłatnie. Pierwsza wizyta diagnostyczna: 150-200 zł."
+          },
+          {
+            "question": "Jakie metody płatności akceptujecie?",
+            "answer": "Akceptujemy: gotówkę, karty płatnicze (Visa, Mastercard), przelewy bankowe. Dla pakietów zabiegów możliwa jest płatność ratalna - szczegóły ustalane indywidualnie. Fakturę VAT wystawiamy na życzenie."
+          },
+          {
+            "question": "Czy oferujecie bezpłatną konsultację?",
+            "answer": "Tak, oferujemy bezpłatną 15-minutową konsultację telefoniczną. Możesz omówić swoją sytuację ze specjalistą, który zaproponuje najlepszą formę terapii. Pierwsza wizyta w gabinecie jest płatna, ale obejmuje pełną diagnostykę i indywidualny plan terapii."
+          },
+          {
+            "question": "Czy prowadzicie rehabilitację domową?",
+            "answer": "Tak, rehabilitacja domowa to jedna z naszych kluczowych usług. Nasi terapeuci dojeżdżają w promieniu 30 km od Białej Podlaskiej z kompletnym wyposażeniem terapeutycznym. Wizyta trwa 60 minut i kosztuje 200 zł. Pakiet 10 wizyt: 1800 zł. To idealne rozwiązanie dla osób po operacjach, seniorów i pacjentów z ograniczoną mobilnością."
+          },
+          {
+            "question": "Jak daleko dojeżdżacie z rehabilitacją domową?",
+            "answer": "Dojeżdżamy w promieniu 30 km od Białej Podlaskiej. Obejmuje to m.in.: Międzyrzec Podlaski, Terespol, Łosice, Radzyń Podlaski i okoliczne miejscowości. Jeśli nie jesteś pewien, czy Twoja lokalizacja jest w naszym zasięgu - zadzwoń, a chętnie sprawdzimy."
+          },
+          {
+            "question": "Czy mogę uzyskać dofinansowanie NFZ na sprzęt medyczny?",
+            "answer": "Tak! Nasz specjalista Tomasz Zieliński bezpłatnie przeprowadzi Cię przez całą procedurę. Dofinansowanie NFZ obejmuje m.in.: wózki inwalidzkie, ortezy, pionizatory, balkoniki, protezy, materace przeciwodleżynowe. Potrzebne dokumenty: zlecenie od lekarza, wniosek NFZ, orzeczenie o niepełnosprawności (w zależności od sprzętu)."
+          },
+          {
+            "question": "Czy sprzęt medyczny mogę wypożyczyć?",
+            "answer": "Tak, oferujemy zarówno sprzedaż, jak i wynajem sprzętu rehabilitacyjnego. Wynajem jest korzystny przy krótkoterminowych potrzebach (np. 2-3 miesiące po operacji) lub gdy chcesz przetestować sprzęt przed zakupem. Warunki wynajmu ustalane indywidualnie - skontaktuj się z nami po szczegóły."
+          },
+          {
+            "question": "Jak przygotować się do pierwszej wizyty?",
+            "answer": "Na pierwszą wizytę zabierz: 1) Wyniki badań (RTG, MRI, USG) jeśli posiadasz, 2) Listę przyjmowanych leków, 3) Skierowania lub dokumentację medyczną, 4) Wygodny strój sportowy lub luźne ubranie. Przyjdź 5-10 minut wcześniej, aby wypełnić formularz medyczny."
+          },
+          {
+            "question": "Jak długo trwa proces rehabilitacji?",
+            "answer": "Czas rehabilitacji jest indywidualny i zależy od: rodzaju schorzenia, stopnia zaawansowania, Twojego zaangażowania i reakcji organizmu. Pierwsze efekty widoczne są zazwyczaj po 2-4 tygodniach regularnych sesji. Pełny cykl rehabilitacji trwa najczęściej od 4 tygodni do 3-6 miesięcy. Regularnie monitorujemy postępy i dostosowujemy plan."
+          },
+          {
+            "question": "Czy pracujecie w weekendy?",
+            "answer": "Standardowo pracujemy od poniedziałku do piątku w godzinach 9:00-16:00. Wizyty w soboty są możliwe po wcześniejszym umówieniu telefonicznym - szczególnie w przypadku rehabilitacji domowej lub pilnych przypadków. W niedziele nie przyjmujemy pacjentów."
+          },
+          {
+            "question": "Czy mogę odwołać wizytę?",
+            "answer": "Tak, prosimy o odwołanie co najmniej 24 godziny wcześniej telefonicznie lub mailowo. Pozwoli to zaproponować termin innemu pacjentowi. Odwołanie w krótszym czasie może wiązać się z opłatą za rezerwację terminu."
+          },
+          {
+            "question": "Czy oferujecie pakiety zabiegów?",
+            "answer": "Tak! Pakiety 10 sesji to 10% oszczędności: Fizjoterapia: 1350 zł (zamiast 1500 zł), Terapia manualna: 1620 zł (zamiast 1800 zł), Masaż klasyczny: 1080 zł (zamiast 1200 zł), Rehabilitacja domowa: 1800 zł (zamiast 2000 zł). Pakiety nie mają daty ważności."
+          },
+          {
+            "question": "Czy gabinet jest dostępny dla osób z niepełnosprawnościami?",
+            "answer": "Tak, nasz gabinet przy ul. Wroczyńskiego 11/U8 znajduje się na parterze, bez schodów i progów. Wejście jest szerokie i przystosowane dla wózków inwalidzkich. Przed budynkiem wyznaczone jest miejsce parkingowe dla osób z niepełnosprawnościami."
+          },
+          {
+            "question": "Czym różni się fizjoterapia od terapii manualnej?",
+            "answer": "Fizjoterapia to szersze pojęcie obejmujące ćwiczenia, zabiegi manualne, instrukcje i edukację pacjenta. Terapia manualna to specjalistyczna technika leczenia rąk terapeuty - mobilizacje stawowe, manipulacje, techniki mięśniowo-powięziowe. Nasi specjaliści doradzą, która forma będzie najlepsza dla Ciebie."
+          },
+          {
+            "question": "Jakie schorzenia leczycie?",
+            "answer": "Leczymy m.in.: bóle kręgosłupa, urazy sportowe, stany pooperacyjne, schorzenia neurologiczne (udary, Parkinson), problemy geriatryczne (mobilność, upadki), dysfunkcje stawowe, napięcie mięśniowe, bóle głowy, problemy stawów skroniowo-żuchwowych (TMJ). Jeśli nie jesteś pewien - zadzwoń na bezpłatną konsultację."
+          },
+          {
+            "question": "Czy rehabilitacja jest bolesna?",
+            "answer": "Rehabilitacja nie powinna być nadmiernie bolesna. Niektóre techniki (szczególnie terapia manualna i masaż tkanek głębokich) mogą powodować chwilowy dyskomfort, ale zawsze pracujemy w granicach tolerancji pacjenta. Komunikacja jest kluczowa - zawsze możesz powiedzieć terapeucie o bólu, a dostosujemy intensywność."
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "accordion_with_media",
+      "primary": {
+        "title": "Jak wyglądają nasze terapie?",
+        "media": {
+          "url": "https://res.cloudinary.com/djyf1kk36/image/upload/v1773319144/exuraortho/gew4epyt1xvvqykkgjry.png",
+          "alt": "Gabinet rehabilitacyjny ExuraOrtho"
+        },
+        "items": [
+          {
+            "question": "Co dzieje się na pierwszej wizycie?",
+            "answer": "Pierwsza wizyta trwa do 90 minut i obejmuje: 1) Szczegółowy wywiad o Twoim stanie zdrowia i dolegliwościach, 2) Badanie funkcjonalne - ocena zakresu ruchu, siły mięśniowej, postawy, 3) Postawienie diagnozy i omówienie opcji leczenia, 4) Stworzenie indywidualnego planu terapii z harmonogramem sesji."
+          },
+          {
+            "question": "Jak wygląda typowa sesja rehabilitacyjna?",
+            "answer": "Sesja trwa 50-60 minut: 5 min - omówienie samopoczucia od ostatniej wizyty, 10 min - rozgrzewka i przygotowanie, 25-30 min - główna część terapeutyczna (zabiegi manualne, mobilizacje, ćwiczenia), 10 min - ćwiczenia domowe i zalecenia. Plan każdej sesji jest dostosowany do aktualnego stanu."
+          },
+          {
+            "question": "Czy muszę ćwiczyć w domu?",
+            "answer": "Ćwiczenia domowe są istotnym elementem rehabilitacji i znacząco przyspieszają powrót do zdrowia. Na każdej sesji otrzymujesz zestaw ćwiczeń dopasowanych do Twojego stanu. Nie są skomplikowane i zajmują 15-20 minut dziennie. Terapeuta pokazuje i tłumaczy każde ćwiczenie."
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "quote_block",
+      "primary": {
+        "quote": "Najczęstszy błąd pacjentów? Czekanie zbyt długo. Im wcześniej rozpoczniesz rehabilitację, tym szybciej i pełniej wrócisz do sprawności. Nie ignoruj bólu - to sygnał, że Twoje ciało potrzebuje pomocy.",
+        "author": "Piotr Lewandowski",
+        "role": "Kierownik ExuraOrtho, fizjoterapeuta z 15-letnim doświadczeniem"
+      }
+    },
+    {
+      "slice_type": "resource_downloads",
+      "primary": {
+        "title": "Przydatne materiały",
+        "description": "Pobierz bezpłatne poradniki przygotowane przez naszych specjalistów",
+        "resources": [
+          {
+            "icon": "FileText",
+            "resource_title": "Jak przygotować się do rehabilitacji",
+            "resource_description": "Kompletny przewodnik dla pacjentów - co zabrać, jak się ubrać, czego się spodziewać na pierwszej i kolejnych wizytach.",
+            "file_type": "PDF",
+            "download_link": {
+              "url": "/files/przygotowanie-do-rehabilitacji.pdf"
+            }
+          },
+          {
+            "icon": "FileText",
+            "resource_title": "Ćwiczenia na kręgosłup",
+            "resource_description": "10 bezpiecznych ćwiczeń rozciągających i wzmacniających do codziennego wykonywania w domu.",
+            "file_type": "PDF",
+            "download_link": {
+              "url": "/files/cwiczenia-kregoslup.pdf"
+            }
+          },
+          {
+            "icon": "FileText",
+            "resource_title": "Dofinansowanie NFZ - krok po kroku",
+            "resource_description": "Szczegółowy poradnik: jakie dokumenty zebrać, gdzie złożyć wniosek i jak uzyskać dofinansowanie na sprzęt medyczny.",
+            "file_type": "PDF",
+            "download_link": {
+              "url": "/files/dofinansowanie-nfz-poradnik.pdf"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "newsletter",
+      "primary": {
+        "title": "Porady zdrowotne w Twojej skrzynce",
+        "description": "Zapisz się na newsletter ExuraOrtho. Otrzymuj ćwiczenia do domu, porady rehabilitacyjne i informacje o promocjach. Maksymalnie 2 wiadomości w miesiącu.",
+        "button_text": "Zapisz się"
+      }
+    },
+    {
+      "slice_type": "cta_section",
+      "primary": {
+        "title": "Nie znalazłeś odpowiedzi na swoje pytanie?",
+        "description": "Skontaktuj się z nami - chętnie odpowiemy na każde pytanie dotyczące rehabilitacji, naszych usług i procesu leczenia. Bezpłatna konsultacja telefoniczna!",
+        "primary_button_text": "Skontaktuj się",
+        "primary_button_link": {
+          "text": "Kontakt",
+          "url": "/kontakt"
+        },
+        "secondary_button_text": "Zadzwoń: 503 401 451",
+        "secondary_button_link": {
+          "text": "Zadzwoń",
+          "url": "tel:+48503401451"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "FAQ - Często zadawane pytania | ExuraOrtho - Rehabilitacja Biała Podlaska",
+    "metaDescription": "Odpowiedzi na najczęstsze pytania o fizjoterapii, rehabilitacji, cenach, dofinansowaniu NFZ i sprzęcie medycznym. ExuraOrtho - Centrum Rehabilitacji w Białej Podlaskiej.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
+}

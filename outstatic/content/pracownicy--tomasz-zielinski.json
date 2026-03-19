@@ -1,0 +1,352 @@
+{
+  "title": "Tomasz Zieliński",
+  "slug": "tomasz-zielinski",
+  "publishedAt": "2024-01-01T00:00:00.000Z",
+  "status": "published",
+  "name": "Tomasz Zieliński",
+  "position": "Specjalista ds. Sprzętu Medycznego",
+  "shortBio": "Ekspert z ponad 20-letnim doświadczeniem w branży sprzętu medycznego. Bezpłatnie przeprowadza pacjentów przez procedurę dofinansowania NFZ, PFRON i OPS.",
+  "bio": "Ekspert z ponad 20-letnim doświadczeniem w branży sprzętu medycznego i rehabilitacyjnego. Pomaga w doborze odpowiedniego sprzętu, przeprowadza przez procedurę dofinansowania NFZ i PFRON oraz dba o właściwe dopasowanie każdego urządzenia do potrzeb pacjenta.",
+  "photo": "/images/team/tomasz-zielinski.jpg",
+  "email": "tomasz@exuraortho.pl",
+  "phone": "+48 503 401 451",
+  "experienceYears": 20,
+  "specializations": [
+    "Dobór sprzętu rehabilitacyjnego",
+    "Dofinansowanie NFZ",
+    "Dofinansowanie PFRON",
+    "Sprzęt ortopedyczny",
+    "Wózki inwalidzkie"
+  ],
+  "education": [
+    {
+      "type": "education",
+      "year": "2004",
+      "title": "Technik ortopedyczny",
+      "institution": "Medyczne Studium Zawodowe w Warszawie"
+    },
+    {
+      "type": "certification",
+      "year": "2010",
+      "title": "Specjalista ds. zaopatrzenia ortopedycznego",
+      "institution": "Polskie Towarzystwo Ortopedyczne"
+    },
+    {
+      "type": "course",
+      "year": "2015",
+      "title": "Procedury dofinansowania NFZ i PFRON",
+      "institution": "Centrum Kształcenia Kadr Medycznych"
+    },
+    {
+      "type": "course",
+      "year": "2020",
+      "title": "Dobór i dopasowanie protez i ortez",
+      "institution": "Akademia Medyczna"
+    }
+  ],
+  "certifications": [
+    "Specjalista ds. zaopatrzenia ortopedycznego",
+    "Procedury NFZ i PFRON",
+    "Dobór i dopasowanie protez i ortez"
+  ],
+  "relatedServices": [
+    "sprzet-medyczny",
+    "doradztwo-sprzet"
+  ],
+  "slices": [
+    {
+      "slice_type": "employee_hero",
+      "primary": {
+        "name": "Tomasz Zieliński",
+        "position": "Specjalista ds. Sprzętu Medycznego",
+        "photo": {
+          "url": "/images/team/tomasz-zielinski.jpg",
+          "alt": "Tomasz Zieliński"
+        },
+        "experience_years": "20",
+        "bio": "Ekspert z ponad 20-letnim doświadczeniem w branży sprzętu medycznego i rehabilitacyjnego. Pomaga w doborze odpowiedniego sprzętu, przeprowadza przez procedurę dofinansowania NFZ i PFRON oraz dba o właściwe dopasowanie każdego urządzenia.",
+        "email": "tomasz@exuraortho.pl",
+        "phone": "+48 503 401 451",
+        "cta_link": {
+          "url": "/rezerwacja"
+        },
+        "cta_text": "Umów konsultację"
+      },
+      "items": [
+        {
+          "tag": "Dobór sprzętu rehabilitacyjnego"
+        },
+        {
+          "tag": "Dofinansowanie NFZ"
+        },
+        {
+          "tag": "Dofinansowanie PFRON"
+        },
+        {
+          "tag": "Wózki inwalidzkie"
+        },
+        {
+          "tag": "Ortezy i stabilizatory"
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_stats",
+      "primary": {
+        "dark_bg": false
+      },
+      "items": [
+        {
+          "icon": "Calendar",
+          "number": "20",
+          "suffix": "+",
+          "label": "Lat doświadczenia"
+        },
+        {
+          "icon": "ShoppingCart",
+          "number": "500",
+          "suffix": "+",
+          "label": "Obsłużonych pacjentów"
+        },
+        {
+          "icon": "FileCheck",
+          "number": "4",
+          "suffix": "",
+          "label": "Certyfikaty"
+        },
+        {
+          "icon": "Percent",
+          "number": "100",
+          "suffix": "%",
+          "label": "Bezpłatne doradztwo"
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_expertise",
+      "primary": {
+        "title": "Obszary specjalizacji",
+        "description": "Kompleksowe wsparcie w doborze sprzętu i uzyskaniu dofinansowania"
+      },
+      "items": [
+        {
+          "icon": "ShoppingCart",
+          "area_title": "Dobór sprzętu rehabilitacyjnego",
+          "area_description": "Profesjonalna ocena potrzeb i dobór wózków inwalidzkich, ortez, pionizatorów, balkoników i innego sprzętu rehabilitacyjnego."
+        },
+        {
+          "icon": "FileCheck",
+          "area_title": "Dofinansowanie NFZ",
+          "area_description": "Bezpłatna pomoc w przejściu przez całą procedurę uzyskania dofinansowania z Narodowego Funduszu Zdrowia na zakup sprzętu."
+        },
+        {
+          "icon": "Award",
+          "area_title": "Dofinansowanie PFRON i OPS",
+          "area_description": "Kompleksowe wsparcie w uzyskaniu dofinansowania z PFRON i Ośrodków Pomocy Społecznej na sprzęt ortopedyczny."
+        },
+        {
+          "icon": "Wrench",
+          "area_title": "Serwis i dopasowanie",
+          "area_description": "Właściwe dopasowanie sprzętu do indywidualnych potrzeb oraz serwis i naprawa urządzeń rehabilitacyjnych."
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_approach",
+      "primary": {
+        "title": "Moje podejście do doradztwa",
+        "quote": "Odpowiedni sprzęt potrafi zmienić życie. Dlatego poświęcam czas, żeby dobrać go idealnie — i zadbać, żebyś za niego zapłacił jak najmniej.",
+        "image": {
+          "url": "/images/team/tomasz-zielinski.jpg",
+          "alt": "Tomasz Zieliński podczas konsultacji"
+        },
+        "image_position": "left"
+      },
+      "items": [
+        {
+          "principle_title": "Dobór zawsze do potrzeb",
+          "principle_description": "Nie polecam sprzętu z półki — każdy wybór poprzedzam szczegółową oceną potrzeb, możliwości i trybu życia pacjenta."
+        },
+        {
+          "principle_title": "Maksymalne dofinansowanie",
+          "principle_description": "Zawsze szukam wszystkich dostępnych źródeł dofinansowania, żeby koszty dla pacjenta były jak najniższe."
+        },
+        {
+          "principle_title": "Wsparcie po zakupie",
+          "principle_description": "Moja pomoc nie kończy się na dostarczeniu sprzętu — pomagam w serwisie i odpowiadam na pytania długo po zakupie."
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_certifications",
+      "primary": {
+        "title": "Wykształcenie i certyfikaty",
+        "description": "Ponad 20 lat budowania ekspertyzy w sprzęcie medycznym"
+      },
+      "items": [
+        {
+          "type": "education",
+          "year": "2004",
+          "title": "Technik ortopedyczny",
+          "institution": "Medyczne Studium Zawodowe"
+        },
+        {
+          "type": "certification",
+          "year": "2010",
+          "title": "Specjalista ds. zaopatrzenia ortopedycznego",
+          "institution": "Polskie Towarzystwo Ortopedyczne"
+        },
+        {
+          "type": "course",
+          "year": "2015",
+          "title": "Procedury dofinansowania NFZ i PFRON",
+          "institution": "Centrum Kształcenia Kadr Medycznych"
+        },
+        {
+          "type": "course",
+          "year": "2020",
+          "title": "Dobór i dopasowanie protez i ortez",
+          "institution": "Akademia Medyczna"
+        }
+      ]
+    },
+    {
+      "slice_type": "employee_schedule",
+      "primary": {
+        "title": "Godziny konsultacji",
+        "note": "Bezpłatna konsultacja — bez kolejki, bez czekania",
+        "phone": "+48 503 401 451",
+        "cta_text": "Umów konsultację",
+        "cta_link": {
+          "url": "/rezerwacja"
+        },
+        "accepts_home_visits": false
+      },
+      "items": [
+        {
+          "day": "Poniedziałek",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Wtorek",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Środa",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Czwartek",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Piątek",
+          "hours": "9:00–16:00",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Sobota",
+          "hours": "Na umówienie",
+          "is_closed": false,
+          "note": ""
+        },
+        {
+          "day": "Niedziela",
+          "hours": "",
+          "is_closed": true,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "slice_type": "team_related",
+      "primary": {
+        "title": "Poznaj pozostałych specjalistów",
+        "all_team_link": {
+          "url": "/pracownicy"
+        }
+      },
+      "items": [
+        {
+          "name": "Piotr Lewandowski",
+          "position": "Fizjoterapia Ortopedyczna",
+          "photo": {
+            "url": "/images/team/piotr-lewandowski.jpg",
+            "alt": "Piotr Lewandowski"
+          },
+          "profile_url": "/pracownicy/piotr-lewandowski"
+        },
+        {
+          "name": "Anna Kowalska",
+          "position": "Fizjoterapia Sportowa",
+          "photo": {
+            "url": "/images/team/anna-kowalska.jpg",
+            "alt": "Anna Kowalska"
+          },
+          "profile_url": "/pracownicy/anna-kowalska"
+        },
+        {
+          "name": "Marek Wiśniewski",
+          "position": "Rehabilitacja Neurologiczna",
+          "photo": {
+            "url": "/images/team/marek-wisniewski.jpg",
+            "alt": "Marek Wiśniewski"
+          },
+          "profile_url": "/pracownicy/marek-wisniewski"
+        },
+        {
+          "name": "Katarzyna Nowak",
+          "position": "Rehabilitacja Geriatryczna",
+          "photo": {
+            "url": "/images/team/katarzyna-nowak.jpg",
+            "alt": "Katarzyna Nowak"
+          },
+          "profile_url": "/pracownicy/katarzyna-nowak"
+        },
+        {
+          "name": "Magdalena Kaczmarek",
+          "position": "Terapia Manualna",
+          "photo": {
+            "url": "/images/team/magdalena-kaczmarek.jpg",
+            "alt": "Magdalena Kaczmarek"
+          },
+          "profile_url": "/pracownicy/magdalena-kaczmarek"
+        }
+      ]
+    },
+    {
+      "slice_type": "cta_section",
+      "primary": {
+        "title": "Potrzebujesz sprzętu rehabilitacyjnego?",
+        "description": "Umów bezpłatną konsultację — dobiorę sprzęt i pomogę uzyskać dofinansowanie NFZ",
+        "primary_button_text": "Umów konsultację",
+        "primary_button_link": {
+          "url": "/rezerwacja"
+        },
+        "secondary_button_text": "Zadzwoń: 503 401 451",
+        "secondary_button_link": {
+          "url": "tel:+48503401451"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "Tomasz Zieliński — Sprzęt Medyczny i Dofinansowanie NFZ | ExuraOrtho",
+    "metaDescription": "Tomasz Zieliński — ekspert sprzętu medycznego z 20+ latami doświadczenia. Bezpłatne doradztwo, dobór sprzętu rehabilitacyjnego, pomoc w dofinansowaniu NFZ i PFRON w Białej Podlaskiej.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  },
+  "parentPath": "/pracownicy"
+}

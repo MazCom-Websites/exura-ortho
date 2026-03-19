@@ -1,0 +1,149 @@
+{
+  "title": "Fizjoterapia",
+  "slug": "fizjoterapia",
+  "publishedAt": "2024-01-15T00:00:00.000Z",
+  "status": "published",
+  "name": "Fizjoterapia",
+  "shortDescription": "Profesjonalna fizjoterapia dostosowana do Twoich potrzeb. Redukcja bólu, przywrócenie mobilności i kompleksowa rehabilitacja.",
+  "icon": "Heart",
+  "mainImage": "/images/services/fizjoterapia.jpg",
+  "category": "Fizjoterapia",
+  "duration": 50,
+  "price": 150,
+  "priceFrom": false,
+  "popular": true,
+  "indications": [
+    {
+      "indication": "Bóle kręgosłupa i stawów",
+      "icon": "Check"
+    },
+    {
+      "indication": "Urazy sportowe",
+      "icon": "Activity"
+    },
+    {
+      "indication": "Rehabilitacja pooperacyjna",
+      "icon": "Stethoscope"
+    },
+    {
+      "indication": "Ograniczona mobilność",
+      "icon": "Move"
+    },
+    {
+      "indication": "Napięcie mięśniowe i bóle głowy",
+      "icon": "Brain"
+    },
+    {
+      "indication": "Problemy z postawą ciała",
+      "icon": "User"
+    }
+  ],
+  "contraindications": [
+    {
+      "contraindication": "Aktywne stany zapalne z gorączką"
+    },
+    {
+      "contraindication": "Nowotwory w fazie aktywnej"
+    },
+    {
+      "contraindication": "Ostre stany infekcyjne"
+    },
+    {
+      "contraindication": "Niezagojone złamania (bez konsultacji lekarskiej)"
+    }
+  ],
+  "processSteps": [
+    {
+      "title": "Wywiad i badanie",
+      "description": "Szczegółowy wywiad medyczny oraz badanie funkcjonalne w celu oceny stanu zdrowia i identyfikacji problemu."
+    },
+    {
+      "title": "Diagnoza fizjoterapeutyczna",
+      "description": "Na podstawie badania stawiamy diagnozę fizjoterapeutyczną i określamy cele terapii."
+    },
+    {
+      "title": "Plan terapii",
+      "description": "Opracowujemy indywidualny plan leczenia z harmonogramem sesji i ćwiczeniami do wykonania w domu."
+    },
+    {
+      "title": "Realizacja terapii",
+      "description": "Prowadzimy sesje terapeutyczne, monitorując postępy i dostosowując plan leczenia w miarę potrzeb."
+    }
+  ],
+  "pricingVariants": [
+    {
+      "name": "Wizyta diagnostyczna",
+      "duration": "60",
+      "price": "180",
+      "description": "Pełna ocena stanu zdrowia, diagnoza i plan terapii"
+    },
+    {
+      "name": "Sesja terapeutyczna",
+      "duration": "50",
+      "price": "150",
+      "description": "Standardowa sesja fizjoterapii"
+    },
+    {
+      "name": "Pakiet 10 sesji",
+      "duration": "50",
+      "price": "1350",
+      "description": "10 sesji terapeutycznych - oszczędzasz 150 zł"
+    }
+  ],
+  "relatedServices": [
+    "masaz-leczniczy",
+    "terapia-manualna",
+    "rehabilitacja-domowa"
+  ],
+  "slices": [
+    {
+      "slice_type": "service_hero",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_description",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_indications",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_contraindications",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_process",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_pricing",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_related",
+      "primary": {}
+    },
+    {
+      "slice_type": "cta_section",
+      "primary": {
+        "title": "Gotowy na pierwszy krok do zdrowia?",
+        "description": "Umów wizytę już dziś i poczuj różnicę",
+        "primary_button_text": "Umów wizytę",
+        "primary_button_link": {
+          "url": "/rezerwacja"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "Fizjoterapia - Profesjonalne zabiegi | ExuraOrtho Biała Podlaska",
+    "metaDescription": "Profesjonalna fizjoterapia w Białej Podlaskiej. Terapia manualna, rehabilitacja ortopedyczna, leczenie bólu. Doświadczeni specjaliści, indywidualne podejście.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  },
+  "parentPath": "/uslugi"
+}

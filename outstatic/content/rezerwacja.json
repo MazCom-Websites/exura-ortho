@@ -1,0 +1,46 @@
+{
+  "title": "Rezerwacja Wizyty",
+  "status": "published",
+  "publishedAt": "2024-01-01T00:00:00.000Z",
+  "description": "Zarezerwuj wizytę w ExuraOrtho - Centrum Rehabilitacji w Białej Podlaskiej",
+  "path": "/rezerwacja",
+  "pageType": "with-form",
+  "slices": [
+    {
+      "slice_type": "process_steps",
+      "primary": {
+        "title": "Jak zarezerwować wizytę?",
+        "description": "Rezerwacja wizyty to prosty trzyetapowy proces. Skontaktujemy się z Tobą w celu potwierdzenia terminu.",
+        "steps": [
+          {
+            "step_number": 1,
+            "icon": "Calendar",
+            "step_title": "Wybierz termin",
+            "step_description": "Zaproponuj dogodny dla Ciebie dzień i godzinę wizyty"
+          },
+          {
+            "step_number": 2,
+            "icon": "User",
+            "step_title": "Podaj dane",
+            "step_description": "Wypełnij formularz z danymi kontaktowymi i opisem problemu"
+          },
+          {
+            "step_number": 3,
+            "icon": "CheckCircle",
+            "step_title": "Potwierdź wizytę",
+            "step_description": "Zadzwonimy lub napiszemy email, aby potwierdzić termin"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "Rezerwacja Wizyty - ExuraOrtho | Umów się Online",
+    "metaDescription": "Zarezerwuj wizytę w ExuraOrtho online. Wybierz dogodny termin i wypełnij formularz. Centrum Rehabilitacji w Białej Podlaskiej.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
+}

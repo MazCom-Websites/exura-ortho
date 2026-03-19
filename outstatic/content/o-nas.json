@@ -1,0 +1,440 @@
+{
+  "title": "O nas",
+  "status": "published",
+  "publishedAt": "2024-01-01T00:00:00.000Z",
+  "description": "Poznaj zespół ExuraOrtho - Centrum Rehabilitacji w Białej Podlaskiej",
+  "path": "/o-nas",
+  "slices": [
+    {
+      "slice_type": "split_hero",
+      "primary": {
+        "badge": "O nas",
+        "title": "Poznaj ExuraOrtho - Twoje Centrum Rehabilitacji",
+        "subtitle": "Od 2009 roku pomagamy mieszkańcom Białej Podlaskiej i okolic w powrocie do pełnej sprawności. Nasz zespół 6 certyfikowanych specjalistów łączy wieloletnie doświadczenie z nowoczesnym podejściem do rehabilitacji.",
+        "image": {
+          "url": "https://res.cloudinary.com/djyf1kk36/image/upload/v1773319141/exuraortho/pwbq7qbwyywhan6wk2xe.png",
+          "alt": "Zespół ExuraOrtho"
+        },
+        "primary_cta_text": "Umów wizytę",
+        "primary_cta_link": {
+          "url": "/kontakt"
+        },
+        "secondary_cta_text": "Zobacz nasze usługi",
+        "secondary_cta_link": {
+          "url": "/uslugi"
+        }
+      }
+    },
+    {
+      "slice_type": "quote_block",
+      "primary": {
+        "quote": "Naszą misją jest przywracanie pacjentom radości z aktywnego życia. Wierzymy, że każdy człowiek zasługuje na profesjonalną opiekę rehabilitacyjną - niezależnie od wieku, schorzenia czy sytuacji życiowej. Dlatego docieramy tam, gdzie jesteśmy potrzebni.",
+        "author": "Piotr Lewandowski",
+        "role": "Założyciel i Kierownik ExuraOrtho"
+      }
+    },
+    {
+      "slice_type": "feature_alternating",
+      "primary": {
+        "title": "Nasza historia i wartości",
+        "description": "Poznaj drogę, którą przeszliśmy od małego gabinetu fizjoterapii do centrum rehabilitacyjnego z pełnym zespołem specjalistów.",
+        "features": [
+          {
+            "feature_title": "Od pasji do profesjonalizmu",
+            "feature_description": "ExuraOrtho powstało w 2009 roku z pasji Piotra Lewandowskiego do pomagania ludziom. Zaczynaliśmy jako jednoosobowy gabinet fizjoterapii, a dziś jesteśmy zespołem 6 specjalistów oferujących kompleksową opiekę rehabilitacyjną. Przez ponad 15 lat pomogliśmy setkom pacjentów wrócić do zdrowia i aktywnego życia.",
+            "badge": "Nasze początki",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/v1773319139/exuraortho/zasf5zceycwyjc5ghmqq.png",
+              "alt": "Początki ExuraOrtho"
+            }
+          },
+          {
+            "feature_title": "Pacjent w centrum uwagi",
+            "feature_description": "Każdy pacjent jest dla nas wyjątkowy. Nie stosujemy szablonowych rozwiązań - każdy plan terapii tworzymy od podstaw, uwzględniając stan zdrowia, cele, tempo postępów i sytuację życiową. Regularnie monitorujemy efekty i modyfikujemy leczenie, bo wierzymy, że rehabilitacja to proces wymagający elastyczności i zaangażowania obu stron.",
+            "badge": "Nasze podejście",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/v1773319139/exuraortho/qhbyzpb53xjrmnjpukaq.png",
+              "alt": "Indywidualne podejście do pacjenta"
+            }
+          },
+          {
+            "feature_title": "Kompleksowa opieka pod jednym dachem",
+            "feature_description": "W ExuraOrtho znajdziesz wszystko, czego potrzebujesz: fizjoterapię, terapię manualną, masaż leczniczy, rehabilitację domową oraz profesjonalne doradztwo w zakresie sprzętu medycznego. Pomagamy też w uzyskaniu dofinansowania NFZ na sprzęt rehabilitacyjny - bezpłatnie i bez zbędnej biurokracji.",
+            "badge": "Nasza oferta",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/v1773319139/exuraortho/td8eu2gkcuj3mq8pspvc.png",
+              "alt": "Kompleksowa oferta rehabilitacyjna"
+            }
+          },
+          {
+            "feature_title": "Dojeżdżamy tam, gdzie jesteśmy potrzebni",
+            "feature_description": "Rozumiemy, że nie każdy pacjent może dotrzeć do naszego gabinetu. Dlatego oferujemy pełnoprawną rehabilitację domową w promieniu 30 km od Białej Podlaskiej. Nasi terapeuci przyjeżdżają z kompletnym wyposażeniem, zapewniając taką samą jakość terapii jak w gabinecie.",
+            "badge": "Rehabilitacja domowa",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/v1773319139/exuraortho/xus0avpyeax0z5jifqc7.png",
+              "alt": "Rehabilitacja domowa"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "trust_badges",
+      "primary": {
+        "title": "Nasze osiągnięcia w liczbach",
+        "badges": [
+          {
+            "icon": "Users",
+            "number": "500",
+            "suffix": "+",
+            "label": "Zadowolonych pacjentów"
+          },
+          {
+            "icon": "Calendar",
+            "number": "15",
+            "suffix": "+",
+            "label": "Lat na rynku"
+          },
+          {
+            "icon": "UserCheck",
+            "number": "6",
+            "label": "Certyfikowanych specjalistów"
+          },
+          {
+            "icon": "MapPin",
+            "number": "30",
+            "suffix": "km",
+            "label": "Zasięg rehabilitacji domowej"
+          },
+          {
+            "icon": "Briefcase",
+            "number": "75",
+            "suffix": "+",
+            "label": "Lat łącznego doświadczenia"
+          },
+          {
+            "icon": "Star",
+            "number": "98",
+            "suffix": "%",
+            "label": "Pozytywnych opinii"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "value_cards_slider",
+      "primary": {
+        "title": "Wartości, którymi się kierujemy",
+        "subtitle": "Każdego dnia staramy się realizować wartości, które definiują naszą pracę z pacjentami",
+        "cards": [
+          {
+            "card_title": "Profesjonalizm",
+            "card_description": "Nieustannie podnosimy swoje kwalifikacje. Każdy z naszych specjalistów regularnie uczestniczy w szkoleniach i konferencjach, aby oferować najnowsze metody terapii potwierdzone naukowo.",
+            "card_icon": "GraduationCap",
+            "card_accent_color": "primary"
+          },
+          {
+            "card_title": "Empatia",
+            "card_description": "Rozumiemy, że za każdym schorzeniem stoi człowiek z jego obawami, nadziejami i oczekiwaniami. Słuchamy, wspieramy i towarzyszymy na każdym etapie rehabilitacji.",
+            "card_icon": "Heart",
+            "card_accent_color": "secondary"
+          },
+          {
+            "card_title": "Uczciwość",
+            "card_description": "Zawsze mówimy prawdę o rokowaniach i możliwościach terapii. Nie obiecujemy cudów - obiecujemy rzetelną pracę i maksymalne zaangażowanie w proces leczenia.",
+            "card_icon": "Scale",
+            "card_accent_color": "accent"
+          },
+          {
+            "card_title": "Innowacyjność",
+            "card_description": "Łączymy sprawdzone metody z nowoczesnymi technikami. Śledzimy najnowsze badania i wdrażamy te rozwiązania, które przynoszą realne korzyści naszym pacjentom.",
+            "card_icon": "Lightbulb",
+            "card_accent_color": "primary"
+          },
+          {
+            "card_title": "Dostępność",
+            "card_description": "Rehabilitacja powinna być dostępna dla każdego. Dlatego oferujemy wizyty domowe, elastyczne godziny, pakiety w przystępnych cenach i bezpłatną pomoc z dofinansowaniem NFZ.",
+            "card_icon": "DoorOpen",
+            "card_accent_color": "secondary"
+          },
+          {
+            "card_title": "Współpraca",
+            "card_description": "Wierzymy, że najlepsze efekty osiąga się we współpracy z pacjentem. Edukujemy, motywujemy i angażujemy w proces rehabilitacji, bo sukces zależy od nas obu.",
+            "card_icon": "Handshake",
+            "card_accent_color": "accent"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "team_detail_cards",
+      "primary": {
+        "title": "Nasz zespół specjalistów",
+        "subtitle": "Poznaj ekspertów, którzy zadbają o Twoje zdrowie. Każdy z naszych specjalistów to pasjonat swojej dziedziny z wieloletnim doświadczeniem klinicznym.",
+        "members": [
+          {
+            "name": "Piotr Lewandowski",
+            "position": "Kierownik Centrum - Fizjoterapia Ogólna i Ortopedyczna",
+            "bio": "Absolwent AWF Warszawa z ponad 15-letnim doświadczeniem w fizjoterapii i rehabilitacji ortopedycznej. Założyciel ExuraOrtho. Specjalizuje się w terapii manualnej, rehabilitacji pourazowej i pooperacyjnej. Certyfikowany terapeuta manualny wg koncepcji Kaltenborna-Evjentha.",
+            "photo": {
+              "url": "/images/team/piotr-lewandowski.jpg",
+              "alt": "Piotr Lewandowski"
+            },
+            "email": "piotr@exuraortho.pl",
+            "phone": "+48503401451"
+          },
+          {
+            "name": "Anna Kowalska",
+            "position": "Specjalista Fizjoterapii Sportowej",
+            "bio": "Fizjoterapeutka z 10-letnim doświadczeniem w rehabilitacji sportowej. Pracowała z zawodnikami piłki nożnej, lekkoatletyki i sportów walki. Specjalizuje się w rehabilitacji po kontuzjach sportowych, kinezytapingu i treningu funkcjonalnym.",
+            "photo": {
+              "url": "/images/team/anna-kowalska.jpg",
+              "alt": "Anna Kowalska"
+            },
+            "email": "anna@exuraortho.pl"
+          },
+          {
+            "name": "Marek Wiśniewski",
+            "position": "Fizjoterapeuta - Rehabilitacja Neurologiczna",
+            "bio": "Ekspert w zakresie rehabilitacji neurologicznej z 12-letnim stażem. Specjalizuje się w pracy z pacjentami po udarach mózgu, z chorobą Parkinsona i stwardnieniem rozsianym. Stosuje metody PNF i Bobath.",
+            "photo": {
+              "url": "/images/team/marek-wisniewski.jpg",
+              "alt": "Marek Wiśniewski"
+            },
+            "email": "marek@exuraortho.pl"
+          },
+          {
+            "name": "Katarzyna Nowak",
+            "position": "Fizjoterapeutka - Rehabilitacja Geriatryczna",
+            "bio": "Specjalistka rehabilitacji geriatrycznej z 8-letnim doświadczeniem. Pracuje z osobami starszymi nad poprawą mobilności, równowagi i samodzielności. Prowadzi programy profilaktyki upadków i terapii bólowej.",
+            "photo": {
+              "url": "/images/team/katarzyna-nowak.jpg",
+              "alt": "Katarzyna Nowak"
+            },
+            "email": "katarzyna@exuraortho.pl"
+          },
+          {
+            "name": "Tomasz Zieliński",
+            "position": "Specjalista ds. Sprzętu Medycznego",
+            "bio": "Ekspert z ponad 20-letnim doświadczeniem w branży sprzętu medycznego i rehabilitacyjnego. Pomoże w doborze odpowiedniego sprzętu, przeprowadzi przez procedurę dofinansowania NFZ i zadba o właściwe dopasowanie każdego urządzenia.",
+            "photo": {
+              "url": "/images/team/tomasz-zielinski.jpg",
+              "alt": "Tomasz Zieliński"
+            },
+            "email": "tomasz@exuraortho.pl"
+          },
+          {
+            "name": "Magdalena Kaczmarek",
+            "position": "Fizjoterapeutka - Terapia Manualna",
+            "bio": "Certyfikowany terapeuta manualny z 9-letnim doświadczeniem. Specjalizuje się w leczeniu bólu kręgosłupa, dysfunkcji stawów skroniowo-żuchwowych i problemów mięśniowo-powięziowych. Stosuje techniki mobilizacji i manipulacji stawowych.",
+            "photo": {
+              "url": "/images/team/magdalena-kaczmarek.jpg",
+              "alt": "Magdalena Kaczmarek"
+            },
+            "email": "magdalena@exuraortho.pl"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "bento_grid",
+      "primary": {
+        "title": "Co nas wyróżnia",
+        "items": [
+          {
+            "size": "large",
+            "bg_color": "primary",
+            "icon": "Award",
+            "title": "Certyfikowani specjaliści",
+            "description": "Wszyscy nasi terapeuci posiadają potwierdzone kwalifikacje i regularnie podnoszą swoje kompetencje na szkoleniach i konferencjach branżowych."
+          },
+          {
+            "size": "small",
+            "bg_color": "white",
+            "icon": "MapPin",
+            "title": "Lokalizacja",
+            "description": "Wygodna lokalizacja przy ul. Wroczyńskiego z bezpłatnym parkingiem"
+          },
+          {
+            "size": "small",
+            "bg_color": "dark",
+            "title": "Gabinet",
+            "description": "Nowoczesne wnętrze z profesjonalnym sprzętem",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/v1773319140/exuraortho/ajphvijx1kcle8mvtq6r.png"
+            }
+          },
+          {
+            "size": "medium",
+            "bg_color": "white",
+            "icon": "Accessibility",
+            "title": "Dostępność dla wszystkich",
+            "description": "Gabinet na parterze, bez barier architektonicznych. Oferujemy też rehabilitację domową dla pacjentów z ograniczoną mobilnością."
+          },
+          {
+            "size": "small",
+            "bg_color": "primary",
+            "icon": "Heart",
+            "title": "Pasja do pomagania",
+            "description": "To nie jest dla nas tylko praca - to powołanie"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "timeline",
+      "primary": {
+        "title": "Nasza historia",
+        "description": "Od małego gabinetu fizjoterapii do pełnoprawnego centrum rehabilitacyjnego - poznaj kluczowe momenty naszej drogi"
+      },
+      "items": [
+        {
+          "step_number": "2009",
+          "step_title": "Narodziny ExuraOrtho",
+          "step_description": "Piotr Lewandowski otwiera jednoosobowy gabinet fizjoterapii w Białej Podlaskiej, realizując marzenie o pomaganiu ludziom w powrocie do zdrowia.",
+          "icon": "Flag"
+        },
+        {
+          "step_number": "2012",
+          "step_title": "Pierwszy pracownik",
+          "step_description": "Do zespołu dołącza Anna Kowalska, specjalistka fizjoterapii sportowej. Rozpoczynamy współpracę z lokalnymi klubami sportowymi.",
+          "icon": "UserPlus"
+        },
+        {
+          "step_number": "2014",
+          "step_title": "Rehabilitacja domowa",
+          "step_description": "Wprowadzamy usługę rehabilitacji domowej, odpowiadając na potrzeby pacjentów z ograniczoną mobilnością. Zasięg: 30 km od Białej Podlaskiej.",
+          "icon": "Home"
+        },
+        {
+          "step_number": "2016",
+          "step_title": "Doradztwo sprzętowe",
+          "step_description": "Tomasz Zieliński dołącza do zespołu, uruchamiając dział doradztwa w zakresie sprzętu medycznego i pomocy w uzyskaniu dofinansowania NFZ.",
+          "icon": "ShoppingCart"
+        },
+        {
+          "step_number": "2019",
+          "step_title": "Nowa siedziba",
+          "step_description": "Przenosimy się do nowoczesnego lokalu przy ul. Wroczyńskiego 11/U8 - przestronnego, bez barier, z profesjonalnym wyposażeniem rehabilitacyjnym.",
+          "icon": "Building"
+        },
+        {
+          "step_number": "2022",
+          "step_title": "Pełny zespół specjalistów",
+          "step_description": "Zespół rozrasta się do 6 osób, obejmując specjalizacje: ortopedię, neurologię, geriatrię, sportową, terapię manualną i sprzęt medyczny.",
+          "icon": "Users"
+        },
+        {
+          "step_number": "2024",
+          "step_title": "500+ zadowolonych pacjentów",
+          "step_description": "Przekraczamy liczbę 500 pacjentów, którym pomogliśmy wrócić do zdrowia. 98% z nich poleca nasze usługi swoim bliskim.",
+          "icon": "Trophy"
+        }
+      ]
+    },
+    {
+      "slice_type": "numbered_features",
+      "primary": {
+        "title": "Dlaczego pacjenci nam ufają",
+        "description": "Kluczowe powody, dla których warto wybrać ExuraOrtho jako swojego partnera w drodze do zdrowia",
+        "features": [
+          {
+            "feature_title": "Ponad 75 lat łącznego doświadczenia",
+            "feature_description": "Nasz zespół to doświadczeni specjaliści z wieloletnim stażem w fizjoterapii ortopedycznej, neurologicznej, sportowej i geriatrycznej. Każdy z nas jest certyfikowanym ekspertem w swojej dziedzinie."
+          },
+          {
+            "feature_title": "Kompleksowa diagnostyka na pierwszej wizycie",
+            "feature_description": "Nie zaczynamy od leczenia - zaczynamy od zrozumienia. Pierwsza wizyta to szczegółowy wywiad medyczny, badanie funkcjonalne i precyzyjna diagnoza, na podstawie której tworzymy indywidualny plan terapii."
+          },
+          {
+            "feature_title": "Rehabilitacja bez wychodzenia z domu",
+            "feature_description": "Jako jedno z niewielu centrów w regionie oferujemy pełnoprawną rehabilitację domową z kompletnym wyposażeniem terapeutycznym. Dojeżdżamy w promieniu 30 km od Białej Podlaskiej."
+          },
+          {
+            "feature_title": "Bezpłatna pomoc z dofinansowaniem NFZ",
+            "feature_description": "Nasz specjalista ds. sprzętu medycznego przeprowadzi Cię przez cały proces uzyskania dofinansowania z Narodowego Funduszu Zdrowia - od konsultacji po dostawę sprzętu. Bezpłatnie."
+          },
+          {
+            "feature_title": "Stały kontakt i monitoring postępów",
+            "feature_description": "Nie zostawiamy Cię samego. Regularnie oceniamy efekty terapii, modyfikujemy plan leczenia i edukujemy w zakresie ćwiczeń do samodzielnego wykonywania w domu."
+          },
+          {
+            "feature_title": "Przystępne ceny i pakiety",
+            "feature_description": "Wierzymy, że rehabilitacja powinna być dostępna dla każdego. Oferujemy przejrzyste ceny, korzystne pakiety 10 sesji z rabatem 10% oraz bezpłatną konsultację telefoniczną."
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "parallax_banner",
+      "primary": {
+        "title": "Zespół, któremu możesz zaufać",
+        "subtitle": "6 certyfikowanych specjalistów z pasją do pomagania. Ponad 75 lat łącznego doświadczenia klinicznego.",
+        "background_image": {
+          "url": "https://res.cloudinary.com/djyf1kk36/image/upload/v1773319142/exuraortho/wmnhekjuujjzr7lcpheu.png",
+          "alt": "Zespół ExuraOrtho przy pracy"
+        }
+      }
+    },
+    {
+      "slice_type": "featured_testimonial",
+      "primary": {
+        "rating": 5,
+        "quote": "Kiedy trafiłam do ExuraOrtho po udarze, nie byłam w stanie samodzielnie wstać z łóżka. Pan Marek nie tylko przywrócił mi sprawność fizyczną, ale też wiarę w siebie. Po 3 miesiącach rehabilitacji domowej zaczęłam samodzielnie chodzić. Dziś, rok później, prowadzę normalne życie. Ten zespół naprawdę zmienia ludzkie życia.",
+        "author_name": "Barbara S.",
+        "author_role": "Pacjentka po rehabilitacji neurologicznej",
+        "background_image": {
+          "url": "/images/testimonial-about-bg.jpg",
+          "alt": "Rehabilitacja neurologiczna"
+        }
+      }
+    },
+    {
+      "slice_type": "blog_grid",
+      "primary": {
+        "title": "Artykuły naszych specjalistów",
+        "description": "Nasi eksperci dzielą się wiedzą i praktycznymi poradami dotyczącymi rehabilitacji, fizjoterapii i zdrowego stylu życia.",
+        "posts_count": 3,
+        "show_all_button": true,
+        "all_posts_link": {
+          "text": "Czytaj więcej artykułów",
+          "url": "/blog"
+        }
+      }
+    },
+    {
+      "slice_type": "newsletter",
+      "primary": {
+        "title": "Porady rehabilitacyjne prosto do skrzynki",
+        "description": "Zapisz się na newsletter i otrzymuj praktyczne wskazówki od naszych specjalistów. Ćwiczenia do domu, porady zdrowotne i informacje o promocjach. Maksymalnie 2 wiadomości w miesiącu.",
+        "button_text": "Zapisz się na newsletter"
+      }
+    },
+    {
+      "slice_type": "cta_section",
+      "primary": {
+        "title": "Zadbaj o swoje zdrowie z ExuraOrtho",
+        "description": "Nie musisz żyć z bólem. Umów wizytę i przekonaj się, jak profesjonalna rehabilitacja może zmienić Twoje życie. Bezpłatna konsultacja telefoniczna na start!",
+        "primary_button_text": "Umów wizytę",
+        "primary_button_link": {
+          "text": "Umów wizytę",
+          "url": "/kontakt"
+        },
+        "secondary_button_text": "Zadzwoń: 503 401 451",
+        "secondary_button_link": {
+          "text": "Zadzwoń",
+          "url": "tel:+48503401451"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "O nas - ExuraOrtho | Centrum Rehabilitacji w Białej Podlaskiej",
+    "metaDescription": "Poznaj zespół ExuraOrtho. 6 certyfikowanych specjalistów, 15+ lat doświadczenia, 500+ zadowolonych pacjentów. Fizjoterapia, rehabilitacja domowa, sprzęt medyczny w Białej Podlaskiej.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
+}
