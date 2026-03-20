@@ -1,0 +1,154 @@
+{
+  "title": "Dofinansowanie",
+  "status": "published",
+  "publishedAt": "2024-01-15T00:00:00.000Z",
+  "description": "Dofinansowanie NFZ i PFRON na sprzęt rehabilitacyjny i ortopedyczny",
+  "path": "/dofinansowanie",
+  "slices": [
+    {
+      "slice_type": "gradient_mesh_hero",
+      "primary": {
+        "title": "Pomożemy Ci uzyskać dofinansowanie",
+        "subtitle": "Przeprowadzimy Cię przez cały proces — od wniosku po odbiór sprzętu. Dofinansowanie z NFZ i PFRON pokrywa nawet 80% kosztów ortez, protez i sprzętu rehabilitacyjnego.",
+        "cta_text": "Sprawdź, czy Ci przysługuje",
+        "cta_link": {
+          "url": "/kontakt"
+        },
+        "gradient_color_1": "#0ab8b5",
+        "gradient_color_2": "#1e40af"
+      }
+    },
+    {
+      "slice_type": "sticky_scroll_features",
+      "primary": {
+        "title": "Proces uzyskania dofinansowania krok po kroku",
+        "description": "Cały proces trwa zazwyczaj 2-4 tygodnie. Na każdym etapie jesteśmy przy Tobie — od pierwszej konsultacji po odbiór sprzętu.",
+        "image": {
+          "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/oxbinf4zhfornli7edcj",
+          "alt": "Sprzęt ortopedyczny z dofinansowaniem"
+        },
+        "features": [
+          {
+            "title": "Konsultacja i weryfikacja uprawnień",
+            "description": "Sprawdzamy, czy przysługuje Ci dofinansowanie z NFZ, PFRON lub obu źródeł jednocześnie. Analizujemy Twoje orzeczenie o niepełnosprawności i zlecenie lekarskie.",
+            "icon": "Search"
+          },
+          {
+            "title": "Dobór odpowiedniego sprzętu",
+            "description": "Na podstawie zaleceń lekarskich dobieramy optymalny sprzęt — ortezę, protezę, wózek inwalidzki lub inny środek pomocniczy. Przymierzasz i testujesz przed zamówieniem.",
+            "icon": "Settings"
+          },
+          {
+            "title": "Przygotowanie dokumentacji",
+            "description": "Kompletujemy wszystkie dokumenty: zlecenie lekarskie, wniosek do NFZ/PFRON, kosztorys. Wypełniamy formularze za Ciebie — musisz tylko podpisać.",
+            "icon": "FileText"
+          },
+          {
+            "title": "Złożenie wniosku i oczekiwanie",
+            "description": "Składamy wniosek w Twoim imieniu lub wspólnie. Śledzimy status realizacji i informujemy o każdej zmianie. Czas oczekiwania: zwykle 7-14 dni roboczych.",
+            "icon": "Clock"
+          },
+          {
+            "title": "Odbiór sprzętu i instruktaż",
+            "description": "Po pozytywnej decyzji odbierasz sprzęt w naszym gabinecie. Dopasowujemy go, uczymy prawidłowego użytkowania i przekazujemy kartę gwarancyjną.",
+            "icon": "PackageCheck"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "comparison_columns",
+      "primary": {
+        "title": "Z dofinansowaniem vs bez dofinansowania",
+        "left_title": "Bez dofinansowania",
+        "right_title": "Z dofinansowaniem NFZ/PFRON",
+        "rows": [
+          {
+            "left_text": "Orteza kolanowa: 800–1500 zł z własnej kieszeni",
+            "right_text": "Orteza kolanowa: 0–300 zł po dofinansowaniu"
+          },
+          {
+            "left_text": "Wózek inwalidzki: 3000–8000 zł",
+            "right_text": "Wózek inwalidzki: 0–1500 zł po dofinansowaniu"
+          },
+          {
+            "left_text": "Wkładki ortopedyczne: 200–500 zł",
+            "right_text": "Wkładki ortopedyczne: 0–100 zł po dofinansowaniu"
+          },
+          {
+            "left_text": "Samodzielne szukanie sprzętu i dostawcy",
+            "right_text": "Dobór sprzętu przez specjalistę — bezpłatnie"
+          },
+          {
+            "left_text": "Samodzielne wypełnianie wniosków i dokumentów",
+            "right_text": "Pełna pomoc w kompletowaniu dokumentacji"
+          },
+          {
+            "left_text": "Brak gwarancji dopasowania sprzętu",
+            "right_text": "Przymiarki, testy i instruktaż użytkowania w cenie"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "searchable_faq",
+      "primary": {
+        "title": "Pytania o dofinansowanie",
+        "description": "Odpowiedzi na najczęściej zadawane pytania dotyczące dofinansowania z NFZ i PFRON.",
+        "faqs": [
+          {
+            "question": "Kto może uzyskać dofinansowanie z NFZ?",
+            "answer": "Każda osoba ubezpieczona w NFZ, która posiada zlecenie lekarskie na wyrób medyczny. Zlecenie wystawia lekarz specjalista lub lekarz POZ. Nie jest wymagane orzeczenie o niepełnosprawności.",
+            "category": "NFZ"
+          },
+          {
+            "question": "Kto może uzyskać dofinansowanie z PFRON?",
+            "answer": "Osoby posiadające aktualne orzeczenie o niepełnosprawności (znaczny, umiarkowany lub lekki stopień). Dofinansowanie PFRON można łączyć z dofinansowaniem NFZ — wtedy dopłata własna jest minimalna lub zerowa.",
+            "category": "PFRON"
+          },
+          {
+            "question": "Jakie dokumenty są potrzebne?",
+            "answer": "Do NFZ: zlecenie lekarskie na wyrób medyczny i dowód osobisty. Do PFRON dodatkowo: orzeczenie o niepełnosprawności, faktura proforma i wniosek. Pomagamy skompletować wszystkie dokumenty.",
+            "category": "Dokumenty"
+          },
+          {
+            "question": "Ile trwa cały proces?",
+            "answer": "Od złożenia wniosku do odbioru sprzętu: zwykle 2-4 tygodnie. Samo rozpatrzenie wniosku przez NFZ to 7-14 dni roboczych. W pilnych przypadkach istnieje tryb przyspieszony.",
+            "category": "Czas"
+          },
+          {
+            "question": "Czy mogę łączyć dofinansowanie NFZ i PFRON?",
+            "answer": "Tak! To najkorzystniejsza opcja. NFZ pokrywa część kosztów według limitu cenowego, a PFRON dopłaca do 150% kwoty limitu. W efekcie Twoja dopłata wynosi nawet 0 zł.",
+            "category": "Finansowanie"
+          },
+          {
+            "question": "Na jaki sprzęt można uzyskać dofinansowanie?",
+            "answer": "Na wyroby medyczne z wykazu MZ: ortezy, protezy, wkładki ortopedyczne, kule, balkoniki, wózki inwalidzkie, materace przeciwodleżynowe, aparaty słuchowe i wiele innych. Sprawdzimy, czy Twój sprzęt kwalifikuje się do refundacji.",
+            "category": "Sprzęt"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "glow_cta",
+      "primary": {
+        "title": "Sprawdź, jakie dofinansowanie Ci przysługuje",
+        "description": "Bezpłatna konsultacja — sprawdzimy Twoje uprawnienia i przeprowadzimy przez cały proces.",
+        "cta_text": "Zadzwoń: +48 503 401 451",
+        "cta_link": {
+          "url": "tel:+48503401451"
+        },
+        "glow_color": "#0ab8b5"
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "Dofinansowanie NFZ i PFRON na sprzęt rehabilitacyjny | ExuraOrtho Biała Podlaska",
+    "metaDescription": "Pomagamy uzyskać dofinansowanie z NFZ i PFRON na ortezy, protezy, wózki inwalidzkie i sprzęt rehabilitacyjny. Pełna obsługa dokumentacji. ExuraOrtho Biała Podlaska.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "dofinansowanie NFZ, dofinansowanie PFRON, refundacja sprzętu rehabilitacyjnego, ortezy dofinansowanie, Biała Podlaska",
+    "canonicalUrl": ""
+  }
+}

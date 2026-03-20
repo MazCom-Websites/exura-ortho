@@ -1,0 +1,97 @@
+{
+  "title": "FAQ",
+  "status": "published",
+  "publishedAt": "2024-01-01T00:00:00.000Z",
+  "description": "Często zadawane pytania",
+  "path": "/faq",
+  "slices": [
+    {
+      "slice_type": "hero_centered",
+      "primary": {
+        "title": "Często zadawane pytania",
+        "subtitle": "Znajdź odpowiedzi na najczęściej pojawiające się pytania dotyczące naszych usług, cen i procedur.",
+        "background": "light",
+        "cta_text": "",
+        "cta_link": {
+          "url": ""
+        }
+      }
+    },
+    {
+      "slice_type": "treatment_faq",
+      "primary": {
+        "title": "Pytania o rehabilitację",
+        "tabs": [
+          {
+            "tab_label": "Przed wizytą",
+            "faqs": [
+              {
+                "question": "Co zabrać na pierwszą wizytę?",
+                "answer": "Dokumentację medyczną (RTG, MRI), listę leków, wygodne ubranie do ćwiczeń."
+              },
+              {
+                "question": "Ile trwa pierwsza wizyta?",
+                "answer": "Wizyta diagnostyczna trwa 60-90 minut. Obejmuje wywiad, badanie i plan terapii."
+              },
+              {
+                "question": "Czy potrzebuję skierowania?",
+                "answer": "Nie, nasze usługi są prywatne. Zadzwoń pod +48 503 401 451."
+              }
+            ]
+          },
+          {
+            "tab_label": "Podczas terapii",
+            "faqs": [
+              {
+                "question": "Jak często powinienem przychodzić?",
+                "answer": "Zazwyczaj 2-3 razy w tygodniu. Częstotliwość ustalamy indywidualnie."
+              },
+              {
+                "question": "Czy rehabilitacja boli?",
+                "answer": "Niektóre techniki mogą powodować dyskomfort, ale nie silny ból. Dostosowujemy intensywność."
+              },
+              {
+                "question": "Czy muszę ćwiczyć w domu?",
+                "answer": "Tak, ćwiczenia domowe są kluczowe. Przekażemy indywidualny zestaw z instrukcją."
+              }
+            ]
+          },
+          {
+            "tab_label": "Po terapii",
+            "faqs": [
+              {
+                "question": "Jak długo utrzymują się efekty?",
+                "answer": "Przy regularnych ćwiczeniach — trwale. Zalecamy kontrole co 3-6 miesięcy."
+              },
+              {
+                "question": "Czy mogę wrócić do sportu?",
+                "answer": "Tak! Przeprowadzimy testy funkcjonalne potwierdzające gotowość."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "glow_cta",
+      "primary": {
+        "title": "Nie znalazłeś odpowiedzi?",
+        "description": "Zadzwoń — chętnie odpowiemy na każde pytanie.",
+        "cta_text": "Zadzwoń: +48 503 401 451",
+        "cta_link": {
+          "url": "tel:+48503401451"
+        },
+        "glow_color": "#0ab8b5"
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "FAQ - Często zadawane pytania | ExuraOrtho - Rehabilitacja Biała Podlaska",
+    "metaDescription": "Odpowiedzi na najczęstsze pytania o fizjoterapii, rehabilitacji, cenach, dofinansowaniu NFZ i sprzęcie medycznym. ExuraOrtho - Centrum Rehabilitacji w Białej Podlaskiej.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "title": "Cennik",
+  "status": "published",
+  "publishedAt": "2024-01-15T00:00:00.000Z",
+  "description": "Cennik usług rehabilitacyjnych ExuraOrtho w Białej Podlaskiej",
+  "path": "/cennik",
+  "slices": [
+    {
+      "slice_type": "hero_centered",
+      "primary": {
+        "title": "Cennik usług rehabilitacyjnych",
+        "description": "Przejrzyste ceny, bez ukrytych kosztów. Oferujemy pakiety z rabatem do 20% — im więcej wizyt, tym większa oszczędność.",
+        "media": {
+          "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/dhypegriceq1e3oi6j5c",
+          "alt": "Gabinet rehabilitacyjny ExuraOrtho"
+        },
+        "cta": {
+          "url": "/kontakt",
+          "text": "Umów wizytę"
+        }
+      }
+    },
+    {
+      "slice_type": "pricing_table",
+      "primary": {
+        "title": "Nasze usługi i ceny",
+        "description": "Wszystkie ceny obejmują pełną konsultację i indywidualnie dobrany plan terapii. Pakiety 5 i 10 wizyt zapewniają znaczne oszczędności."
+      },
+      "items": [
+        {
+          "package_name": "Fizjoterapia",
+          "package_description": "Indywidualny zabieg fizjoterapeutyczny — diagnostyka, terapia manualna i ćwiczenia.",
+          "visits_count": "1 wizyta",
+          "package_price": "150 zł",
+          "discount": 0,
+          "features": "- Konsultacja fizjoterapeutyczna\n- Terapia manualna\n- Ćwiczenia indywidualne\n- Plan terapii domowej",
+          "highlighted": false
+        },
+        {
+          "package_name": "Fizjoterapia — Pakiet 5",
+          "package_description": "5 wizyt fizjoterapeutycznych w pakiecie ze zniżką.",
+          "visits_count": "5 wizyt",
+          "package_price": "675 zł",
+          "discount": 10,
+          "features": "- 5 zabiegów fizjoterapeutycznych\n- Oszczędność 75 zł\n- Stały terapeuta\n- Monitoring postępów",
+          "highlighted": false
+        },
+        {
+          "package_name": "Fizjoterapia — Pakiet 10",
+          "package_description": "10 wizyt fizjoterapeutycznych — najlepsza cena za wizytę.",
+          "visits_count": "10 wizyt",
+          "package_price": "1200 zł",
+          "discount": 20,
+          "features": "- 10 zabiegów fizjoterapeutycznych\n- Oszczędność 300 zł\n- Stały terapeuta\n- Monitoring postępów\n- Raport końcowy",
+          "highlighted": true
+        },
+        {
+          "package_name": "Rehabilitacja domowa",
+          "package_description": "Profesjonalna rehabilitacja w zaciszu Twojego domu — dojazd w promieniu 30 km.",
+          "visits_count": "1 wizyta",
+          "package_price": "200 zł",
+          "discount": 0,
+          "features": "- Dojazd do pacjenta\n- Sprzęt przenośny\n- Pełna dokumentacja\n- Plan ćwiczeń domowych",
+          "highlighted": false
+        },
+        {
+          "package_name": "Rehabilitacja domowa — Pakiet 5",
+          "package_description": "5 wizyt domowych ze zniżką pakietową.",
+          "visits_count": "5 wizyt",
+          "package_price": "900 zł",
+          "discount": 10,
+          "features": "- 5 wizyt domowych\n- Oszczędność 100 zł\n- Stały terapeuta\n- Ciągłość terapii",
+          "highlighted": false
+        },
+        {
+          "package_name": "Rehabilitacja domowa — Pakiet 10",
+          "package_description": "10 wizyt domowych — maksymalna oszczędność.",
+          "visits_count": "10 wizyt",
+          "package_price": "1600 zł",
+          "discount": 20,
+          "features": "- 10 wizyt domowych\n- Oszczędność 400 zł\n- Stały terapeuta\n- Ciągłość terapii\n- Raport końcowy",
+          "highlighted": true
+        },
+        {
+          "package_name": "Terapia manualna",
+          "package_description": "Specjalistyczna mobilizacja stawów i tkanek miękkich.",
+          "visits_count": "1 wizyta",
+          "package_price": "180 zł",
+          "discount": 0,
+          "features": "- Diagnostyka funkcjonalna\n- Mobilizacje stawowe\n- Techniki tkanek miękkich\n- Zalecenia profilaktyczne",
+          "highlighted": false
+        },
+        {
+          "package_name": "Terapia manualna — Pakiet 5",
+          "package_description": "5 sesji terapii manualnej w pakiecie.",
+          "visits_count": "5 wizyt",
+          "package_price": "810 zł",
+          "discount": 10,
+          "features": "- 5 sesji terapii manualnej\n- Oszczędność 90 zł\n- Stały terapeuta\n- Monitoring postępów",
+          "highlighted": false
+        },
+        {
+          "package_name": "Terapia manualna — Pakiet 10",
+          "package_description": "10 sesji terapii manualnej — najlepsza cena.",
+          "visits_count": "10 wizyt",
+          "package_price": "1440 zł",
+          "discount": 20,
+          "features": "- 10 sesji terapii manualnej\n- Oszczędność 360 zł\n- Stały terapeuta\n- Monitoring postępów\n- Raport końcowy",
+          "highlighted": true
+        },
+        {
+          "package_name": "Masaż leczniczy",
+          "package_description": "Terapeutyczny masaż rozluźniający napięcia mięśniowe.",
+          "visits_count": "1 wizyta",
+          "package_price": "120 zł",
+          "discount": 0,
+          "features": "- Masaż klasyczny lub segmentarny\n- 45-60 minut zabiegu\n- Rozluźnienie napięć\n- Poprawa krążenia",
+          "highlighted": false
+        },
+        {
+          "package_name": "Masaż leczniczy — Pakiet 5",
+          "package_description": "5 masaży leczniczych ze zniżką.",
+          "visits_count": "5 wizyt",
+          "package_price": "540 zł",
+          "discount": 10,
+          "features": "- 5 masaży leczniczych\n- Oszczędność 60 zł\n- Regularność zabiegów\n- Lepsze efekty terapeutyczne",
+          "highlighted": false
+        },
+        {
+          "package_name": "Masaż leczniczy — Pakiet 10",
+          "package_description": "10 masaży leczniczych — najlepsza cena.",
+          "visits_count": "10 wizyt",
+          "package_price": "960 zł",
+          "discount": 20,
+          "features": "- 10 masaży leczniczych\n- Oszczędność 240 zł\n- Regularność zabiegów\n- Lepsze efekty terapeutyczne\n- Raport końcowy",
+          "highlighted": true
+        },
+        {
+          "package_name": "Diagnostyka funkcjonalna",
+          "package_description": "Kompleksowa ocena funkcjonalna z planem leczenia.",
+          "visits_count": "1 wizyta",
+          "package_price": "200 zł",
+          "discount": 0,
+          "features": "- Wywiad medyczny\n- Testy funkcjonalne\n- Analiza postawy ciała\n- Indywidualny plan terapii",
+          "highlighted": false
+        },
+        {
+          "package_name": "Kinesiotaping",
+          "package_description": "Aplikacja plastrów kinesiotapingowych — wspomaganie terapii.",
+          "visits_count": "1 aplikacja",
+          "package_price": "od 50 zł",
+          "discount": 0,
+          "features": "- Aplikacja kinesiotapu\n- Dobór techniki\n- Instrukcja pielęgnacji\n- Cena zależy od obszaru",
+          "highlighted": false
+        }
+      ]
+    },
+    {
+      "slice_type": "searchable_faq",
+      "primary": {
+        "title": "Pytania o ceny i płatności",
+        "description": "Najczęściej zadawane pytania dotyczące cennika i form płatności.",
+        "faqs": [
+          {
+            "question": "Czy mogę płacić kartą?",
+            "answer": "Tak, akceptujemy płatności gotówką, kartą oraz BLIK-iem. Wystawiamy również faktury VAT na życzenie.",
+            "category": "Płatności"
+          },
+          {
+            "question": "Czy cena pierwszej wizyty jest wyższa?",
+            "answer": "Pierwsza wizyta obejmuje pełną diagnostykę funkcjonalną i trwa dłużej (60-90 min). Koszt wynosi 200 zł i obejmuje szczegółowy plan terapii.",
+            "category": "Ceny"
+          },
+          {
+            "question": "Czy pakiety mają termin ważności?",
+            "answer": "Pakiety 5 wizyt są ważne 2 miesiące, a pakiety 10 wizyt — 4 miesiące od daty zakupu. W uzasadnionych przypadkach przedłużamy termin.",
+            "category": "Pakiety"
+          },
+          {
+            "question": "Czy mogę uzyskać dofinansowanie do zabiegów?",
+            "answer": "Tak, pomagamy w uzyskaniu dofinansowania z PFRON oraz NFZ na sprzęt rehabilitacyjny i ortopedyczny. Szczegóły na stronie Dofinansowanie.",
+            "category": "Dofinansowanie"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "glow_cta",
+      "primary": {
+        "title": "Masz pytania o cennik?",
+        "description": "Zadzwoń — chętnie wyjaśnimy szczegóły i doradzimy optymalny pakiet.",
+        "cta_text": "Zadzwoń: +48 503 401 451",
+        "cta_link": {
+          "url": "tel:+48503401451"
+        },
+        "glow_color": "#0ab8b5"
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "Cennik usług rehabilitacyjnych | ExuraOrtho Biała Podlaska",
+    "metaDescription": "Sprawdź cennik fizjoterapii, rehabilitacji domowej, terapii manualnej, masażu leczniczego i diagnostyki funkcjonalnej. Pakiety 5 i 10 wizyt z rabatem do 20%. ExuraOrtho Biała Podlaska.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "cennik rehabilitacja, ceny fizjoterapia, pakiety rehabilitacyjne, Biała Podlaska",
+    "canonicalUrl": ""
+  }
+}

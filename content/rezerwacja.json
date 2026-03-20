@@ -1,0 +1,89 @@
+{
+  "title": "Rezerwacja Wizyty",
+  "status": "published",
+  "publishedAt": "2024-01-01T00:00:00.000Z",
+  "description": "Zarezerwuj wizytę w ExuraOrtho - Centrum Rehabilitacji w Białej Podlaskiej",
+  "path": "/rezerwacja",
+  "pageType": "with-form",
+  "slices": [
+    {
+      "slice_type": "hero_centered",
+      "primary": {
+        "title": "Zarezerwuj wizytę",
+        "description": "Wybierz dogodny termin i umów się na wizytę w naszym centrum rehabilitacji. Skontaktujemy się z Tobą, aby potwierdzić termin.",
+        "cta": {
+          "url": "#formularz",
+          "text": "Wypełnij formularz"
+        }
+      }
+    },
+    {
+      "slice_type": "contact_cards",
+      "primary": {
+        "title": "Jak możesz się z nami umówić?",
+        "cards": [
+          {
+            "icon": "Phone",
+            "title": "Telefonicznie",
+            "description": "Zadzwoń do nas i umów wizytę bezpośrednio z naszym recepcjonistą. To najszybszy sposób na rezerwację.",
+            "contact": "+48 503 401 451",
+            "link": {
+              "url": "tel:+48503401451",
+              "text": "Zadzwoń teraz"
+            }
+          },
+          {
+            "icon": "Mail",
+            "title": "Przez email",
+            "description": "Wyślij nam wiadomość z opisem problemu i preferowanym terminem. Odpowiemy w ciągu 24 godzin.",
+            "contact": "biuro@exuraortho.pl",
+            "link": {
+              "url": "mailto:biuro@exuraortho.pl",
+              "text": "Napisz do nas"
+            }
+          },
+          {
+            "icon": "FileText",
+            "title": "Formularz online",
+            "description": "Wypełnij formularz poniżej, a my skontaktujemy się z Tobą w celu potwierdzenia terminu wizyty.",
+            "contact": "Formularz poniżej",
+            "link": {
+              "url": "#formularz",
+              "text": "Przejdź do formularza"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "searchable_faq",
+      "primary": {
+        "title": "Najczęściej zadawane pytania o rezerwację",
+        "search_placeholder": "Szukaj odpowiedzi...",
+        "faqs": [
+          {
+            "question": "Jak daleko z wyprzedzeniem mogę zarezerwować wizytę?",
+            "answer": "Wizyty można rezerwować z wyprzedzeniem do 4 tygodni. W nagłych przypadkach staramy się znaleźć termin w ciągu 1-2 dni roboczych. Zalecamy kontakt telefoniczny w celu ustalenia najbliższego dostępnego terminu."
+          },
+          {
+            "question": "Co zrobić, jeśli muszę odwołać lub przenieść wizytę?",
+            "answer": "Prosimy o odwołanie lub zmianę terminu wizyty co najmniej 24 godziny przed planowanym spotkaniem. Można to zrobić telefonicznie pod numerem +48 503 401 451 lub mailowo na adres biuro@exuraortho.pl."
+          },
+          {
+            "question": "Czy na pierwszą wizytę potrzebuję skierowania?",
+            "answer": "Na wizytę prywatną skierowanie nie jest wymagane. Jeśli jednak posiadasz skierowanie od lekarza lub wyniki badań (RTG, MRI, USG), prosimy o zabranie ich ze sobą — pomogą w dokładniejszej diagnozie i zaplanowaniu terapii."
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "Rezerwacja Wizyty - ExuraOrtho | Umów się Online",
+    "metaDescription": "Zarezerwuj wizytę w ExuraOrtho online. Wybierz dogodny termin i wypełnij formularz. Centrum Rehabilitacji w Białej Podlaskiej.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
+}

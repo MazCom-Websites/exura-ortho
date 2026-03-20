@@ -1,0 +1,183 @@
+{
+  "title": "Usługi",
+  "status": "published",
+  "publishedAt": "2024-01-01T00:00:00.000Z",
+  "description": "Nasze usługi rehabilitacyjne i fizjoterapeutyczne",
+  "path": "/uslugi",
+  "contextType": "services",
+  "slices": [
+    {
+      "slice_type": "scroll_reveal_hero",
+      "primary": {
+        "title": "Kompleksowa oferta rehabilitacyjna",
+        "subtitle": "12 specjalizacji, jeden cel — Twoje zdrowie. Dobieramy terapię indywidualnie, łącząc różne metody dla najlepszych efektów.",
+        "image": {
+          "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/dhypegriceq1e3oi6j5c.png",
+          "alt": "Gabinet rehabilitacyjny"
+        },
+        "cta_text": "Umów wizytę",
+        "cta_link": {
+          "url": "/kontakt"
+        }
+      }
+    },
+    {
+      "slice_type": "service_showcase_tabs",
+      "primary": {
+        "title": "Nasze specjalizacje",
+        "services": [
+          {
+            "name": "Fizjoterapia",
+            "description": "Kompleksowe zabiegi przywracające sprawność ruchową.",
+            "icon": "Heart",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/a9nc8msxo0wghgbsqdnz.png",
+              "alt": "Fizjoterapia"
+            }
+          },
+          {
+            "name": "Rehabilitacja domowa",
+            "description": "Profesjonalna terapia w zaciszu Twojego domu.",
+            "icon": "Home",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/ecksnpvxbnbyoho8fzc2.png",
+              "alt": "Rehabilitacja domowa"
+            }
+          },
+          {
+            "name": "Terapia manualna",
+            "description": "Mobilizacje stawów i tkanek miękkich.",
+            "icon": "Hand",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/cv0bqqjzuoxkj9xmiuaw.png",
+              "alt": "Terapia manualna"
+            }
+          },
+          {
+            "name": "Kinezyterapia",
+            "description": "Leczenie ruchem — ćwiczenia terapeutyczne.",
+            "icon": "Dumbbell",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/pnox0xbn5tntmcdszxvp.png",
+              "alt": "Kinezyterapia"
+            }
+          },
+          {
+            "name": "Fizykoterapia",
+            "description": "Laser, ultradźwięki, magnetoterapia.",
+            "icon": "Zap",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/viq6g2gujiavv5whidlx.png",
+              "alt": "Fizykoterapia"
+            }
+          },
+          {
+            "name": "Masaż leczniczy",
+            "description": "Terapeutyczne masaże rozluźniające napięcia.",
+            "icon": "Hand",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/jdl2gbb4l7tikmgepqjc.png",
+              "alt": "Masaż"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "comparison_columns",
+      "primary": {
+        "title": "Efekty rehabilitacji",
+        "left_title": "Przed terapią",
+        "right_title": "Po 4-8 tygodniach",
+        "rows": [
+          {
+            "left_text": "Ból ograniczający codzienne czynności",
+            "right_text": "Znaczna redukcja lub eliminacja bólu"
+          },
+          {
+            "left_text": "Ograniczony zakres ruchu",
+            "right_text": "Pełna mobilność w stawach"
+          },
+          {
+            "left_text": "Osłabienie mięśniowe",
+            "right_text": "Odbudowana siła i stabilność"
+          },
+          {
+            "left_text": "Trudności w pracy i sporcie",
+            "right_text": "Powrót do pełnej aktywności"
+          },
+          {
+            "left_text": "Uzależnienie od leków przeciwbólowych",
+            "right_text": "Naturalna kontrola bólu"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "equipment_showcase",
+      "primary": {
+        "title": "Profesjonalny sprzęt",
+        "items": [
+          {
+            "name": "Aparat do elektrostymulacji",
+            "description": "Zaawansowana elektroterapia wspomagająca regenerację mięśni.",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/gbm6zlser1d5tj8cukzb.png",
+              "alt": "Sprzęt"
+            },
+            "specs": [
+              {
+                "label": "Zastosowanie",
+                "value": "Fizjoterapia"
+              },
+              {
+                "label": "Programy",
+                "value": "50+"
+              }
+            ]
+          },
+          {
+            "name": "Zaopatrzenie ortopedyczne",
+            "description": "Ortezy, stabilizatory, wkładki ortopedyczne.",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/oxbinf4zhfornli7edcj.png",
+              "alt": "Ortezy"
+            },
+            "specs": [
+              {
+                "label": "Dofinansowanie",
+                "value": "NFZ/PFRON"
+              },
+              {
+                "label": "Dobór",
+                "value": "Bezpłatny"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "glow_cta",
+      "primary": {
+        "title": "Nie wiesz, którą usługę wybrać?",
+        "description": "Zadzwoń — bezpłatnie dobierzemy optymalną formę terapii.",
+        "cta_text": "Bezpłatna konsultacja",
+        "cta_link": {
+          "url": "tel:+48503401451"
+        },
+        "glow_color": "#0ab8b5"
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "Usługi rehabilitacyjne - Fizjoterapia, Masaż, Rehabilitacja domowa | ExuraOrtho",
+    "metaDescription": "Poznaj pełną ofertę ExuraOrtho: fizjoterapia od 150 zł, rehabilitacja domowa, terapia manualna, masaż leczniczy, sprzęt medyczny. Certyfikowani specjaliści, pakiety z rabatem.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  },
+  "contextKey": "service"
+}

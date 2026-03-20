@@ -1,0 +1,127 @@
+{
+  "title": "Kontakt",
+  "status": "published",
+  "publishedAt": "2024-01-01T00:00:00.000Z",
+  "description": "Skontaktuj się z ExuraOrtho",
+  "path": "/kontakt",
+  "slices": [
+    {
+      "slice_type": "split_reveal_hero",
+      "primary": {
+        "title": "Skontaktuj się z nami",
+        "subtitle": "Zadzwoń, napisz lub odwiedź nas osobiście. Pierwsza konsultacja telefoniczna jest bezpłatna.",
+        "image": {
+          "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/ipdp2ttqphaaw8rpjudn.png",
+          "alt": "Konsultacja"
+        },
+        "cta_text": "Zadzwoń teraz",
+        "cta_link": {
+          "url": "tel:+48503401451"
+        },
+        "background_color": ""
+      }
+    },
+    {
+      "slice_type": "contact_cards",
+      "primary": {
+        "title": "Jak się z nami skontaktować?",
+        "methods": [
+          {
+            "title": "Telefon",
+            "description": "Pon-Pt 9:00-16:00",
+            "icon": "Phone",
+            "value": "+48 503 401 451",
+            "link": {
+              "url": "tel:+48503401451"
+            }
+          },
+          {
+            "title": "Email",
+            "description": "Odpowiadamy w ciągu 24h",
+            "icon": "Mail",
+            "value": "biuro@exuraortho.pl",
+            "link": {
+              "url": "mailto:biuro@exuraortho.pl"
+            }
+          },
+          {
+            "title": "Wizyta osobista",
+            "description": "Zapraszamy do gabinetu",
+            "icon": "MapPin",
+            "value": "Wroczyńskiego 11/U8, Biała Podlaska",
+            "link": {
+              "url": "https://maps.google.com"
+            }
+          },
+          {
+            "title": "Formularz online",
+            "description": "Wypełnij i oddzwonimy",
+            "icon": "FileText",
+            "value": "Formularz na stronie",
+            "link": {
+              "url": "#formularz"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "location_with_directions",
+      "primary": {
+        "title": "Jak do nas dojechać?",
+        "address": "ul. Czesława Wroczyńskiego 11/U8, 21-500 Biała Podlaska",
+        "directions": [
+          {
+            "icon": "Car",
+            "instruction": "Parking bezpłatny przed budynkiem — miejsca dla pacjentów"
+          },
+          {
+            "icon": "Bus",
+            "instruction": "Przystanek Wroczyńskiego — linie 1, 3, 7 (200m od gabinetu)"
+          },
+          {
+            "icon": "Accessibility",
+            "instruction": "Wejście dostępne dla osób na wózkach inwalidzkich"
+          }
+        ],
+        "map_image": {
+          "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/pzaj7sq99zbknv75p66e.png",
+          "alt": "Mapa dojazdu"
+        }
+      }
+    },
+    {
+      "slice_type": "searchable_faq",
+      "primary": {
+        "title": "Pytania o wizyty",
+        "description": "",
+        "faqs": [
+          {
+            "question": "Jak umówić wizytę?",
+            "answer": "Zadzwoń pod +48 503 401 451 (pon-pt 9:00-16:00) lub wypełnij formularz. Oddzwonimy w ciągu 24h.",
+            "category": "Wizyty"
+          },
+          {
+            "question": "Ile kosztuje pierwsza wizyta?",
+            "answer": "Wizyta diagnostyczna: 150-200 zł, trwa 60-90 minut.",
+            "category": "Cennik"
+          },
+          {
+            "question": "Czy dojeżdżacie do domu?",
+            "answer": "Tak! W promieniu 30 km od Białej Podlaskiej. Wizyta domowa: 200 zł.",
+            "category": "Wizyty"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "Kontakt - ExuraOrtho | Centrum Rehabilitacji w Białej Podlaskiej",
+    "metaDescription": "Skontaktuj się z ExuraOrtho. Tel: 503 401 451, Email: biuro@exuraortho.pl. Adres: Wroczyńskiego 11/U8, Biała Podlaska. Bezpłatna konsultacja telefoniczna. Pon-Pt 9:00-16:00.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
+}

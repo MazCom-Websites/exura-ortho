@@ -1,0 +1,144 @@
+{
+  "title": "Terapia powięziowa",
+  "slug": "terapia-powieziowa",
+  "publishedAt": "2026-03-18T22:17:32.848Z",
+  "status": "published",
+  "name": "Terapia powięziowa",
+  "shortDescription": "Specjalistyczne techniki pracy z powięzią — rozluźnianie zrostów, przywracanie elastyczności tkanek i redukcja bólu miofascjalnego.",
+  "icon": "Hand",
+  "mainImage": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/cv0bqqjzuoxkj9xmiuaw.png",
+  "category": "Terapia manualna",
+  "duration": 50,
+  "price": 170,
+  "priceFrom": false,
+  "popular": false,
+  "indications": [
+    {
+      "indication": "Bóle miofascjalne",
+      "icon": "Check"
+    },
+    {
+      "indication": "Ograniczona mobilność tkanek",
+      "icon": "Move"
+    },
+    {
+      "indication": "Blizny i zrosty pooperacyjne",
+      "icon": "Stethoscope"
+    },
+    {
+      "indication": "Zespoły bólowe kręgosłupa",
+      "icon": "Activity"
+    },
+    {
+      "indication": "Napięciowe bóle głowy",
+      "icon": "Brain"
+    },
+    {
+      "indication": "Punkty spustowe (trigger points)",
+      "icon": "Target"
+    }
+  ],
+  "contraindications": [
+    {
+      "contraindication": "Aktywne stany zapalne z gorączką"
+    },
+    {
+      "contraindication": "Nowotwory w obszarze terapii"
+    },
+    {
+      "contraindication": "Zaburzenia krzepnięcia krwi"
+    },
+    {
+      "contraindication": "Świeże urazy tkanek miękkich"
+    }
+  ],
+  "processSteps": [
+    {
+      "title": "Badanie palpacyjne",
+      "description": "Ocena stanu powięzi, identyfikacja zrostów i ograniczeń."
+    },
+    {
+      "title": "Terapia manualna powięzi",
+      "description": "Zastosowanie technik rozluźniania miofascjalnego."
+    },
+    {
+      "title": "Praca z punktami spustowymi",
+      "description": "Deaktywacja trigger pointów i rozluźnianie napięć."
+    },
+    {
+      "title": "Automasaż i ćwiczenia",
+      "description": "Instruktaż technik samopomocowych z rollerem i piłeczką."
+    }
+  ],
+  "pricingVariants": [
+    {
+      "name": "Sesja terapeutyczna",
+      "duration": "50",
+      "price": "170",
+      "description": "Terapia powięziowa jednego regionu ciała"
+    },
+    {
+      "name": "Sesja rozszerzona",
+      "duration": "80",
+      "price": "250",
+      "description": "Kompleksowa praca z powięzią całego ciała"
+    }
+  ],
+  "relatedServices": [
+    "terapia-manualna",
+    "masaz-leczniczy",
+    "fizjoterapia"
+  ],
+  "content": "Terapia powięziowa to zaawansowana metoda pracy z tkanką łączną. Pozwala rozluźnić zrosty, przywrócić prawidłowe napięcie tkanek i skutecznie zredukować ból.",
+  "slices": [
+    {
+      "slice_type": "service_hero",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_description",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_indications",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_contraindications",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_process",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_pricing",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_related",
+      "primary": {}
+    },
+    {
+      "slice_type": "cta_section",
+      "primary": {
+        "title": "Gotowy na pierwszy krok do zdrowia?",
+        "description": "Umów wizytę już dziś i poczuj różnicę",
+        "primary_button_text": "Umów wizytę",
+        "primary_button_link": {
+          "url": "/rezerwacja"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "",
+    "metaDescription": "",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  },
+  "parentPath": "/uslugi"
+}

@@ -1,0 +1,172 @@
+{
+  "title": "Sprzęt Medyczny",
+  "status": "published",
+  "publishedAt": "2024-01-01T00:00:00.000Z",
+  "description": "Profesjonalny sprzęt medyczny i ortopedyczny - dobór, sprzedaż, wynajem i pomoc w dofinansowaniu NFZ",
+  "path": "/sprzet-medyczny",
+  "slices": [
+    {
+      "slice_type": "hero_centered",
+      "primary": {
+        "title": "Sprzęt Medyczny",
+        "description": "Oferujemy profesjonalny sprzęt medyczny i ortopedyczny dopasowany do indywidualnych potrzeb każdego pacjenta, wspomagający proces rehabilitacji i codzienne funkcjonowanie.",
+        "cta": {
+          "url": "/kontakt",
+          "text": "Skontaktuj się z nami"
+        }
+      }
+    },
+    {
+      "slice_type": "icon_card_grid",
+      "primary": {
+        "cards": [
+          {
+            "title": "Wózki inwalidzkie",
+            "description": "Szeroki wybór wózków inwalidzkich manualnych i elektrycznych, dopasowanych do indywidualnych potrzeb pacjentów."
+          },
+          {
+            "title": "Sprzęt rehabilitacyjny",
+            "description": "Profesjonalny sprzęt rehabilitacyjny wspomagający proces powrotu do zdrowia i samodzielności."
+          },
+          {
+            "title": "Ortezy i stabilizatory",
+            "description": "Wysokiej jakości ortezy i stabilizatory zapewniające wsparcie i ochronę uszkodzonych stawów i mięśni."
+          },
+          {
+            "title": "Sprzęt do pielęgnacji",
+            "description": "Komfortowy i funkcjonalny sprzęt do pielęgnacji osób przewlekle chorych i z niepełnosprawnościami."
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "feature_alternating",
+      "primary": {
+        "title": "Dofinansowania na sprzęt medyczny",
+        "description": "Wiemy, jak ważny jest dostęp do odpowiedniego sprzętu medycznego, dlatego pomagamy naszym pacjentom uzyskać dofinansowanie z różnych źródeł.",
+        "features": [
+          {
+            "badge": "NFZ / PFRON / OPS",
+            "feature_title": "Bezpłatna pomoc w uzyskaniu dofinansowania",
+            "feature_description": "Nasi specjaliści pomogą Ci przejść przez cały proces uzyskania dofinansowania – od Narodowego Funduszu Zdrowia (NFZ), przez PFRON, po Ośrodki Pomocy Społecznej (OPS). Wypełnimy wnioski, skompletujemy dokumentację i będziemy Ci towarzyszyć na każdym etapie.",
+            "image": {
+              "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/oxbinf4zhfornli7edcj.png",
+              "alt": "Dofinansowanie na sprzęt medyczny"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "process_steps",
+      "primary": {
+        "title": "Jak pomagamy w wyborze sprzętu?",
+        "description": "Nasz proces doboru sprzętu medycznego jest zawsze indywidualnie dopasowany do potrzeb, możliwości i celów rehabilitacji każdego pacjenta.",
+        "steps": [
+          {
+            "step_number": 1,
+            "icon": "ClipboardList",
+            "step_title": "Konsultacja i ocena potrzeb",
+            "step_description": "Rozpoczynamy od dokładnej konsultacji, podczas której oceniamy indywidualne potrzeby pacjenta, jego stan zdrowia i cele rehabilitacji."
+          },
+          {
+            "step_number": 2,
+            "icon": "Stethoscope",
+            "step_title": "Dobór odpowiedniego sprzętu",
+            "step_description": "Na podstawie konsultacji nasi specjaliści rekomendują odpowiedni sprzęt, uwzględniając zarówno potrzeby medyczne, jak i komfort użytkowania."
+          },
+          {
+            "step_number": 3,
+            "icon": "FileText",
+            "step_title": "Wsparcie w uzyskaniu dofinansowania",
+            "step_description": "Pomagamy w przygotowaniu dokumentacji i wniosków niezbędnych do uzyskania dofinansowania na zakup wybranego sprzętu."
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "equipment_showcase",
+      "primary": {
+        "title": "Popularne produkty",
+        "description": "Oferujemy szeroki asortyment sprzętu medycznego i ortopedycznego najwyższej jakości.",
+        "items": [
+          {
+            "title": "Wózek inwalidzki",
+            "description": "Lekki, składany wózek inwalidzki z regulowanymi podnóżkami i podłokietnikami. Idealny do codziennego użytku w domu i na zewnątrz.",
+            "image": { "url": "", "alt": "Wózek inwalidzki" },
+            "specs": [
+              { "label": "Waga", "value": "12 kg" },
+              { "label": "Nośność", "value": "do 130 kg" },
+              { "label": "Szerokość siedziska", "value": "42-50 cm" },
+              { "label": "Składany", "value": "Tak" }
+            ]
+          },
+          {
+            "title": "Ortezy i stabilizatory",
+            "description": "Profesjonalne ortezy stawu kolanowego, skokowego i nadgarstkowego. Zapewniają stabilizację i ochronę podczas rehabilitacji.",
+            "image": { "url": "", "alt": "Ortezy i stabilizatory" },
+            "specs": [
+              { "label": "Typy", "value": "Kolanowe, skokowe, nadgarstkowe" },
+              { "label": "Regulacja", "value": "Kąt zgięcia 0-120°" },
+              { "label": "Materiał", "value": "Neopren medyczny" },
+              { "label": "Rozmiary", "value": "S-XXL" }
+            ]
+          },
+          {
+            "title": "Łóżko rehabilitacyjne",
+            "description": "Elektryczne łóżko rehabilitacyjne z regulacją wysokości, pochylenia oparcia i podnóżka. Wyposażone w barierki ochronne.",
+            "image": { "url": "", "alt": "Łóżko rehabilitacyjne" },
+            "specs": [
+              { "label": "Sterowanie", "value": "Pilot elektryczny" },
+              { "label": "Nośność", "value": "do 200 kg" },
+              { "label": "Regulacja wysokości", "value": "30-70 cm" },
+              { "label": "Barierki", "value": "Składane, aluminiowe" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "progress_bars_section",
+      "primary": {
+        "title": "Dofinansowanie pokrywa koszty",
+        "description": "Dzięki dofinansowaniu z NFZ, PFRON i OPS znaczna część kosztów sprzętu medycznego może zostać pokryta. Pomagamy w uzyskaniu maksymalnego dofinansowania.",
+        "bars": [
+          { "label": "Wózki inwalidzkie", "value": 80, "suffix": "%" },
+          { "label": "Ortezy i stabilizatory", "value": 70, "suffix": "%" },
+          { "label": "Łóżka rehabilitacyjne", "value": 60, "suffix": "%" },
+          { "label": "Kule i laski", "value": 90, "suffix": "%" }
+        ]
+      }
+    },
+    {
+      "slice_type": "social_proof_counter",
+      "primary": {
+        "title": "Pacjentów skorzystało z dofinansowania na sprzęt medyczny",
+        "initial_count": 340,
+        "daily_increment": 2,
+        "start_date": "2026-01-01"
+      }
+    },
+    {
+      "slice_type": "cta_section",
+      "primary": {
+        "title": "Potrzebujesz profesjonalnego sprzętu medycznego?",
+        "description": "Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji. Nasi specjaliści pomogą dobrać odpowiedni sprzęt do Twoich potrzeb i możliwości.",
+        "primary_button_text": "Skontaktuj się z nami",
+        "primary_button_link": {
+          "url": "/kontakt"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "Sprzęt Medyczny - ExuraOrtho",
+    "metaDescription": "Oferujemy szeroki wybór profesjonalnego sprzętu medycznego i ortopedycznego dostosowanego do indywidualnych potrzeb pacjentów. Pomoc w uzyskaniu dofinansowania NFZ i PFRON.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
+}
