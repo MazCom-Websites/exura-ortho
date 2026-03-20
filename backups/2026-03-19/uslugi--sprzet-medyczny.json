@@ -1,0 +1,130 @@
+{
+  "title": "Sprzęt Medyczny",
+  "slug": "sprzet-medyczny",
+  "publishedAt": "2024-01-15T00:00:00.000Z",
+  "status": "published",
+  "name": "Sprzęt Medyczny",
+  "shortDescription": "Profesjonalny sprzęt rehabilitacyjny i ortopedyczny. Pomoc w doborze i dofinansowaniu z NFZ.",
+  "icon": "ShoppingCart",
+  "mainImage": "/gbm6zlser1d5tj8cukzb.png",
+  "category": "Sprzęt medyczny",
+  "duration": 30,
+  "price": "Indywidualnie",
+  "priceFrom": false,
+  "popular": false,
+  "indications": [
+    {
+      "indication": "Potrzeba wózka inwalidzkiego (aktywnego lub elektrycznego)",
+      "icon": "Check"
+    },
+    {
+      "indication": "Ortezy i stabilizatory stawów",
+      "icon": "Shield"
+    },
+    {
+      "indication": "Pionizatory i urządzenia wspomagające pionizację",
+      "icon": "ArrowUp"
+    },
+    {
+      "indication": "Balkoniki, kule i laski",
+      "icon": "Footprints"
+    },
+    {
+      "indication": "Materace przeciwodleżynowe",
+      "icon": "Bed"
+    },
+    {
+      "indication": "Protezy i wkładki ortopedyczne",
+      "icon": "User"
+    }
+  ],
+  "contraindications": [],
+  "processSteps": [
+    {
+      "title": "Konsultacja",
+      "description": "Bezpłatna konsultacja, podczas której oceniamy potrzeby pacjenta i doradzamy odpowiedni sprzęt."
+    },
+    {
+      "title": "Dobór sprzętu",
+      "description": "Wspólnie wybieramy najlepszy sprzęt dopasowany do indywidualnych potrzeb i możliwości pacjenta."
+    },
+    {
+      "title": "Pomoc w dofinansowaniu",
+      "description": "Pomagamy w przygotowaniu dokumentacji i przeprowadzamy przez procedurę dofinansowania z NFZ."
+    },
+    {
+      "title": "Dostawa i przeszkolenie",
+      "description": "Dostarczamy sprzęt, dopasowujemy go i szkolimy pacjenta oraz opiekunów z prawidłowego użytkowania."
+    }
+  ],
+  "pricingVariants": [
+    {
+      "name": "Konsultacja i doradztwo",
+      "duration": "30",
+      "price": "Bezpłatnie",
+      "description": "Bezpłatna ocena potrzeb i doradztwo w wyborze sprzętu"
+    },
+    {
+      "name": "Dobór i dopasowanie sprzętu",
+      "duration": "60",
+      "price": "Indywidualnie",
+      "description": "Cena zależy od rodzaju sprzętu"
+    }
+  ],
+  "relatedServices": [
+    "doradztwo-sprzet",
+    "rehabilitacja-domowa"
+  ],
+  "slices": [
+    {
+      "slice_type": "service_hero",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_description",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_indications",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_contraindications",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_process",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_pricing",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_related",
+      "primary": {}
+    },
+    {
+      "slice_type": "cta_section",
+      "primary": {
+        "title": "Gotowy na pierwszy krok do zdrowia?",
+        "description": "Umów wizytę już dziś i poczuj różnicę",
+        "primary_button_text": "Umów wizytę",
+        "primary_button_link": {
+          "url": "/rezerwacja"
+        }
+      }
+    }
+  ],
+  "content": "## Profesjonalny sprzęt rehabilitacyjny i ortopedyczny\n\nOferujemy szeroki wybór sprzętu medycznego najwyższej jakości od renomowanych producentów. Pomagamy w doborze odpowiedniego sprzętu, zapewniamy profesjonalne doradztwo oraz wsparcie w uzyskaniu dofinansowania z NFZ.\n\n## Nasz asortyment\n\n### Wózki inwalidzkie\n- Wózki manualne standardowe i aktywne\n- Wózki elektryczne\n- Wózki specjalistyczne (dziecięce, sportowe, do wanny)\n\n### Ortezy i stabilizatory\n- Ortezy kończyn górnych i dolnych\n- Stabilizatory kolan, kostek i nadgarstków\n- Gorsety ortopedyczne\n- Kołnierze ortopedyczne\n\n### Sprzęt wspomagający mobilność\n- Balkoniki i chodziki\n- Kule łokciowe i pachowe\n- Laski i trójnogi\n- Pionizatory statyczne i dynamiczne\n\n### Sprzęt do opieki domowej\n- Materace przeciwodleżynowe\n- Łóżka rehabilitacyjne\n- Poduszki do siedzenia\n- Deski i ławki do kąpieli\n\n## Dofinansowanie z NFZ\n\nNarodowy Fundusz Zdrowia oferuje dofinansowanie wielu rodzajów sprzętu rehabilitacyjnego. Nasz zespół pomoże Ci w:\n\n- Ustaleniu, czy dany sprzęt kwalifikuje się do dofinansowania\n- Przygotowaniu niezbędnej dokumentacji\n- Złożeniu wniosku do NFZ\n- Monitorowaniu procesu i odbioru sprzętu\n\n## Sprzedaż i wynajem\n\nOprócz sprzedaży oferujemy również wynajem sprzętu rehabilitacyjnego. Wynajem jest doskonałym rozwiązaniem dla osób potrzebujących sprzętu tymczasowo, na przykład po operacji lub w trakcie rehabilitacji.",
+  "metadata": {
+    "metaTitle": "Sprzęt Medyczny i Rehabilitacyjny | ExuraOrtho Biała Podlaska",
+    "metaDescription": "Sprzęt rehabilitacyjny i ortopedyczny w Białej Podlaskiej. Wózki inwalidzkie, ortezy, pionizatory, balkoniki. Pomoc w dofinansowaniu NFZ.",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  },
+  "parentPath": "/uslugi"
+}

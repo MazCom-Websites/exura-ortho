@@ -1,0 +1,140 @@
+{
+  "title": "Fizykoterapia",
+  "slug": "fizykoterapia",
+  "publishedAt": "2026-03-18T22:17:32.848Z",
+  "status": "published",
+  "name": "Fizykoterapia",
+  "shortDescription": "Wykorzystanie czynników fizycznych w leczeniu: elektroterapia, ultradźwięki, laseroterapia, magnetoterapia i krioterapia.",
+  "icon": "Zap",
+  "mainImage": "/viq6g2gujiavv5whidlx.png",
+  "category": "Fizykoterapia",
+  "duration": 30,
+  "price": 80,
+  "priceFrom": true,
+  "popular": false,
+  "indications": [
+    {
+      "indication": "Bóle mięśniowo-szkieletowe",
+      "icon": "Check"
+    },
+    {
+      "indication": "Stany zapalne stawów i tkanek miękkich",
+      "icon": "Activity"
+    },
+    {
+      "indication": "Obrzęki pourazowe",
+      "icon": "Stethoscope"
+    },
+    {
+      "indication": "Przyspieszenie gojenia się tkanek",
+      "icon": "Heart"
+    },
+    {
+      "indication": "Rozluźnienie mięśni",
+      "icon": "Brain"
+    }
+  ],
+  "contraindications": [
+    {
+      "contraindication": "Rozrusznik serca (niektóre zabiegi)"
+    },
+    {
+      "contraindication": "Nowotwory w obszarze zabiegu"
+    },
+    {
+      "contraindication": "Ciąża (niektóre zabiegi)"
+    },
+    {
+      "contraindication": "Metalowe implanty w obszarze zabiegu (niektóre zabiegi)"
+    }
+  ],
+  "processSteps": [
+    {
+      "title": "Konsultacja",
+      "description": "Omówienie wskazań i dobór odpowiednich zabiegów fizykalnych."
+    },
+    {
+      "title": "Dobór parametrów",
+      "description": "Ustalenie rodzaju zabiegu, dawki i czasu trwania."
+    },
+    {
+      "title": "Seria zabiegów",
+      "description": "Wykonanie cyklu zabiegów fizykoterapeutycznych (zwykle 10 sesji)."
+    },
+    {
+      "title": "Ocena efektów",
+      "description": "Kontrola postępów i ewentualna modyfikacja terapii."
+    }
+  ],
+  "pricingVariants": [
+    {
+      "name": "Pojedynczy zabieg",
+      "duration": "20-30",
+      "price": "80",
+      "description": "Jeden zabieg fizykalny"
+    },
+    {
+      "name": "Pakiet 10 zabiegów",
+      "duration": "20-30",
+      "price": "700",
+      "description": "10 zabiegów — oszczędzasz 100 zł"
+    }
+  ],
+  "relatedServices": [
+    "fizjoterapia",
+    "kinezyterapia",
+    "masaz-leczniczy"
+  ],
+  "content": "Fizykoterapia wykorzystuje naturalne czynniki fizyczne — prąd, światło, pole magnetyczne, ultradźwięki — do wspomagania procesu leczenia i rehabilitacji.",
+  "slices": [
+    {
+      "slice_type": "service_hero",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_description",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_indications",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_contraindications",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_process",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_pricing",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_related",
+      "primary": {}
+    },
+    {
+      "slice_type": "cta_section",
+      "primary": {
+        "title": "Gotowy na pierwszy krok do zdrowia?",
+        "description": "Umów wizytę już dziś i poczuj różnicę",
+        "primary_button_text": "Umów wizytę",
+        "primary_button_link": {
+          "url": "/rezerwacja"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "",
+    "metaDescription": "",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  },
+  "parentPath": "/uslugi"
+}

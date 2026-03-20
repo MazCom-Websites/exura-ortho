@@ -1,0 +1,143 @@
+{
+  "title": "Taping",
+  "slug": "taping",
+  "publishedAt": "2026-03-18T22:17:32.848Z",
+  "status": "published",
+  "name": "Taping",
+  "shortDescription": "Kinesiotaping i taping sztywny — wspomaganie terapii, stabilizacja stawów, redukcja obrzęków i bólu.",
+  "icon": "Scissors",
+  "mainImage": "/tk2aslku2fdj0uspyyxi.png",
+  "category": "Taping",
+  "duration": 20,
+  "price": 50,
+  "priceFrom": true,
+  "popular": false,
+  "indications": [
+    {
+      "indication": "Urazy sportowe",
+      "icon": "Activity"
+    },
+    {
+      "indication": "Obrzęki limfatyczne",
+      "icon": "Check"
+    },
+    {
+      "indication": "Bóle mięśniowe i stawowe",
+      "icon": "Heart"
+    },
+    {
+      "indication": "Wspomaganie stabilizacji stawów",
+      "icon": "Shield"
+    },
+    {
+      "indication": "Korekcja postawy",
+      "icon": "User"
+    }
+  ],
+  "contraindications": [
+    {
+      "contraindication": "Alergia na klej/plastry"
+    },
+    {
+      "contraindication": "Uszkodzenia skóry w miejscu aplikacji"
+    },
+    {
+      "contraindication": "Aktywne infekcje skórne"
+    }
+  ],
+  "processSteps": [
+    {
+      "title": "Ocena problemu",
+      "description": "Określenie celu tapingu i wybór odpowiedniej techniki."
+    },
+    {
+      "title": "Przygotowanie skóry",
+      "description": "Oczyszczenie i przygotowanie obszaru aplikacji."
+    },
+    {
+      "title": "Aplikacja taśmy",
+      "description": "Precyzyjne naklejenie taśmy zgodnie z wybraną techniką."
+    },
+    {
+      "title": "Instruktaż",
+      "description": "Wskazówki dotyczące noszenia, higieny i usuwania taśmy."
+    }
+  ],
+  "pricingVariants": [
+    {
+      "name": "Kinesiotaping (1 aplikacja)",
+      "duration": "15",
+      "price": "50",
+      "description": "Jedna aplikacja taśmy kinesiology"
+    },
+    {
+      "name": "Kinesiotaping (2-3 aplikacje)",
+      "duration": "20",
+      "price": "80",
+      "description": "Kilka aplikacji w jednej sesji"
+    },
+    {
+      "name": "Taping sztywny",
+      "duration": "20",
+      "price": "60",
+      "description": "Stabilizacja stawu taśmą sztywną"
+    }
+  ],
+  "relatedServices": [
+    "fizjoterapia",
+    "kinezyterapia",
+    "masaz-leczniczy"
+  ],
+  "content": "Taping to nieinwazyjna metoda wspomagająca terapię. Odpowiednio dobrana technika i aplikacja taśmy pomagają w redukcji bólu, obrzęków i przyspieszają regenerację.",
+  "slices": [
+    {
+      "slice_type": "service_hero",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_description",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_indications",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_contraindications",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_process",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_pricing",
+      "primary": {}
+    },
+    {
+      "slice_type": "service_related",
+      "primary": {}
+    },
+    {
+      "slice_type": "cta_section",
+      "primary": {
+        "title": "Gotowy na pierwszy krok do zdrowia?",
+        "description": "Umów wizytę już dziś i poczuj różnicę",
+        "primary_button_text": "Umów wizytę",
+        "primary_button_link": {
+          "url": "/rezerwacja"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "metaTitle": "",
+    "metaDescription": "",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  },
+  "parentPath": "/uslugi"
+}
