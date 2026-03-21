@@ -1,0 +1,38 @@
+{
+  "siteName": "ExuraOrtho",
+  "siteDescription": "Centrum Rehabilitacji ExuraOrtho — profesjonalne doradztwo w zakresie sprzętu rehabilitacyjnego oraz kompleksowe usługi rehabilitacyjne.",
+  "navbar": {
+    "links": [
+      { "name": "Strona główna", "path": "/" },
+      { "name": "Usługi", "path": "/uslugi" },
+      { "name": "O nas", "path": "/o-nas" },
+      { "name": "Blog", "path": "/blog" },
+      { "name": "FAQ", "path": "/faq" },
+      { "name": "Kontakt", "path": "/kontakt" }
+    ],
+    "cta": { "text": "Umów wizytę", "path": "/kontakt" }
+  },
+  "contact": {
+    "phone": "+48 503 401 451",
+    "email": "biuro@exuraortho.pl",
+    "address": "Czesława Wroczyńskiego 11/U8, 21-500 Biała Podlaska",
+    "openingHours": {
+      "weekdays": "9:00 - 16:00",
+      "weekends": "Zamknięte"
+    }
+  },
+  "social": {
+    "facebook": "https://facebook.com/exuraortho",
+    "instagram": "https://instagram.com/exuraortho"
+  },
+  "footer": {
+    "copyright": "© {year} ExuraOrtho. Wszelkie prawa zastrzeżone.",
+    "services": [
+      { "name": "Rehabilitacja", "path": "/uslugi/rehabilitacja" },
+      { "name": "Rehabilitacja domowa", "path": "/uslugi/rehabilitacja-domowa" },
+      { "name": "Fizjoterapia", "path": "/uslugi/fizjoterapia" },
+      { "name": "Sprzęt rehabilitacyjny", "path": "/uslugi/sprzet-medyczny" },
+      { "name": "Pomoc w finansowaniu", "path": "/uslugi/finansowanie" }
+    ]
+  }
+}
