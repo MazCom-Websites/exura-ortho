@@ -6,29 +6,32 @@
   "path": "/kontakt",
   "slices": [
     {
-      "slice_type": "split_reveal_hero",
+      "slice_type": "text_title_hero",
       "primary": {
         "title": "Skontaktuj się z nami",
-        "subtitle": "Zadzwoń, napisz lub odwiedź nas osobiście. Pierwsza konsultacja telefoniczna jest bezpłatna.",
-        "image": {
-          "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/ipdp2ttqphaaw8rpjudn.png",
-          "alt": "Konsultacja"
-        },
-        "cta_text": "Zadzwoń teraz",
-        "cta_link": {
+        "subtitle": "Zadzwoń, napisz lub odwiedź nas osobiście. Pierwsza konsultacja telefoniczna jest bezpłatna."
+      }
+    },
+    {
+      "slice_type": "alert_banner",
+      "primary": {
+        "type": "info",
+        "message": "Oferujemy bezpłatną 15-minutową konsultację telefoniczną. Zadzwoń i omów swoją sytuację ze specjalistą!",
+        "link_text": "Zadzwoń teraz",
+        "link": {
           "url": "tel:+48503401451"
         },
-        "background_color": ""
+        "dismissible": true
       }
     },
     {
       "slice_type": "contact_cards",
       "primary": {
-        "title": "Jak się z nami skontaktować?",
+        "title": "Wybierz najwygodniejszy sposób kontaktu",
         "methods": [
           {
             "title": "Telefon",
-            "description": "Pon-Pt 9:00-16:00",
+            "description": "Pon-Pt 9:00-16:00 | Bezpłatna konsultacja",
             "icon": "Phone",
             "value": "+48 503 401 451",
             "link": {
@@ -37,7 +40,7 @@
           },
           {
             "title": "Email",
-            "description": "Odpowiadamy w ciągu 24h",
+            "description": "Odpowiadamy w ciągu 24 godzin",
             "icon": "Mail",
             "value": "biuro@exuraortho.pl",
             "link": {
@@ -45,12 +48,12 @@
             }
           },
           {
-            "title": "Wizyta osobista",
-            "description": "Zapraszamy do gabinetu",
+            "title": "Adres",
+            "description": "Parter, wejście od ulicy, bez barier",
             "icon": "MapPin",
-            "value": "Wroczyńskiego 11/U8, Biała Podlaska",
+            "value": "Wroczyńskiego 11/U8, 21-500 Biała Podlaska",
             "link": {
-              "url": "https://maps.google.com"
+              "url": "https://maps.google.com/?q=52.0329,23.1507"
             }
           },
           {
@@ -66,6 +69,57 @@
       }
     },
     {
+      "slice_type": "contact_form_with_details",
+      "primary": {
+        "title": "Napisz do nas",
+        "description": "Wypełnij formularz, a odezwiemy się najszybciej jak to możliwe. Możesz też opisać swoje dolegliwości, a zaproponujemy najlepszą formę terapii."
+      },
+      "items": [
+        {
+          "icon": "Phone",
+          "label": "Telefon",
+          "value": "+48 503 401 451",
+          "link": {
+            "url": "tel:+48503401451"
+          }
+        },
+        {
+          "icon": "Mail",
+          "label": "Email",
+          "value": "biuro@exuraortho.pl",
+          "link": {
+            "url": "mailto:biuro@exuraortho.pl"
+          }
+        },
+        {
+          "icon": "MapPin",
+          "label": "Adres",
+          "value": "Czesława Wroczyńskiego 11/U8, 21-500 Biała Podlaska"
+        },
+        {
+          "icon": "Clock",
+          "label": "Godziny",
+          "value": "Pon-Pt: 9:00-16:00, Sob: na umówienie"
+        }
+      ]
+    },
+    {
+      "slice_type": "opening_hours_card",
+      "primary": {
+        "title": "Godziny otwarcia",
+        "description": "Zapraszamy w poniższych godzinach. Wizyty w soboty wyłącznie po wcześniejszym umówieniu telefonicznym.",
+        "hours": [
+          { "day": "Poniedziałek", "time": "9:00 - 16:00", "is_closed": false },
+          { "day": "Wtorek", "time": "9:00 - 16:00", "is_closed": false },
+          { "day": "Środa", "time": "9:00 - 16:00", "is_closed": false },
+          { "day": "Czwartek", "time": "9:00 - 16:00", "is_closed": false },
+          { "day": "Piątek", "time": "9:00 - 16:00", "is_closed": false },
+          { "day": "Sobota", "time": "Na umówienie", "is_closed": false },
+          { "day": "Niedziela", "time": "Zamknięte", "is_closed": true }
+        ]
+      }
+    },
+    {
       "slice_type": "location_with_directions",
       "primary": {
         "title": "Jak do nas dojechać?",
@@ -73,7 +127,7 @@
         "directions": [
           {
             "icon": "Car",
-            "instruction": "Parking bezpłatny przed budynkiem — miejsca dla pacjentów"
+            "instruction": "Bezpłatny parking bezpośrednio przed budynkiem (ok. 10 miejsc). Dodatkowe miejsca po drugiej stronie ulicy. Wyznaczone miejsce dla osób z niepełnosprawnościami najbliżej wejścia."
           },
           {
             "icon": "Bus",
@@ -81,37 +135,105 @@
           },
           {
             "icon": "Accessibility",
-            "instruction": "Wejście dostępne dla osób na wózkach inwalidzkich"
+            "instruction": "Gabinet na parterze, bez schodów i progów. Wejście szerokie, przystosowane dla wózków inwalidzkich. Oznaczone tablicą ExuraOrtho."
           }
         ],
         "map_image": {
           "url": "https://res.cloudinary.com/djyf1kk36/image/upload/exuraortho/pzaj7sq99zbknv75p66e.png",
-          "alt": "Mapa dojazdu"
+          "alt": "Mapa dojazdu do ExuraOrtho"
         }
       }
     },
     {
-      "slice_type": "searchable_faq",
+      "slice_type": "treatment_faq",
       "primary": {
-        "title": "Pytania o wizyty",
-        "description": "",
-        "faqs": [
+        "title": "Pytania dotyczące wizyt",
+        "tabs": [
           {
-            "question": "Jak umówić wizytę?",
-            "answer": "Zadzwoń pod +48 503 401 451 (pon-pt 9:00-16:00) lub wypełnij formularz. Oddzwonimy w ciągu 24h.",
-            "category": "Wizyty"
+            "tab_label": "Umawianie wizyty",
+            "faqs": [
+              {
+                "question": "Jak mogę umówić wizytę?",
+                "answer": "Najszybciej telefonicznie pod numerem 503 401 451 (Pon-Pt 9:00-16:00). Możesz też napisać na biuro@exuraortho.pl lub wypełnić formularz kontaktowy na tej stronie. Odpowiadamy w ciągu 24 godzin."
+              },
+              {
+                "question": "Ile czasu przed wizytą powinienem przyjść?",
+                "answer": "Prosimy o przybycie 5-10 minut przed umówioną godziną, szczególnie przy pierwszej wizycie. Potrzebujemy chwili na wypełnienie krótkiego formularza medycznego."
+              },
+              {
+                "question": "Co zabrać na pierwszą wizytę?",
+                "answer": "Zabierz ze sobą: wyniki badań (RTG, MRI, USG — jeśli posiadasz), listę przyjmowanych leków, skierowania lub dokumentację medyczną oraz wygodny strój sportowy lub luźne ubranie."
+              }
+            ]
           },
           {
-            "question": "Ile kosztuje pierwsza wizyta?",
-            "answer": "Wizyta diagnostyczna: 150-200 zł, trwa 60-90 minut.",
-            "category": "Cennik"
+            "tab_label": "Odwoływanie i zmiana",
+            "faqs": [
+              {
+                "question": "Czy mogę odwołać lub przełożyć wizytę?",
+                "answer": "Tak, prosimy o powiadomienie co najmniej 24 godziny wcześniej. Pozwoli to zaproponować termin innemu pacjentowi. Odwołanie w krótszym czasie może wiązać się z opłatą za rezerwację."
+              },
+              {
+                "question": "Czy mogę zmienić terapeuta?",
+                "answer": "Tak, jeśli z jakiegoś powodu wolisz zmienić specjalistę, wystarczy poinformować nas przy umawianiu następnej wizyty. Dobierzemy terapeutę najlepiej odpowiadającego Twoim potrzebom."
+              }
+            ]
           },
           {
-            "question": "Czy dojeżdżacie do domu?",
-            "answer": "Tak! W promieniu 30 km od Białej Podlaskiej. Wizyta domowa: 200 zł.",
-            "category": "Wizyty"
+            "tab_label": "Dostępność",
+            "faqs": [
+              {
+                "question": "Czy gabinet jest dostępny dla osób z niepełnosprawnościami?",
+                "answer": "Tak, nasz gabinet znajduje się na parterze, bez schodów i progów. Wejście jest szerokie i przystosowane dla wózków inwalidzkich. Przed budynkiem wyznaczone jest miejsce parkingowe dla osób z niepełnosprawnościami."
+              },
+              {
+                "question": "Czy oferujecie wizyty domowe?",
+                "answer": "Tak! Rehabilitacja domowa to jedna z naszych kluczowych usług. Dojeżdżamy w promieniu 30 km od Białej Podlaskiej z kompletnym wyposażeniem. Wizyta domowa kosztuje 200 zł/60 min."
+              }
+            ]
           }
         ]
+      }
+    },
+    {
+      "slice_type": "testimonials_carousel",
+      "primary": {
+        "title": "Opinie naszych pacjentów",
+        "subtitle": "Co mówią o współpracy z nami",
+        "testimonials": [
+          {
+            "quote": "Od pierwszego telefonu czułem się zaopiekowany. Pani w recepcji była bardzo pomocna i szybko znalazła termin dopasowany do mojego grafiku.",
+            "author_name": "Tomasz R.",
+            "author_role": "Pacjent",
+            "rating": 5
+          },
+          {
+            "quote": "Gabinet łatwy do znalezienia, parking pod drzwiami i zero barier. Ważne dla mnie, bo poruszam się na wózku. Profesjonalna obsługa od A do Z.",
+            "author_name": "Krzysztof B.",
+            "author_role": "Pacjent — rehabilitacja domowa",
+            "rating": 5
+          },
+          {
+            "quote": "Napisałam maila w niedzielę wieczorem, a w poniedziałek rano już miałam odpowiedź z propozycją terminu. Szybko i bezproblemowo!",
+            "author_name": "Marta W.",
+            "author_role": "Pacjentka",
+            "rating": 5
+          },
+          {
+            "quote": "Wystarczyło kilka domowych rehabilitacji i odzyskałam sprawność po ciężkim wypadku. Pan Piotr był bardzo profesjonalny i empatyczny. Polecam!",
+            "author_name": "Stefania",
+            "author_role": "Rehabilitacja domowa",
+            "rating": 5
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "newsletter",
+      "primary": {
+        "title": "Bądź na bieżąco",
+        "description": "Zapisz się na newsletter i otrzymuj porady rehabilitacyjne, informacje o promocjach i praktyczne wskazówki od naszych specjalistów. Maksymalnie 2 wiadomości w miesiącu.",
+        "button_text": "Zapisz się"
       }
     }
   ],
