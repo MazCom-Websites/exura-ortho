@@ -9,7 +9,7 @@
       "slice_type": "gradient_mesh_hero",
       "primary": {
         "title": "Wracamy Ci sprawność, oddajemy komfort życia",
-        "subtitle": "Centrum Rehabilitacji ExuraOrtho w Białej Podlaskiej. Ponad 15 lat doświadczenia, 500+ wyleczonych pacjentów, rehabilitacja z dojazdem do domu.",
+        "subtitle": "Centrum Rehabilitacji ExuraOrtho w Białej Podlaskiej. Ponad 15 lat doświadczenia, 550+ wyleczonych pacjentów, rehabilitacja z dojazdem do domu.",
         "cta_text": "Umów bezpłatną konsultację",
         "cta_link": {
           "url": "/kontakt"
@@ -254,10 +254,18 @@
       "primary": {
         "title": "Poznaj naszych specjalistów",
         "filter_categories": [
-          { "label": "Wszyscy" },
-          { "label": "Fizjoterapia" },
-          { "label": "Rehabilitacja" },
-          { "label": "Terapia manualna" }
+          {
+            "label": "Wszyscy"
+          },
+          {
+            "label": "Fizjoterapia"
+          },
+          {
+            "label": "Rehabilitacja"
+          },
+          {
+            "label": "Terapia manualna"
+          }
         ],
         "members": [
           {
