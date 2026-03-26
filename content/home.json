@@ -9,7 +9,7 @@
       "slice_type": "gradient_mesh_hero",
       "primary": {
         "title": "Wracamy Ci sprawność, oddajemy komfort życia",
-        "subtitle": "Centrum Rehabilitacji ExuraOrtho w Białej Podlaskiej. Ponad 15 lat doświadczenia, 550+ wyleczonych pacjentów, rehabilitacja z dojazdem do domu.",
+        "subtitle": "Centrum Rehabilitacji ExuraOrtho w Białej Podlaskiej. Ponad 15 lat doświadczenia, 500+ wyleczonych pacjentów, rehabilitacja z dojazdem do domu.",
         "cta_text": "Umów bezpłatną konsultację",
         "cta_link": {
           "url": "/kontakt"
@@ -223,7 +223,7 @@
         "bars": [
           {
             "label": "Redukcja bólu po 4 tygodniach",
-            "percentage": 94,
+            "percentage": 97,
             "color": "primary"
           },
           {
