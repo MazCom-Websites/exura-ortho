@@ -1,6 +1,6 @@
 {
   "title": "Opinie",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-15T00:00:00.000Z",
   "description": "Opinie pacjentów o ExuraOrtho",
   "path": "/opinie",
@@ -187,5 +187,12 @@
     "robots": "",
     "keywords": "opinie rehabilitacja, opinie fizjoterapia, ExuraOrtho recenzje, Biała Podlaska",
     "canonicalUrl": ""
-  }
+  },
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:46:15.877Z"
+    }
+  ]
 }
