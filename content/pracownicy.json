@@ -1,6 +1,6 @@
 {
   "title": "Nasz Zespół",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-01T00:00:00.000Z",
   "description": "Poznaj zespół certyfikowanych specjalistów ExuraOrtho w Białej Podlaskiej",
   "path": "/pracownicy",
@@ -181,5 +181,12 @@
     "canonicalUrl": ""
   },
   "contextKey": "member",
-  "contextType": "teamMembers"
+  "contextType": "teamMembers",
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:46:07.071Z"
+    }
+  ]
 }
