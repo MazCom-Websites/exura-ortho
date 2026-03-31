@@ -1,6 +1,6 @@
 {
   "title": "Usługi",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-01T00:00:00.000Z",
   "description": "Nasze usługi rehabilitacyjne i fizjoterapeutyczne",
   "path": "/uslugi",
@@ -12,10 +12,18 @@
         "title_prefix": "Kompleksowa",
         "title_suffix": "dopasowana do Ciebie",
         "rotating_words": [
-          { "word": "rehabilitacja" },
-          { "word": "fizjoterapia" },
-          { "word": "terapia manualna" },
-          { "word": "opieka zdrowotna" }
+          {
+            "word": "rehabilitacja"
+          },
+          {
+            "word": "fizjoterapia"
+          },
+          {
+            "word": "terapia manualna"
+          },
+          {
+            "word": "opieka zdrowotna"
+          }
         ],
         "subtitle": "Oferujemy pełen zakres usług fizjoterapeutycznych i rehabilitacyjnych. Każda terapia jest realizowana przez certyfikowanego specjalistę z indywidualnym podejściem do pacjenta. Od pierwszej konsultacji do pełnej sprawności — jesteśmy z Tobą na każdym kroku.",
         "cta_text": "Umów wizytę",
@@ -38,49 +46,65 @@
             "icon": "Bone",
             "name": "Rehabilitacja ortopedyczna",
             "description": "Leczenie schorzeń narządu ruchu, kręgosłupa, stawów. Rehabilitacja pooperacyjna i pourazowa.",
-            "link": { "url": "/uslugi/fizjoterapia" }
+            "link": {
+              "url": "/uslugi/fizjoterapia"
+            }
           },
           {
             "icon": "Brain",
             "name": "Rehabilitacja neurologiczna",
             "description": "Terapia po udarach, w chorobie Parkinsona, SM, neuropatiach i innych schorzeniach neurologicznych.",
-            "link": { "url": "/uslugi/fizjoterapia" }
+            "link": {
+              "url": "/uslugi/fizjoterapia"
+            }
           },
           {
             "icon": "Dumbbell",
             "name": "Fizjoterapia sportowa",
             "description": "Powrót do sportu po kontuzjach, profilaktyka urazów, kinezytaping, trening funkcjonalny.",
-            "link": { "url": "/uslugi/fizjoterapia" }
+            "link": {
+              "url": "/uslugi/fizjoterapia"
+            }
           },
           {
             "icon": "Users",
             "name": "Rehabilitacja geriatryczna",
             "description": "Poprawa mobilności osób starszych, profilaktyka upadków, zwiększanie samodzielności.",
-            "link": { "url": "/uslugi/rehabilitacja-domowa" }
+            "link": {
+              "url": "/uslugi/rehabilitacja-domowa"
+            }
           },
           {
             "icon": "Hand",
             "name": "Terapia manualna",
             "description": "Leczenie dysfunkcji stawowych, bólu kręgosłupa, problemów mięśniowo-powięziowych.",
-            "link": { "url": "/uslugi/terapia-manualna" }
+            "link": {
+              "url": "/uslugi/terapia-manualna"
+            }
           },
           {
             "icon": "Sparkles",
             "name": "Masaż leczniczy",
             "description": "Masaż klasyczny, tkanek głębokich, sportowy. Redukcja bólu i napięcia mięśniowego.",
-            "link": { "url": "/uslugi/masaz-leczniczy" }
+            "link": {
+              "url": "/uslugi/masaz-leczniczy"
+            }
           },
           {
             "icon": "ShoppingCart",
             "name": "Sprzęt medyczny",
             "description": "Profesjonalny dobór, sprzedaż i wynajem sprzętu rehabilitacyjnego i ortopedycznego.",
-            "link": { "url": "/uslugi/sprzet-medyczny" }
+            "link": {
+              "url": "/uslugi/sprzet-medyczny"
+            }
           },
           {
             "icon": "Home",
             "name": "Rehabilitacja domowa",
             "description": "Pełnoprawna rehabilitacja w domu pacjenta w promieniu 30 km z kompletnym wyposażeniem.",
-            "link": { "url": "/uslugi/rehabilitacja-domowa" }
+            "link": {
+              "url": "/uslugi/rehabilitacja-domowa"
+            }
           }
         ]
       }
@@ -110,7 +134,9 @@
               "Konsultacja telefoniczna w cenie"
             ],
             "cta_text": "Umów wizytę",
-            "cta_link": { "url": "/kontakt" }
+            "cta_link": {
+              "url": "/kontakt"
+            }
           },
           {
             "name": "Pakiet 10 sesji",
@@ -128,7 +154,9 @@
             ],
             "highlighted": true,
             "cta_text": "Wybierz pakiet",
-            "cta_link": { "url": "/kontakt" }
+            "cta_link": {
+              "url": "/kontakt"
+            }
           },
           {
             "name": "Rehabilitacja domowa",
@@ -143,7 +171,9 @@
               "Pakiet 10 wizyt: 1800 zł"
             ],
             "cta_text": "Umów wizytę domową",
-            "cta_link": { "url": "/kontakt" }
+            "cta_link": {
+              "url": "/kontakt"
+            }
           }
         ]
       }
@@ -276,21 +306,27 @@
             "resource_title": "Ćwiczenia na kręgosłup",
             "resource_description": "Zestaw 10 ćwiczeń rozciągających i wzmacniających mięśnie kręgosłupa do codziennego wykonywania w domu.",
             "file_type": "PDF",
-            "download_link": { "url": "/files/cwiczenia-kregoslup.pdf" }
+            "download_link": {
+              "url": "/files/cwiczenia-kregoslup.pdf"
+            }
           },
           {
             "icon": "FileText",
             "resource_title": "Przygotowanie do pierwszej wizyty",
             "resource_description": "Co zabrać, jak się ubrać i czego się spodziewać na pierwszej wizycie fizjoterapeutycznej.",
             "file_type": "PDF",
-            "download_link": { "url": "/files/pierwsza-wizyta.pdf" }
+            "download_link": {
+              "url": "/files/pierwsza-wizyta.pdf"
+            }
           },
           {
             "icon": "FileText",
             "resource_title": "Poradnik dofinansowania NFZ",
             "resource_description": "Kompletny przewodnik po procedurze uzyskania dofinansowania na sprzęt rehabilitacyjny z Narodowego Funduszu Zdrowia.",
             "file_type": "PDF",
-            "download_link": { "url": "/files/dofinansowanie-nfz.pdf" }
+            "download_link": {
+              "url": "/files/dofinansowanie-nfz.pdf"
+            }
           }
         ]
       }
@@ -390,5 +426,12 @@
     "keywords": "",
     "canonicalUrl": ""
   },
-  "contextKey": "service"
+  "contextKey": "service",
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:47:37.387Z"
+    }
+  ]
 }
