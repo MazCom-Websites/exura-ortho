@@ -4,7 +4,16 @@
   "publishedAt": "2024-01-01T00:00:00.000Z",
   "description": "ExuraOrtho - Centrum Rehabilitacji i Sprzętu Medycznego",
   "path": "/",
-  "slices": [],
+  "slices": [
+    {
+      "slice_type": "countdown_hero",
+      "primary": {
+        "title": "Nowa odsłona strony Exura już wkrótce",
+        "subtitle": "Pracujemy nad nową wersją strony. Odliczamy dni do premiery — bądź na bieżąco!",
+        "target_date": "2026-04-15T00:00:00"
+      }
+    }
+  ],
   "metadata": {
     "metaTitle": "ExuraOrtho - Centrum Rehabilitacji i Sprzętu Medycznego w Białej Podlaskiej",
     "metaDescription": "Profesjonalna rehabilitacja, fizjoterapia i sprzęt medyczny w Białej Podlaskiej. 15+ lat doświadczenia, 500+ pacjentów, rehabilitacja domowa. Umów bezpłatną konsultację!",
