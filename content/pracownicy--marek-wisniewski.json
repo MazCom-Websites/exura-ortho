@@ -2,7 +2,7 @@
   "title": "Marek Wiśniewski",
   "slug": "marek-wisniewski",
   "publishedAt": "2024-01-01T00:00:00.000Z",
-  "status": "published",
+  "status": "draft",
   "name": "Marek Wiśniewski",
   "position": "Fizjoterapeuta — Rehabilitacja Neurologiczna",
   "shortBio": "Ekspert rehabilitacji neurologicznej z 12-letnim stażem. Specjalizuje się w pracy z pacjentami po udarach mózgu, z chorobą Parkinsona i SM.",
@@ -334,5 +334,12 @@
     "keywords": "",
     "canonicalUrl": ""
   },
-  "parentPath": "/pracownicy"
+  "parentPath": "/pracownicy",
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:46:02.850Z"
+    }
+  ]
 }
