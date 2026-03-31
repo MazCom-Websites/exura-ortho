@@ -1,6 +1,6 @@
 {
   "title": "Dla firm",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-15T00:00:00.000Z",
   "description": "Rehabilitacja pracownicza i programy zdrowotne dla firm",
   "path": "/dla-firm",
@@ -104,5 +104,12 @@
     "robots": "",
     "keywords": "rehabilitacja dla firm, fizjoterapia pracownicza, program zdrowotny firma, BHP rehabilitacja, Biała Podlaska",
     "canonicalUrl": ""
-  }
+  },
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:45:00.339Z"
+    }
+  ]
 }
