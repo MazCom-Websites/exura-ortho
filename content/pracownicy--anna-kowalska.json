@@ -2,7 +2,7 @@
   "title": "Anna Kowalska",
   "slug": "anna-kowalska",
   "publishedAt": "2024-01-01T00:00:00.000Z",
-  "status": "published",
+  "status": "draft",
   "name": "Anna Kowalska",
   "position": "Specjalista Fizjoterapii Sportowej",
   "shortBio": "Fizjoterapeutka z 10-letnim doświadczeniem w rehabilitacji sportowej. Pracowała z zawodnikami piłki nożnej, lekkoatletyki i sportów walki.",
@@ -334,5 +334,12 @@
     "keywords": "",
     "canonicalUrl": ""
   },
-  "parentPath": "/pracownicy"
+  "parentPath": "/pracownicy",
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:44:46.952Z"
+    }
+  ]
 }
