@@ -2,7 +2,7 @@
   "title": "Tomasz Zieliński",
   "slug": "tomasz-zielinski",
   "publishedAt": "2024-01-01T00:00:00.000Z",
-  "status": "published",
+  "status": "draft",
   "name": "Tomasz Zieliński",
   "position": "Specjalista ds. Sprzętu Medycznego",
   "shortBio": "Ekspert z ponad 20-letnim doświadczeniem w branży sprzętu medycznego. Bezpłatnie przeprowadza pacjentów przez procedurę dofinansowania NFZ, PFRON i OPS.",
@@ -348,5 +348,12 @@
     "keywords": "",
     "canonicalUrl": ""
   },
-  "parentPath": "/pracownicy"
+  "parentPath": "/pracownicy",
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T12:07:41.800Z"
+    }
+  ]
 }
