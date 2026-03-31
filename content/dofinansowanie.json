@@ -1,6 +1,6 @@
 {
   "title": "Dofinansowanie",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-15T00:00:00.000Z",
   "description": "Dofinansowanie NFZ i PFRON na sprzęt rehabilitacyjny i ortopedyczny",
   "path": "/dofinansowanie",
@@ -150,5 +150,12 @@
     "robots": "",
     "keywords": "dofinansowanie NFZ, dofinansowanie PFRON, refundacja sprzętu rehabilitacyjnego, ortezy dofinansowanie, Biała Podlaska",
     "canonicalUrl": ""
-  }
+  },
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:45:02.750Z"
+    }
+  ]
 }
