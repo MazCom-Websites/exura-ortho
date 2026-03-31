@@ -1,6 +1,6 @@
 {
   "title": "Blog",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-01T00:00:00.000Z",
   "description": "Artykuły o rehabilitacji, fizjoterapii i zdrowym trybie życia",
   "path": "/blog",
@@ -34,14 +34,30 @@
       "slice_type": "content_marquee",
       "primary": {
         "items": [
-          { "text": "rehabilitacja" },
-          { "text": "fizjoterapia" },
-          { "text": "ból kręgosłupa" },
-          { "text": "ćwiczenia" },
-          { "text": "dofinansowanie NFZ" },
-          { "text": "sprzęt medyczny" },
-          { "text": "terapia manualna" },
-          { "text": "masaż leczniczy" }
+          {
+            "text": "rehabilitacja"
+          },
+          {
+            "text": "fizjoterapia"
+          },
+          {
+            "text": "ból kręgosłupa"
+          },
+          {
+            "text": "ćwiczenia"
+          },
+          {
+            "text": "dofinansowanie NFZ"
+          },
+          {
+            "text": "sprzęt medyczny"
+          },
+          {
+            "text": "terapia manualna"
+          },
+          {
+            "text": "masaż leczniczy"
+          }
         ],
         "speed": 30,
         "direction": "left"
@@ -67,5 +83,12 @@
     "canonicalUrl": ""
   },
   "contextKey": "blogPost",
-  "childRenderMode": "blog-post"
+  "childRenderMode": "blog-post",
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:44:50.091Z"
+    }
+  ]
 }
