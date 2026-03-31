@@ -2,7 +2,7 @@
   "title": "Masaż Leczniczy",
   "slug": "masaz-leczniczy",
   "publishedAt": "2024-01-15T00:00:00.000Z",
-  "status": "published",
+  "status": "draft",
   "name": "Masaż Leczniczy",
   "shortDescription": "Terapeutyczne masaże dla zdrowia i regeneracji. Masaż klasyczny, tkanek głębokich, sportowy i limfatyczny.",
   "icon": "Hand",
@@ -154,5 +154,12 @@
     "keywords": "",
     "canonicalUrl": ""
   },
-  "parentPath": "/uslugi"
+  "parentPath": "/uslugi",
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:46:04.822Z"
+    }
+  ]
 }
