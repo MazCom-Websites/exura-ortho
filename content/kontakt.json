@@ -1,6 +1,6 @@
 {
   "title": "Kontakt",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-01T00:00:00.000Z",
   "description": "Skontaktuj się z ExuraOrtho",
   "path": "/kontakt",
@@ -109,13 +109,41 @@
         "title": "Godziny otwarcia",
         "description": "Zapraszamy w poniższych godzinach. Wizyty w soboty wyłącznie po wcześniejszym umówieniu telefonicznym.",
         "hours": [
-          { "day": "Poniedziałek", "time": "9:00 - 16:00", "is_closed": false },
-          { "day": "Wtorek", "time": "9:00 - 16:00", "is_closed": false },
-          { "day": "Środa", "time": "9:00 - 16:00", "is_closed": false },
-          { "day": "Czwartek", "time": "9:00 - 16:00", "is_closed": false },
-          { "day": "Piątek", "time": "9:00 - 16:00", "is_closed": false },
-          { "day": "Sobota", "time": "Na umówienie", "is_closed": false },
-          { "day": "Niedziela", "time": "Zamknięte", "is_closed": true }
+          {
+            "day": "Poniedziałek",
+            "time": "9:00 - 16:00",
+            "is_closed": false
+          },
+          {
+            "day": "Wtorek",
+            "time": "9:00 - 16:00",
+            "is_closed": false
+          },
+          {
+            "day": "Środa",
+            "time": "9:00 - 16:00",
+            "is_closed": false
+          },
+          {
+            "day": "Czwartek",
+            "time": "9:00 - 16:00",
+            "is_closed": false
+          },
+          {
+            "day": "Piątek",
+            "time": "9:00 - 16:00",
+            "is_closed": false
+          },
+          {
+            "day": "Sobota",
+            "time": "Na umówienie",
+            "is_closed": false
+          },
+          {
+            "day": "Niedziela",
+            "time": "Zamknięte",
+            "is_closed": true
+          }
         ]
       }
     },
@@ -245,5 +273,12 @@
     "robots": "",
     "keywords": "",
     "canonicalUrl": ""
-  }
+  },
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:45:57.356Z"
+    }
+  ]
 }
