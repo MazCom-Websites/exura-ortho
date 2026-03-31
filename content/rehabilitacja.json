@@ -1,6 +1,6 @@
 {
   "title": "Rehabilitacja",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-01T00:00:00.000Z",
   "description": "Kompleksowe usługi rehabilitacyjne w ExuraOrtho - Biała Podlaska",
   "path": "/rehabilitacja",
@@ -171,10 +171,22 @@
         "title": "Współpracujemy z",
         "description": "Nasze centrum współpracuje z instytucjami publicznymi, aby zapewnić pacjentom dostęp do dofinansowania i refundacji usług rehabilitacyjnych.",
         "logos": [
-          { "name": "ZUS", "url": "" },
-          { "name": "NFZ", "url": "" },
-          { "name": "PFRON", "url": "" },
-          { "name": "PZU", "url": "" }
+          {
+            "name": "ZUS",
+            "url": ""
+          },
+          {
+            "name": "NFZ",
+            "url": ""
+          },
+          {
+            "name": "PFRON",
+            "url": ""
+          },
+          {
+            "name": "PZU",
+            "url": ""
+          }
         ]
       }
     },
@@ -198,5 +210,12 @@
     "robots": "",
     "keywords": "",
     "canonicalUrl": ""
-  }
+  },
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:46:55.741Z"
+    }
+  ]
 }
