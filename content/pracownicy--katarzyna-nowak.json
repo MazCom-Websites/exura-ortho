@@ -2,7 +2,7 @@
   "title": "Katarzyna Nowak",
   "slug": "katarzyna-nowak",
   "publishedAt": "2024-01-01T00:00:00.000Z",
-  "status": "published",
+  "status": "draft",
   "name": "Katarzyna Nowak",
   "position": "Fizjoterapeutka — Rehabilitacja Geriatryczna",
   "shortBio": "Specjalistka rehabilitacji geriatrycznej z 8-letnim doświadczeniem. Pracuje z osobami starszymi nad poprawą mobilności, równowagi i samodzielności.",
@@ -334,5 +334,12 @@
     "keywords": "",
     "canonicalUrl": ""
   },
-  "parentPath": "/pracownicy"
+  "parentPath": "/pracownicy",
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:45:45.147Z"
+    }
+  ]
 }
