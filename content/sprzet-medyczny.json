@@ -1,6 +1,6 @@
 {
   "title": "Sprzęt Medyczny",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-01T00:00:00.000Z",
   "description": "Profesjonalny sprzęt medyczny i ortopedyczny - dobór, sprzedaż, wynajem i pomoc w dofinansowaniu NFZ",
   "path": "/sprzet-medyczny",
@@ -93,34 +93,79 @@
           {
             "title": "Wózek inwalidzki",
             "description": "Lekki, składany wózek inwalidzki z regulowanymi podnóżkami i podłokietnikami. Idealny do codziennego użytku w domu i na zewnątrz.",
-            "image": { "url": "", "alt": "Wózek inwalidzki" },
+            "image": {
+              "url": "",
+              "alt": "Wózek inwalidzki"
+            },
             "specs": [
-              { "label": "Waga", "value": "12 kg" },
-              { "label": "Nośność", "value": "do 130 kg" },
-              { "label": "Szerokość siedziska", "value": "42-50 cm" },
-              { "label": "Składany", "value": "Tak" }
+              {
+                "label": "Waga",
+                "value": "12 kg"
+              },
+              {
+                "label": "Nośność",
+                "value": "do 130 kg"
+              },
+              {
+                "label": "Szerokość siedziska",
+                "value": "42-50 cm"
+              },
+              {
+                "label": "Składany",
+                "value": "Tak"
+              }
             ]
           },
           {
             "title": "Ortezy i stabilizatory",
             "description": "Profesjonalne ortezy stawu kolanowego, skokowego i nadgarstkowego. Zapewniają stabilizację i ochronę podczas rehabilitacji.",
-            "image": { "url": "", "alt": "Ortezy i stabilizatory" },
+            "image": {
+              "url": "",
+              "alt": "Ortezy i stabilizatory"
+            },
             "specs": [
-              { "label": "Typy", "value": "Kolanowe, skokowe, nadgarstkowe" },
-              { "label": "Regulacja", "value": "Kąt zgięcia 0-120°" },
-              { "label": "Materiał", "value": "Neopren medyczny" },
-              { "label": "Rozmiary", "value": "S-XXL" }
+              {
+                "label": "Typy",
+                "value": "Kolanowe, skokowe, nadgarstkowe"
+              },
+              {
+                "label": "Regulacja",
+                "value": "Kąt zgięcia 0-120°"
+              },
+              {
+                "label": "Materiał",
+                "value": "Neopren medyczny"
+              },
+              {
+                "label": "Rozmiary",
+                "value": "S-XXL"
+              }
             ]
           },
           {
             "title": "Łóżko rehabilitacyjne",
             "description": "Elektryczne łóżko rehabilitacyjne z regulacją wysokości, pochylenia oparcia i podnóżka. Wyposażone w barierki ochronne.",
-            "image": { "url": "", "alt": "Łóżko rehabilitacyjne" },
+            "image": {
+              "url": "",
+              "alt": "Łóżko rehabilitacyjne"
+            },
             "specs": [
-              { "label": "Sterowanie", "value": "Pilot elektryczny" },
-              { "label": "Nośność", "value": "do 200 kg" },
-              { "label": "Regulacja wysokości", "value": "30-70 cm" },
-              { "label": "Barierki", "value": "Składane, aluminiowe" }
+              {
+                "label": "Sterowanie",
+                "value": "Pilot elektryczny"
+              },
+              {
+                "label": "Nośność",
+                "value": "do 200 kg"
+              },
+              {
+                "label": "Regulacja wysokości",
+                "value": "30-70 cm"
+              },
+              {
+                "label": "Barierki",
+                "value": "Składane, aluminiowe"
+              }
             ]
           }
         ]
@@ -132,10 +177,26 @@
         "title": "Dofinansowanie pokrywa koszty",
         "description": "Dzięki dofinansowaniu z NFZ, PFRON i OPS znaczna część kosztów sprzętu medycznego może zostać pokryta. Pomagamy w uzyskaniu maksymalnego dofinansowania.",
         "bars": [
-          { "label": "Wózki inwalidzkie", "value": 80, "suffix": "%" },
-          { "label": "Ortezy i stabilizatory", "value": 70, "suffix": "%" },
-          { "label": "Łóżka rehabilitacyjne", "value": 60, "suffix": "%" },
-          { "label": "Kule i laski", "value": 90, "suffix": "%" }
+          {
+            "label": "Wózki inwalidzkie",
+            "value": 80,
+            "suffix": "%"
+          },
+          {
+            "label": "Ortezy i stabilizatory",
+            "value": 70,
+            "suffix": "%"
+          },
+          {
+            "label": "Łóżka rehabilitacyjne",
+            "value": 60,
+            "suffix": "%"
+          },
+          {
+            "label": "Kule i laski",
+            "value": 90,
+            "suffix": "%"
+          }
         ]
       }
     },
@@ -168,5 +229,12 @@
     "robots": "",
     "keywords": "",
     "canonicalUrl": ""
-  }
+  },
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:47:20.139Z"
+    }
+  ]
 }
