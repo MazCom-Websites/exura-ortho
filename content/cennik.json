@@ -1,6 +1,6 @@
 {
   "title": "Cennik",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-15T00:00:00.000Z",
   "description": "Cennik usług rehabilitacyjnych ExuraOrtho w Białej Podlaskiej",
   "path": "/cennik",
@@ -205,5 +205,12 @@
     "robots": "",
     "keywords": "cennik rehabilitacja, ceny fizjoterapia, pakiety rehabilitacyjne, Biała Podlaska",
     "canonicalUrl": ""
-  }
+  },
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:44:55.624Z"
+    }
+  ]
 }
