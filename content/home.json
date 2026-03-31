@@ -28,6 +28,11 @@
       "status": "draft",
       "author": "Admin",
       "timestamp": "2026-03-31T10:43:38.050Z"
+    },
+    {
+      "status": "published",
+      "author": "Admin",
+      "timestamp": "2026-03-31T12:07:02.259Z"
     }
   ],
   "fullscreen": true,
