@@ -1,6 +1,6 @@
 {
   "title": "Regulamin",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-01T00:00:00.000Z",
   "path": "/regulamin",
   "pageType": "richtext",
@@ -14,5 +14,12 @@
     "robots": "",
     "keywords": "",
     "canonicalUrl": ""
-  }
+  },
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:46:53.034Z"
+    }
+  ]
 }
