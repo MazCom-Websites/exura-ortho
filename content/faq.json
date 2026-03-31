@@ -1,6 +1,6 @@
 {
   "title": "FAQ",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-01T00:00:00.000Z",
   "description": "Często zadawane pytania",
   "path": "/faq",
@@ -206,21 +206,27 @@
             "resource_title": "Jak przygotować się do rehabilitacji",
             "resource_description": "Kompletny przewodnik dla pacjentów — co zabrać, jak się ubrać, czego się spodziewać na pierwszej wizycie.",
             "file_type": "PDF",
-            "download_link": { "url": "/files/przygotowanie-do-rehabilitacji.pdf" }
+            "download_link": {
+              "url": "/files/przygotowanie-do-rehabilitacji.pdf"
+            }
           },
           {
             "icon": "FileText",
             "resource_title": "Ćwiczenia na kręgosłup",
             "resource_description": "10 bezpiecznych ćwiczeń rozciągających i wzmacniających do codziennego wykonywania w domu.",
             "file_type": "PDF",
-            "download_link": { "url": "/files/cwiczenia-kregoslup.pdf" }
+            "download_link": {
+              "url": "/files/cwiczenia-kregoslup.pdf"
+            }
           },
           {
             "icon": "FileText",
             "resource_title": "Dofinansowanie NFZ — krok po kroku",
             "resource_description": "Szczegółowy poradnik: jakie dokumenty zebrać, gdzie złożyć wniosek i jak uzyskać dofinansowanie na sprzęt medyczny.",
             "file_type": "PDF",
-            "download_link": { "url": "/files/dofinansowanie-nfz-poradnik.pdf" }
+            "download_link": {
+              "url": "/files/dofinansowanie-nfz-poradnik.pdf"
+            }
           }
         ]
       }
@@ -257,5 +263,34 @@
     "robots": "",
     "keywords": "",
     "canonicalUrl": ""
-  }
+  },
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "admin",
+      "timestamp": "2026-03-31T08:30:05.950Z"
+    },
+    {
+      "status": "in_review",
+      "author": "admin",
+      "timestamp": "2026-03-31T08:32:11.628Z"
+    },
+    {
+      "status": "approved",
+      "author": "admin",
+      "timestamp": "2026-03-31T08:58:04.956Z",
+      "comment": "Admin"
+    },
+    {
+      "status": "published",
+      "author": "admin",
+      "timestamp": "2026-03-31T08:58:10.443Z",
+      "comment": "Admin"
+    },
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:45:07.097Z"
+    }
+  ]
 }
