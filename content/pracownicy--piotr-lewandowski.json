@@ -2,7 +2,7 @@
   "title": "Piotr Lewandowski",
   "slug": "piotr-lewandowski",
   "publishedAt": "2024-01-01T00:00:00.000Z",
-  "status": "published",
+  "status": "draft",
   "name": "Piotr Lewandowski",
   "position": "Kierownik Centrum — Fizjoterapia Ogólna i Ortopedyczna",
   "shortBio": "Założyciel i kierownik ExuraOrtho. Certyfikowany terapeuta manualny z ponad 15-letnim doświadczeniem w fizjoterapii ortopedycznej i rehabilitacji pourazowej.",
@@ -339,5 +339,12 @@
     "keywords": "",
     "canonicalUrl": ""
   },
-  "parentPath": "/pracownicy"
+  "parentPath": "/pracownicy",
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:46:18.600Z"
+    }
+  ]
 }
