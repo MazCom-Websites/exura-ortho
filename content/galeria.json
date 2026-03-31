@@ -1,6 +1,6 @@
 {
   "title": "Galeria",
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2024-01-15T00:00:00.000Z",
   "description": "Galeria gabinetu i zespołu ExuraOrtho",
   "path": "/galeria",
@@ -105,5 +105,12 @@
     "robots": "",
     "keywords": "galeria rehabilitacja, gabinet fizjoterapii, zespół terapeutów, Biała Podlaska",
     "canonicalUrl": ""
-  }
+  },
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:45:40.671Z"
+    }
+  ]
 }
