@@ -2,7 +2,7 @@
   "title": "Taping",
   "slug": "taping",
   "publishedAt": "2026-03-18T22:17:32.848Z",
-  "status": "published",
+  "status": "draft",
   "name": "Taping",
   "shortDescription": "Kinesiotaping i taping sztywny — wspomaganie terapii, stabilizacja stawów, redukcja obrzęków i bólu.",
   "icon": "Scissors",
@@ -139,5 +139,12 @@
     "keywords": "",
     "canonicalUrl": ""
   },
-  "parentPath": "/uslugi"
+  "parentPath": "/uslugi",
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:47:28.743Z"
+    }
+  ]
 }
