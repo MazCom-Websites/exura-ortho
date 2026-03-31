@@ -2,7 +2,7 @@
   "title": "Diagnostyka funkcjonalna",
   "slug": "diagnostyka-funkcjonalna",
   "publishedAt": "2026-03-18T22:17:32.836Z",
-  "status": "published",
+  "status": "draft",
   "name": "Diagnostyka funkcjonalna",
   "shortDescription": "Kompleksowa ocena funkcjonalna ciała. Badanie zakresu ruchu, siły mięśniowej, postawy i wzorców ruchowych jako podstawa skutecznej terapii.",
   "icon": "Search",
@@ -130,5 +130,12 @@
     "keywords": "",
     "canonicalUrl": ""
   },
-  "parentPath": "/uslugi"
+  "parentPath": "/uslugi",
+  "workflowHistory": [
+    {
+      "status": "draft",
+      "author": "Admin",
+      "timestamp": "2026-03-31T10:44:57.985Z"
+    }
+  ]
 }
