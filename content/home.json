@@ -10,7 +10,7 @@
       "primary": {
         "title": "Nowa odsłona strony Exura już wkrótce",
         "subtitle": "Pracujemy nad nową wersją strony. Odliczamy dni do premiery — bądź na bieżąco!",
-        "target_date": "2026-04-15T00:00:00"
+        "target_date": "2026-05-01T00:00:00"
       }
     }
   ],
@@ -21,8 +21,7 @@
     "ogImage": "",
     "robots": "",
     "keywords": "",
-    "canonicalUrl": "",
-    "customCss": ""
+    "canonicalUrl": ""
   },
   "workflowHistory": [
     {
