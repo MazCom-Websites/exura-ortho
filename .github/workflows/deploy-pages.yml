@@ -48,6 +48,14 @@ jobs:
           rm -rf builder/content
           cp -r content-repo builder/content
 
+      - name: Strip admin and API routes for static export
+        run: |
+          rm -rf builder/src/app/'(admin)'
+          rm -rf builder/src/app/'(admin-public)'
+          rm -rf builder/src/app/api
+          rm -rf builder/src/app/actions
+          rm -f builder/src/proxy.ts
+
       - name: Determine site URL
         id: site-url
         run: |
