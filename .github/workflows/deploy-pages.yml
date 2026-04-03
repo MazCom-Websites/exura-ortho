@@ -59,6 +59,7 @@ jobs:
           rm -rf builder/src/app/api
           rm -rf builder/src/app/actions
           rm -f builder/src/proxy.ts
+          rm -rf builder/src/app/'(fullscreen)'
           rm -f builder/src/app/robots.ts
           rm -f builder/src/app/sitemap.ts
 
