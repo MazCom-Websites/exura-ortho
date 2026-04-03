@@ -46,7 +46,11 @@ jobs:
       - name: Copy content into builder
         run: |
           rm -rf builder/content
-          cp -r content-repo builder/content
+          if [ -d content-repo/content ]; then
+            cp -r content-repo/content builder/content
+          else
+            cp -r content-repo builder/content
+          fi
 
       - name: Strip non-static routes for export
         run: |
