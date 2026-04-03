@@ -47,8 +47,9 @@ jobs:
           ln -sf ${{ github.workspace }} builder/content
 
       - name: Build static site
-        run: cd builder && STATIC_EXPORT=1 next build
+        run: cd builder && npx next build
         env:
+          STATIC_EXPORT: '1'
           NEXT_PUBLIC_SITE_URL: https://${{ vars.SITE_DOMAIN }}
           NEXT_PUBLIC_FORM_API_URL: ${{ vars.FORM_API_URL }}
 
