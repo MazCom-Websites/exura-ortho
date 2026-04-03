@@ -63,20 +63,23 @@ jobs:
           rm -f builder/src/app/robots.ts
           rm -f builder/src/app/sitemap.ts
 
-      - name: Determine site URL
+      - name: Determine site URL and base path
         id: site-url
         run: |
           DOMAIN="${{ vars.SITE_DOMAIN }}"
           if [ -n "$DOMAIN" ]; then
             echo "url=https://$DOMAIN" >> $GITHUB_OUTPUT
+            echo "basepath=" >> $GITHUB_OUTPUT
           else
             echo "url=https://MazCom-Websites.github.io/${{ github.event.repository.name }}" >> $GITHUB_OUTPUT
+            echo "basepath=/${{ github.event.repository.name }}" >> $GITHUB_OUTPUT
           fi
 
       - name: Build static site
         run: cd builder && npx next build
         env:
           STATIC_EXPORT: '1'
+          PAGES_BASE_PATH: ${{ steps.site-url.outputs.basepath }}
           NEXT_PUBLIC_SITE_URL: ${{ steps.site-url.outputs.url }}
           NEXT_PUBLIC_FORM_API_URL: ${{ vars.FORM_API_URL }}
 
