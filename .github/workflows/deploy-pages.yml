@@ -27,7 +27,7 @@ jobs:
       - name: Checkout builder
         uses: actions/checkout@v4
         with:
-          repository: MazCom-Websites/mazcode-web-builder
+          repository: Mazek27/mazcode-web-builder
           path: builder
           token: ${{ secrets.BUILDER_ACCESS_TOKEN }}
 
