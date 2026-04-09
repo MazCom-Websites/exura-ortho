@@ -82,6 +82,11 @@ jobs:
           PAGES_BASE_PATH: ${{ steps.site-url.outputs.basepath }}
           NEXT_PUBLIC_SITE_URL: ${{ steps.site-url.outputs.url }}
           NEXT_PUBLIC_FORM_API_URL: ${{ vars.FORM_API_URL }}
+          NEXT_PUBLIC_GA_ID: ${{ vars.GA_ID }}
+          NEXT_PUBLIC_HOTJAR_ID: ${{ vars.HOTJAR_ID }}
+          NEXT_PUBLIC_HOTJAR_SNIPPET_VERSION: ${{ vars.HOTJAR_SNIPPET_VERSION }}
+          NEXT_PUBLIC_POSTHOG_KEY: ${{ vars.POSTHOG_KEY }}
+          NEXT_PUBLIC_POSTHOG_HOST: ${{ vars.POSTHOG_HOST }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
