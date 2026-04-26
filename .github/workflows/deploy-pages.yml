@@ -23,8 +23,6 @@ jobs:
     steps:
       - name: Checkout content
         uses: actions/checkout@v4
-        with:
-          path: content-repo
 
       - name: Checkout builder
         uses: actions/checkout@v4
@@ -43,50 +41,33 @@ jobs:
       - name: Install dependencies
         run: cd builder && npm ci
 
-      - name: Copy content into builder
+      - name: Copy content
         run: |
           rm -rf builder/content
-          if [ -d content-repo/content ]; then
-            cp -r content-repo/content builder/content
-          else
-            cp -r content-repo builder/content
-          fi
+          cp -r ${{ github.workspace }}/content builder/content
 
-      - name: Strip non-static routes for export
-        run: |
-          rm -rf builder/src/app/'(admin)'
-          rm -rf builder/src/app/'(admin-public)'
-          rm -rf builder/src/app/api
-          rm -rf builder/src/app/actions
-          rm -f builder/src/proxy.ts
-          rm -rf builder/src/app/'(fullscreen)'
-          rm -f builder/src/app/robots.ts
-          rm -f builder/src/app/sitemap.ts
-
-      - name: Determine site URL and base path
-        id: site-url
-        run: |
-          DOMAIN="${{ vars.SITE_DOMAIN }}"
-          if [ -n "$DOMAIN" ]; then
-            echo "url=https://$DOMAIN" >> $GITHUB_OUTPUT
-            echo "basepath=" >> $GITHUB_OUTPUT
-          else
-            echo "url=https://MazCom-Websites.github.io/${{ github.event.repository.name }}" >> $GITHUB_OUTPUT
-            echo "basepath=/${{ github.event.repository.name }}" >> $GITHUB_OUTPUT
-          fi
+      - name: Decrypt content
+        run: cd builder && node scripts/decrypt-content.mjs content
+        env:
+          CONTENT_ENCRYPTION_KEY: ${{ secrets.CONTENT_ENCRYPTION_KEY }}
 
       - name: Build static site
-        run: cd builder && npx next build
+        run: cd builder && npm run build:pages
         env:
-          STATIC_EXPORT: '1'
-          PAGES_BASE_PATH: ${{ steps.site-url.outputs.basepath }}
-          NEXT_PUBLIC_SITE_URL: ${{ steps.site-url.outputs.url }}
+          NEXT_PUBLIC_SITE_URL: https://${{ vars.SITE_DOMAIN }}${{ vars.PAGES_BASE_PATH }}
           NEXT_PUBLIC_FORM_API_URL: ${{ vars.FORM_API_URL }}
           NEXT_PUBLIC_GA_ID: ${{ vars.GA_ID }}
           NEXT_PUBLIC_HOTJAR_ID: ${{ vars.HOTJAR_ID }}
           NEXT_PUBLIC_HOTJAR_SNIPPET_VERSION: ${{ vars.HOTJAR_SNIPPET_VERSION }}
           NEXT_PUBLIC_POSTHOG_KEY: ${{ vars.POSTHOG_KEY }}
           NEXT_PUBLIC_POSTHOG_HOST: ${{ vars.POSTHOG_HOST }}
+          CONTENT_ENCRYPTION_KEY: ${{ secrets.CONTENT_ENCRYPTION_KEY }}
+          AUTH0_DOMAIN: dummy.auth0.com
+          AUTH0_CLIENT_ID: dummy-client-id
+          AUTH0_CLIENT_SECRET: dummy-client-secret-min-32-chars-long
+          AUTH0_SECRET: 0000000000000000000000000000000000000000000000000000000000000000
+          APP_BASE_URL: https://${{ vars.SITE_DOMAIN }}${{ vars.PAGES_BASE_PATH }}
+          PAGES_BASE_PATH: ${{ vars.PAGES_BASE_PATH }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
