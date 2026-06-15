@@ -63,7 +63,7 @@ jobs:
 
       - name: Decrypt content
         # decrypts builder/content/*.mcz + builder/content/{config,forms}/*.mcz
-        run: cd builder && node scripts/decrypt-content.mjs content
+        run: cd builder && node scripts/crypto/decrypt-content.mjs content
         env:
           CONTENT_ENCRYPTION_KEY: ${{ secrets.CONTENT_ENCRYPTION_KEY }}
 
