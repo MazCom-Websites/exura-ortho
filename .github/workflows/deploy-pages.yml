@@ -60,6 +60,10 @@ jobs:
             mkdir -p builder/content/forms
             cp -r ${{ github.workspace }}/forms/. builder/content/forms/
           fi
+          if [ -d "${{ github.workspace }}/images" ]; then
+            mkdir -p builder/public/images
+            cp -r ${{ github.workspace }}/images/. builder/public/images/
+          fi
 
       - name: Decrypt content
         # decrypts builder/content/*.mcz + builder/content/{config,forms}/*.mcz
