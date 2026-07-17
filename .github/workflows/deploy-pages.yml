@@ -76,6 +76,8 @@ jobs:
         env:
           NEXT_PUBLIC_SITE_URL: https://${{ vars.SITE_DOMAIN }}${{ vars.PAGES_BASE_PATH }}
           NEXT_PUBLIC_FORM_API_URL: ${{ vars.FORM_API_URL }}
+          NEXT_PUBLIC_TENANT_SLUG: ${{ vars.TENANT_SLUG }}
+          NEXT_PUBLIC_FORM_API_SHORT: ${{ vars.FORM_API_SHORT }}
           NEXT_PUBLIC_GA_ID: ${{ vars.GA_ID }}
           NEXT_PUBLIC_HOTJAR_ID: ${{ vars.HOTJAR_ID }}
           NEXT_PUBLIC_HOTJAR_SNIPPET_VERSION: ${{ vars.HOTJAR_SNIPPET_VERSION }}
