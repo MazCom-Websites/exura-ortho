@@ -3,6 +3,19 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    # Operational documents: written by the panel, by the guest-facing routes and
+    # by the Sheets bridge, and never rendered into the static site. A guest
+    # signing the guest book used to trigger a 92 s rebuild AND cancel a deploy
+    # the couple had just started by hand (concurrency: cancel-in-progress).
+    # GitHub skips the run only when EVERY changed path matches, so a push that
+    # also touches real content still builds. Publishing approved guest-book
+    # entries goes through workflow_dispatch, which paths-ignore does not affect.
+    paths-ignore:
+      - 'config/rsvp-guests--*'
+      - 'config/guestbook--*'
+      - 'config/seating--*'
+      - 'config/audit-log*'
+      - 'content/audit-log*'
   workflow_dispatch:
 
 permissions:
@@ -17,6 +30,11 @@ concurrency:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    env:
+      # Jedna flaga rozstrzyga, którą drogą jedzie treść. Kontekst `secrets`
+      # nie działa w `if:` kroku, więc przechodzi tędy — i dlatego najemca
+      # BEZ sekretu buduje się dokładnie tak, jak przed falą D.
+      HAS_BUILD_TOKEN: ${{ secrets.SITE_BUILD_TOKEN != '' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -41,14 +59,21 @@ jobs:
       - name: Install dependencies
         run: cd builder && npm ci
 
+      - name: Prepare content dir
+        run: |
+          rm -rf builder/content
+          mkdir -p builder/content
+
       - name: Copy content + config + forms
+        # Droga SPRZED fali D przenosin — treść leży w repozytorium najemcy.
+        # Zostaje jako jedyna dla każdego, kto nie ma jeszcze sekretu builda,
+        # i to ona odpowiada za wszystkie dzisiejsze strony.
         # Builder expects this layout under `builder/content/`:
         #   <root>/<page>.json              from tenant content/
         #   <root>/config/<file>.json       from tenant config/
         #   <root>/forms/<file>.json        from tenant forms/
+        if: env.HAS_BUILD_TOKEN != 'true'
         run: |
-          rm -rf builder/content
-          mkdir -p builder/content
           if [ -d "${{ github.workspace }}/content" ]; then
             cp -r ${{ github.workspace }}/content/. builder/content/
           fi
@@ -60,16 +85,44 @@ jobs:
             mkdir -p builder/content/forms
             cp -r ${{ github.workspace }}/forms/. builder/content/forms/
           fi
+
+      - name: Decrypt content
+        # decrypts builder/content/*.mcz + builder/content/{config,forms}/*.mcz
+        if: env.HAS_BUILD_TOKEN != 'true'
+        run: cd builder && node scripts/crypto/decrypt-content.mjs content
+        env:
+          CONTENT_ENCRYPTION_KEY: ${{ secrets.CONTENT_ENCRYPTION_KEY }}
+
+      - name: Fetch content from API
+        # Droga fali D: treść przychodzi z endpointu eksportu, a nie z repozytorium.
+        # Runner nie dostaje wtedy GLOBALNEGO CONTENT_ENCRYPTION_KEY, którym da się
+        # odszyfrować trzynaście innych stron — sekret jest tu zakresowany na JEDNĄ.
+        # Skrypt odmawia na pustej paczce i na paczce bez dokumentu site albo
+        # theme: build, który by je pominął, opublikowałby stronę bez nawigacji
+        # albo bez motywu,
+        # nie zgłaszając przy tym błędu.
+        # TENANT_SLUG zamyka lukę, której para adres+sekret nie zamyka. Źle
+        # wskazany adres przy własnym sekrecie daje 401, ale zmienna i sekret
+        # INNEGO najemcy wpisane RAZEM dają 200 — i build publikuje cudzą treść
+        # na tej domenie, kończąc się sukcesem. Skrypt porównuje slug z paczki
+        # z tym tutaj i odmawia przed dotknięciem dysku.
+        if: env.HAS_BUILD_TOKEN == 'true'
+        run: cd builder && node scripts/ci/fetch-site-content.mjs content
+        env:
+          SITE_EXPORT_URL: ${{ vars.SITE_EXPORT_URL }}
+          SITE_BUILD_TOKEN: ${{ secrets.SITE_BUILD_TOKEN }}
+          TENANT_SLUG: ${{ vars.TENANT_SLUG }}
+
+      - name: Copy images
+        # Static assets (media WebP, OG images, favicons) go RAW (unencrypted)
+        # to builder/public/images/ → served at /images/* on the static export.
+        # ZAWSZE z repozytorium, obiema drogami: baza nie jest magazynem plików
+        # binarnych (§7.13 planu), więc obrazy zostają w repo także po migracji.
+        run: |
           if [ -d "${{ github.workspace }}/images" ]; then
             mkdir -p builder/public/images
             cp -r ${{ github.workspace }}/images/. builder/public/images/
           fi
-
-      - name: Decrypt content
-        # decrypts builder/content/*.mcz + builder/content/{config,forms}/*.mcz
-        run: cd builder && node scripts/crypto/decrypt-content.mjs content
-        env:
-          CONTENT_ENCRYPTION_KEY: ${{ secrets.CONTENT_ENCRYPTION_KEY }}
 
       - name: Build static site
         run: cd builder && npm run build:pages
@@ -77,19 +130,23 @@ jobs:
           NEXT_PUBLIC_SITE_URL: https://${{ vars.SITE_DOMAIN }}${{ vars.PAGES_BASE_PATH }}
           NEXT_PUBLIC_FORM_API_URL: ${{ vars.FORM_API_URL }}
           NEXT_PUBLIC_TENANT_SLUG: ${{ vars.TENANT_SLUG }}
+          # SHORT-path proxy hosts (api./mail.mazcode.pl) strip the /api/forms
+          # convention via next.config rewrites; '1' makes getFormSubmitUrl emit
+          # <base>/<tenant>/<form>. Empty for full-path hosts (admin.mazcode.pl).
           NEXT_PUBLIC_FORM_API_SHORT: ${{ vars.FORM_API_SHORT }}
-          NEXT_PUBLIC_GA_ID: ${{ vars.GA_ID }}
-          NEXT_PUBLIC_HOTJAR_ID: ${{ vars.HOTJAR_ID }}
-          NEXT_PUBLIC_HOTJAR_SNIPPET_VERSION: ${{ vars.HOTJAR_SNIPPET_VERSION }}
-          NEXT_PUBLIC_POSTHOG_KEY: ${{ vars.POSTHOG_KEY }}
-          NEXT_PUBLIC_POSTHOG_HOST: ${{ vars.POSTHOG_HOST }}
+          # Analytics (GA4/Hotjar/PostHog) comes ONLY from config/site.json analytics block, never env.
           CONTENT_ENCRYPTION_KEY: ${{ secrets.CONTENT_ENCRYPTION_KEY }}
+          # Dummy Auth0 vars — required for top-level Auth0Client instantiation
+          # during static build, but admin/API routes are not emitted in export.
           AUTH0_DOMAIN: dummy.auth0.com
           AUTH0_CLIENT_ID: dummy-client-id
           AUTH0_CLIENT_SECRET: dummy-client-secret-min-32-chars-long
           AUTH0_SECRET: 0000000000000000000000000000000000000000000000000000000000000000
           APP_BASE_URL: https://${{ vars.SITE_DOMAIN }}${{ vars.PAGES_BASE_PATH }}
           PAGES_BASE_PATH: ${{ vars.PAGES_BASE_PATH }}
+          # Inlined into client bundles so ContentImage prepends the subpath to CMS
+          # image srcs (/images/*); without it images 404 on a github.io subpath deploy.
+          NEXT_PUBLIC_PAGES_BASE_PATH: ${{ vars.PAGES_BASE_PATH }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
