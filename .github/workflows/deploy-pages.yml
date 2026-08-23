@@ -149,6 +149,13 @@ jobs:
           cd builder
           node scripts/slices/scope-slice-registry.mjs
           node scripts/slices/scope-icon-map.mjs
+        env:
+          # Wyłącznie ETYKIETA do logu i do out/.scoped-*.json — oba skrypty
+          # tną rejestr na podstawie treści, nie tych zmiennych. Bez nich
+          # dwanaście buildów raportowało `site=unknown`, czyli pole istniejące
+          # dla obserwowalności nie niosło ani jednego bitu.
+          TENANT_SLUG: ${{ vars.TENANT_SLUG }}
+          PAGES_BASE_PATH: ${{ vars.PAGES_BASE_PATH }}
 
       - name: Build static site
         # Buduje aplikację `deploy/pages` (shimy tras publicznych) zamiast
