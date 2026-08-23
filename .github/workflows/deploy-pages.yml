@@ -124,9 +124,45 @@ jobs:
             cp -r ${{ github.workspace }}/images/. builder/public/images/
           fi
 
+      - name: Stage public assets
+        # Next kopiuje katalog public/ z KATALOGU PROJEKTU, a ten jest teraz
+        # builder/deploy/pages, nie builder. Bez tego kroku eksport wychodzi
+        # BEZ ANI JEDNEGO PLIKU statycznego i kończy się POWODZENIEM.
+        # Zmierzone na canary mazcode.pl 2026-08-21: wszystkie /images/*
+        # oddawały 404 przy zielonym buildzie, poprawnej sitemapie i poprawnym
+        # kanale RSS — czyli dokładnie ta awaria, której nie widać z logu.
+        # Kopiujemy CAŁE builder/public, bo stara ścieżka eksportowała je
+        # w całości: to parytet, nie okazja do sprzątania.
+        # Musi biec PO kroku z obrazami (tamten dokłada je do builder/public).
+        run: |
+          mkdir -p builder/deploy/pages/public
+          cp -r builder/public/. builder/deploy/pages/public/
+
+      - name: Scope slice registry
+        # Przycięcie rejestru slice'ów i mapy ikon do tego, czego treść tej
+        # strony NAPRAWDĘ używa. Robił to `prepare-static-export.mjs` w środku,
+        # tuż przed buildem; `deploy/pages` niczego nie kasuje, więc te dwa
+        # kroki stoją osobno. Bez nich build kompiluje CAŁY katalog slice'ów.
+        # Muszą biec PO tym, jak treść znajdzie się w builder/content — oba
+        # skrypty czytają ją, żeby wiedzieć, co zostawić.
+        run: |
+          cd builder
+          node scripts/slices/scope-slice-registry.mjs
+          node scripts/slices/scope-icon-map.mjs
+
       - name: Build static site
-        run: cd builder && npm run build:pages
+        # Buduje aplikację `deploy/pages` (shimy tras publicznych) zamiast
+        # `npm run build:pages` (destrukcyjny `prepare-static-export.mjs`).
+        # Katalog aplikacji idzie ARGUMENTEM Next CLI, a NIE przez `cd`:
+        # `contentRoot()` oraz oba skrypty scope* sklejają ścieżki z
+        # `process.cwd()`, więc cwd musi zostać w korzeniu buildera. Zamiana
+        # tego na `cd builder/deploy/pages` da build bez treści.
+        # Reguła i uzasadnienie: `deploy/CLAUDE.md`.
+        run: cd builder && npx next build deploy/pages --webpack
         env:
+          # Czytane przez src/app/(site)/[[...slug]]/page.tsx — bez tego trasa
+          # dotyka searchParams i wywraca output: export.
+          STATIC_EXPORT: '1'
           NEXT_PUBLIC_SITE_URL: https://${{ vars.SITE_DOMAIN }}${{ vars.PAGES_BASE_PATH }}
           NEXT_PUBLIC_FORM_API_URL: ${{ vars.FORM_API_URL }}
           NEXT_PUBLIC_TENANT_SLUG: ${{ vars.TENANT_SLUG }}
@@ -154,7 +190,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: builder/out
+          # `distDir: 'out'` w deploy/pages/next.config.ts jest względne wobec
+          # KATALOGU APLIKACJI, nie wobec cwd — stąd zagnieżdżona ścieżka.
+          path: builder/deploy/pages/out
 
       - name: Deploy to GitHub Pages
         id: deployment
