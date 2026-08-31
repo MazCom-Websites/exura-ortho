@@ -30,11 +30,6 @@ concurrency:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    env:
-      # Jedna flaga rozstrzyga, którą drogą jedzie treść. Kontekst `secrets`
-      # nie działa w `if:` kroku, więc przechodzi tędy — i dlatego najemca
-      # BEZ sekretu buduje się dokładnie tak, jak przed falą D.
-      HAS_BUILD_TOKEN: ${{ secrets.SITE_BUILD_TOKEN != '' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -64,39 +59,13 @@ jobs:
           rm -rf builder/content
           mkdir -p builder/content
 
-      - name: Copy content + config + forms
-        # Droga SPRZED fali D przenosin — treść leży w repozytorium najemcy.
-        # Zostaje jako jedyna dla każdego, kto nie ma jeszcze sekretu builda,
-        # i to ona odpowiada za wszystkie dzisiejsze strony.
-        # Builder expects this layout under `builder/content/`:
-        #   <root>/<page>.json              from tenant content/
-        #   <root>/config/<file>.json       from tenant config/
-        #   <root>/forms/<file>.json        from tenant forms/
-        if: env.HAS_BUILD_TOKEN != 'true'
-        run: |
-          if [ -d "${{ github.workspace }}/content" ]; then
-            cp -r ${{ github.workspace }}/content/. builder/content/
-          fi
-          if [ -d "${{ github.workspace }}/config" ]; then
-            mkdir -p builder/content/config
-            cp -r ${{ github.workspace }}/config/. builder/content/config/
-          fi
-          if [ -d "${{ github.workspace }}/forms" ]; then
-            mkdir -p builder/content/forms
-            cp -r ${{ github.workspace }}/forms/. builder/content/forms/
-          fi
-
-      - name: Decrypt content
-        # decrypts builder/content/*.mcz + builder/content/{config,forms}/*.mcz
-        if: env.HAS_BUILD_TOKEN != 'true'
-        run: cd builder && node scripts/crypto/decrypt-content.mjs content
-        env:
-          CONTENT_ENCRYPTION_KEY: ${{ secrets.CONTENT_ENCRYPTION_KEY }}
-
       - name: Fetch content from API
-        # Droga fali D: treść przychodzi z endpointu eksportu, a nie z repozytorium.
-        # Runner nie dostaje wtedy GLOBALNEGO CONTENT_ENCRYPTION_KEY, którym da się
-        # odszyfrować trzynaście innych stron — sekret jest tu zakresowany na JEDNĄ.
+        # Treść przychodzi WYŁĄCZNIE z endpointu eksportu — droga plikowa
+        # (kopiowanie z repozytorium najemcy + deszyfrowanie na runnerze
+        # GLOBALNYM CONTENT_ENCRYPTION_KEY) zniknęła z szablonu razem
+        # z ostatnim najemcą bez sekretu builda. Runner NIE dostaje tego
+        # klucza, którym da się odszyfrować pozostałe strony — sekret builda
+        # jest zakresowany na JEDNĄ.
         # Skrypt odmawia na pustej paczce i na paczce bez dokumentu site albo
         # theme: build, który by je pominął, opublikowałby stronę bez nawigacji
         # albo bez motywu,
@@ -106,7 +75,6 @@ jobs:
         # INNEGO najemcy wpisane RAZEM dają 200 — i build publikuje cudzą treść
         # na tej domenie, kończąc się sukcesem. Skrypt porównuje slug z paczki
         # z tym tutaj i odmawia przed dotknięciem dysku.
-        if: env.HAS_BUILD_TOKEN == 'true'
         run: cd builder && node scripts/ci/fetch-site-content.mjs content
         env:
           SITE_EXPORT_URL: ${{ vars.SITE_EXPORT_URL }}
@@ -178,7 +146,6 @@ jobs:
           # <base>/<tenant>/<form>. Empty for full-path hosts (admin.mazcode.pl).
           NEXT_PUBLIC_FORM_API_SHORT: ${{ vars.FORM_API_SHORT }}
           # Analytics (GA4/Hotjar/PostHog) comes ONLY from config/site.json analytics block, never env.
-          CONTENT_ENCRYPTION_KEY: ${{ secrets.CONTENT_ENCRYPTION_KEY }}
           # Dummy Auth0 vars — required for top-level Auth0Client instantiation
           # during static build, but admin/API routes are not emitted in export.
           AUTH0_DOMAIN: dummy.auth0.com
